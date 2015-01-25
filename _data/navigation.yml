@@ -1,6 +1,21 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: mediaArt
+  url: /mediaart/
+  excerpt: "Media Art Things I’ve collaborated, coded, and learned"
+  image: NamJunePaik_SAAM_small.jpg
+
+- title: research
+  url: /research/
+  excerpt: "Media Art and research themes and projects I’m interested"
+  image: research_small.jpg
+
+ - title: work
+  url: /work/
+  excerpt: "work studios and comercial products"
+  image: Lummo_300x300.jpg
+
+ - title: about
+  url: /about/
+  excerpt: "view the profile and a descrition of Carles Gutiérrez"
+  image: photoProfile.jpg

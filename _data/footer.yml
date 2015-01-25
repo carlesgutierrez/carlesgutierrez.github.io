@@ -1,4 +1,15 @@
 # Footer navigation links
+#- title: Home
+# url: /
 
-- title:
-  url:
+#- title: mediaArt
+# url: /mediaart/
+
+#- title: research
+# url: /research/
+
+#- title: work
+#url: /work/
+
+#- title: about
+# url: /about/
