@@ -1,11 +1,11 @@
 # Site wide configuration
 
 title:  Cargles Gutiérrez Vallès
-description: noticias, talleres, experimentaciones, acciones, trabajos y proyectos.
+description: "noticias, talleres, experimentaciones, acciones, trabajos y proyectos."
 logo: carlesGutierrez.jpg# 120x120 px default image used for Twitter summary card
 teaser: pajaroGutierrez.png# 400x250 px default teaser image used in image archive grid
 locale: Spain
-url:
+url: http://localhost:4000
 
 # Jekyll configuration
 
