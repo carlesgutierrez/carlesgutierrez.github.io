@@ -3,19 +3,14 @@
 - title: mediaArt
   url: /mediaart/
   excerpt: "Media Art Things I’ve collaborated, coded, and learned"
-  image: NamJunePaik_SAAM_small.jpg
+  image: lummoblocks_mediaArt_small.jpg
 
 - title: research
   url: /research/
-  excerpt: "Media Art and research themes and projects I’m interested"
+  excerpt: "Research by doing/learning small projects"
   image: research_small.jpg
 
- - title: work
+- title: work
   url: /work/
-  excerpt: "work studios and comercial products"
-  image: Lummo_300x300.jpg
-
- - title: about
-  url: /about/
-  excerpt: "view the profile and a descrition of Carles Gutiérrez"
-  image: photoProfile.jpg
+  excerpt: "Projects in studios and comercial products"
+  image: sayhiRoma_Nike.JPG

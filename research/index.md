@@ -1,12 +1,11 @@
 ---
 layout: archive
-title: "media work and comercial products"
-excerpt: "I've collaborated, coo funded and develop some comercial products"
+title: "media research work"
+excerpt: "I'm interested in interactivity and human/cultural behaviors such as,science, gestural body expression"
 modified: 2013-08-03
 image: 
-  feature: sayhiRoma_Nike.JPG
-  thumb: Logo_sayHi.png
+  feature: 
+  thumb: 
 ---
 
-In the spirit of openness I've decided to compile everything I've learned using [*Paper by FiftyThree*](http://www.fiftythree.com), into a series of tutorials and guides titled --- Mastering Paper.
-{:.shorten}
+I've started some projects focused on this fields. They are not really well finished, but the idea is about that exploration and how to resused them in my own way.
