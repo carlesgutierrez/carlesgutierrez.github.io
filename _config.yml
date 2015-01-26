@@ -3,7 +3,7 @@
 title:  Carles Gutiérrez
 description: "Noticias, talleres, experimentaciones, acciones, trabajos y proyectos"
 logo: carlesGutierrez.jpg
-teaser: photoProfile.jpg
+teaser: 
 locale: Spain
 url: 
 
@@ -28,7 +28,7 @@ owner:
     ad-client: 
     ad-slot: 
   bio: 
-  avatar: carlesGutierrez.jpg # 160x160 px image for author byline
+  avatar: carles_photo.png # 160x160 px image for author byline
 disqus-shortname: Carles
 
 
