@@ -1,14 +1,14 @@
 ---
 layout: archive
-title: "media research work"
-excerpt: "research"
+title: "Media research"
+excerpt: ""
 modified: 2013-08-03
 image: 
   feature: 
   thumb: 
 ---
 
-I'm interested in interactivity and human/cultural behaviors such as,science, gestural body expression. 
+I'm interested in interactivity and human/cultural behaviors such as, science, gestural body expression. 
 
 <div class="tiles">
 {% for post in site.categories.research %}
