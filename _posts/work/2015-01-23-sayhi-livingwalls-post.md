@@ -2,14 +2,14 @@
 layout: archive
 title: Sayhi Living Walls
 excerpt: "Nike stores in Roma, Barcelona and Madrid"
-category: page
+category: work
 image: 
   feature: 
   teaser: Sayhi_mango_teaser.jpg
   thumb: 
   credit: 
   creditlink: 
-tags: [interactive, displays, nike]
+tags: [work, showcase]
 ---
 
 <figure class="third">

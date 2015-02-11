@@ -2,14 +2,14 @@
 layout: article
 title: LummoBlocks
 excerpt: "Legendary Tetris in Urban Facades"
-category: articles
+category: mediaart
 image: 
   feature:
   teaser: LummoBlocksMadrid_teaser.jpg
   thumb:
   credit: 
   creditlink: 
-tags: [interactive, games, lummo, facacde]
+tags: [mediaart, games, lummo]
 ---
 
 <figure class="third">

@@ -2,7 +2,7 @@
 layout: article
 title: Taller d'Instal·lacions llumíniques interactives
 excerpt: "Taller Arduino & Il·luminació"
-category: articles
+category: research
 image: 
   feature: 
   teaser: tallerLlotja2015_teaser.jpg

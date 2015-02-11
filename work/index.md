@@ -8,3 +8,9 @@ image:
   thumb: 
 ---
 
+<div class="tiles">
+{% for post in site.categories.work %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
+

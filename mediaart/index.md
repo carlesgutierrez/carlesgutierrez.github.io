@@ -9,3 +9,10 @@ image:
 ---
 
 Here i will post the media projects i've done. 
+
+<div class="tiles">
+{% for post in site.categories.mediaart %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
+
