@@ -5,7 +5,7 @@ excerpt: "Legendary Tetris in Urban Facades"
 category: articles
 image: 
   feature:
-  teaser: 
+  teaser: LummoBlocksMadrid_teaser.jpg
   thumb:
   credit: 
   creditlink: 
