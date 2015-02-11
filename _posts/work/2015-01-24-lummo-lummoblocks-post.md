@@ -1,7 +1,7 @@
 ---
 layout: article
 title: LummoBlocks
-excerpt: "Legendary Tetris in Facedes"
+excerpt: "Legendary Tetris in Urban Facades"
 category: articles
 image: 
   feature:
