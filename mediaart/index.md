@@ -17,11 +17,3 @@ Here some projects I've been making:
 {% endfor %}
 </div><!-- /.tiles -->
 
-<ul class="th-grid">
-</ul>
-
-I try to use opensource tools like [OpenFrameWorks](www.openframeworks.cc) or [Processing](www.processing.org). 
-
-You could find in my [github repositories](https://github.com/carlesgutierrez) some of the tools/addons I have been using.
-
-
