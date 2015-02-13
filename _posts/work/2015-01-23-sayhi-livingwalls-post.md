@@ -33,4 +33,4 @@ Software can work in diferents modes:
 2. as Image slideshow
 3. as Video slideshow
 
-[+info](http://www.sayhilivingwalls.com "Sayhilivingwalls")
+[*By Sayhi*](http://www.sayhilivingwalls.com "Sayhilivingwalls")
