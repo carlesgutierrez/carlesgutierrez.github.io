@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Kinectic Arousal System
-excerpt: "KAS"
+excerpt: "This was a reasearch in body tracking and movement recognition for dance performances, music"
 category: research
 image: 
   feature:
@@ -14,7 +14,7 @@ tags: [music, research, kinect]
 
 
 ####Short brief 
-*This is a reasearch that I've started with Felipe Navarro and Marte Roel that was to detect and recognize arousals behaviours for dancer performances.*
+*This was a reasearch that I've started with Felipe Navarro and Marte Roel that was to detect and recognize arousals behaviours for dancer performances and transform them into music, dance performance or other pourposes*
 
 <iframe src="https://www.youtube.com/watch?v=RC5Id48uI7g" frameborder="0" width="100%" height="58"></iframe><br/><br/>
 
