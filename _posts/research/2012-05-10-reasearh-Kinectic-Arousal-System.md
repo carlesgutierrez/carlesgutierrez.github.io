@@ -16,8 +16,10 @@ tags: [music, research, kinect]
 ####Short brief 
 *This was a reasearch that I've started with Felipe Navarro and Marte Roel that was to detect and recognize arousals behaviours for dancer performances and transform them into music, dance performance or other pourposes*
 
-<iframe src="https://www.youtube.com/watch?v=RC5Id48uI7g" frameborder="0" width="100%" height="58"></iframe><br/><br/>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CS_O_ozSJ6Y" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cUL0NvuvcsQ" frameborder="0" allowfullscreen></iframe>
 
 The Kinetic Arousal System (KAS) was designed to be used by dancers or experimental users. It has a purposes for research and experimentation. It’s a software that allows to track skeleton movements and transform them into a sound expression.
 

@@ -20,9 +20,9 @@ Interactive installation to manage videoContends in Eutokia ( a social innovatio
 The installation lets you to add videos from a website, and ordered in lists, and load the list in the Ciclorama.
 Ciclorama installation is composed by 5 projectors and their are projecting continuously and almost as a cylinder circle shape. All videos are loaded inside bubbles, and that bubble can be activated by mouse or hand interaction.
 
-Thanks to Jaime de los Rios and Diego Soroa for create the initial idea and lets us to develop such installation. 
+Thanks to Jaime de los Rios and Diego Soroa for give us the initial idea and commission to us the installation.  
 
-Client: Eutokia.
+Client: Eutokia and Quantics.
 
 This software can work in diferents modes: 
 
