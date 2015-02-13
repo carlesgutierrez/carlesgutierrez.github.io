@@ -54,12 +54,11 @@ KAS is using Kinect Openni system to detect and track skeleton bodies (OF projec
 
 KAS allows to generate a sound landscape in real-time by the motion of the body.
 
+[+ info](https://kinecticarousalsystem.wordpress.com "KAS wordpress")<br/>
+*or email me*
+
 ####Sound description:
 Sound was developed by Marte Roel and Felipe Navarro.
 
 Music desing:
 Tempo + Harmony & Melody + Rythm  + Dynamics
-
-
-[+ info](https://kinecticarousalsystem.wordpress.com "KAS wordpress")<br/>
-*or email me*
