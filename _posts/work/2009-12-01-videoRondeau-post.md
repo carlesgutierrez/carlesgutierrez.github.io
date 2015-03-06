@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: VideoRondeau
-excerpt: "50th petrischalen recorded & played in real time.
+title: Video Rondeau
+excerpt: "50th petrischalen recorded & played in real time."
 category: work
 image: 
   feature: 
