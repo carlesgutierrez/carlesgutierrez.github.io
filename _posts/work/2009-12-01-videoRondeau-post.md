@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: VideoRondeau
-excerpt: "50th petrischalen recorded & played in real time. Plants are wroging and displayed in those pretis"
+excerpt: "50th petrischalen recorded & played in real time.
 category: work
 image: 
   feature: 
@@ -19,6 +19,6 @@ tags: [work, video, interactive]
 	<figcaption>Video Roundeau</figcaption>
 </figure>
 
-A motorized round table with 50th petrischalen being recorded and played in real time in high resolution: plants and bio experiments wroging and displays are showing their evolution during the last day or week.
-
 Client: [FutureLab](http://www.futurelab.org.uk/) and [Ars Electronica](www.aec.at/)
+
+A motorized round table with 50th petrischalen is being recorded one by one and played in real time. Plants and bio experiments displayed in hihg resolution, showing their evolution during the last hours and days.
