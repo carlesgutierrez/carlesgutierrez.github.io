@@ -13,7 +13,7 @@ tags: [music, research, kinect]
 ---
 
 
-####Short brief 
+#### Short brief 
 *This was a reasearch that I've started with Felipe Navarro and Marte Roel that was to detect and recognize arousals behaviours for dancer performances and transform them into music, dance performance or other pourposes*
 
 
@@ -49,7 +49,7 @@ KAS was built around psychology’s concept of arousal and uses measures of it a
 
 ------
 
-#####Computer Vision
+##### Computer Vision
 KAS is using Kinect Openni system to detect and track skeleton bodies (OF project with ofxOpenni addon. There is a Gui to configure the tracking and reproduce captured kinect data. 
 
 KAS allows to generate a sound landscape in real-time by the motion of the body.
