@@ -35,6 +35,10 @@ Interactive Sociogram is an invitation to reflect on the relationships between p
 
 ---
 
+Sociograma Interactivo can be used in other cultural terms. Such for example for interactive video content players. This is a work in progress concept that me and Daniel Rojas would like to improve in collaboration with another video artist for an specific festival or specific motives. Plese feel free to contact us.
+
+<iframe src="https://player.vimeo.com/video/118826526" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/118826526">CCC TV TU - Micro Fachadas de Arte Digital.</a> from <a href="https://vimeo.com/user863376">carles gutierrez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 
 Has been exhibited at:
 
