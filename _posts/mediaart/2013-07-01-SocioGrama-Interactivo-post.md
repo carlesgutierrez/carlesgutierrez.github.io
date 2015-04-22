@@ -41,7 +41,7 @@ Has been exhibited at:
 
 <figure class="one">
 	<figcaption>StripArt ( Barcelona ) July 2013</figcaption>
-	<img src="http://media.tumblr.com/eea5f7925ba5b2463e553459660ebe3a/tumblr_muvumijQ5B1qapeqco1_500.jpg">
+	<img src="http://40.media.tumblr.com/eea5f7925ba5b2463e553459660ebe3a/tumblr_muvumijQ5B1qapeqco1_500.jpg">
 </figure>
 
 <figure class="one">
