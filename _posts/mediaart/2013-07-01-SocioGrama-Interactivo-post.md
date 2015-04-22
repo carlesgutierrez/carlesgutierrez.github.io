@@ -66,7 +66,7 @@ Has been exhibited at:
 ---
 
 ##### Other uses
-Sociograma Interactivo can be used in other cultural or commercial terms. Such for example for interactive story telling video videoart. This is a work in progress concept that me and Daniel Rojas would like to make in collaboration with another video artist for an specific festival or specific motives. So, please feel free to contact us if you are interested.
+Sociograma Interactivo can be used in other cultural or commercial terms. Such for example to do and interactive story telling installation that changes of chapter depending of the viewers and their Sociograma. This is a work in progress concept that me and Daniel Rojas would like to make in collaboration with another video artist for an specific festival or specific motives. So, please feel free to contact us if you are interested.
 
 
 <iframe src="https://player.vimeo.com/video/118826526" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/118826526">CCC TV TU - Micro Fachadas de Arte Digital.</a> from <a href="https://vimeo.com/user863376">carles gutierrez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
