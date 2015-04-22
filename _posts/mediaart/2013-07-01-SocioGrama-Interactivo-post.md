@@ -64,7 +64,8 @@ Has been exhibited at:
 
 
 ---
-#### Other uses
+
+##### Other uses
 Sociograma Interactivo can be used in other cultural or commercial terms. Such for example for interactive story telling video videoart. This is a work in progress concept that me and Daniel Rojas would like to make in collaboration with another video artist for an specific festival or specific motives. So, please feel free to contact us if you are interested.
 
 
