@@ -34,13 +34,13 @@ Has been exhibited at:
 
 <figure class="one">
 	<figcaption>FILE – Electronic Language International Festival. ( SaoPaolo ) 2013</figcaption>
-	<a href="http://file.org.br/artist/mar-canet-carles-gutierrez/">FILE ref</a>
+	<a href="http://file.org.br/artist/mar-canet-carles-gutierrez/">FILE link</a>
 	<img src="https://farm9.staticflickr.com/8718/17047439818_1097e9e91b_z.jpg">
 </figure>
 
 <figure class="one">
-	<figcaption>CentroCentro. Inauguration Madrid CityCouncil Gallery ( Madrid ) Oct 2010 to Oct 2011</figcaption>
-	 <a href="https://www.flickr.com/photos/mcanet/sets/72157626795176461/">Flickr Photos</a>
+	<figcaption>Inauguration Madrid CityCouncil Gallery, CentroCentro.( 1 year ) Oct 2010 </figcaption>
+	 <a href="https://www.flickr.com/photos/mcanet/sets/72157626795176461/">Flickr link</a>
 	<img src="https://farm3.staticflickr.com/2666/5814197324_acff6a7625_z.jpg">
 </figure>
 
