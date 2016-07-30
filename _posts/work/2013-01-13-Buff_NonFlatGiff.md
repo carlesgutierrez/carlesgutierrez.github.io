@@ -13,13 +13,12 @@ tags: [work, video, interactive]
 ---
 
 <figure class="third">
-	<img src="https://www.flickr.com/photos/49049102@N07/17028636797/sizes/z/">
 	<img src="https://farm6.staticflickr.com/5459/17049795109_96c1cf0eee_z.jpg">
 	<img src="https://farm9.staticflickr.com/8773/16613528924_d8f4fbe66a_z.jpg">
 	<figcaption>NonFlatGiff</figcaption>
 </figure>
 
-Team: Mar Canet and me from Lummo in Collaboration with the ThisIsMorrison agency.
+Team: Mar Canet and Carles Gutiérrez (lummo) in Collaboration with the ThisIsMorrison agency.
 Client: [Buff](http://buff.eu/) at [Bread and Butter Berlin and Munich](http://buffsport.tumblr.com/)
 [ThisIsMorrison](http://thisismorrison.com/en)
 
