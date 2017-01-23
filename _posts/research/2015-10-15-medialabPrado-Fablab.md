@@ -13,10 +13,10 @@ tags: [fablab]
 ---
 
 <figure class="third">
-	<img src="https://c2.staticflickr.com/2/1603/23546206084_e611949d19_b.jpg">
-	<img src="https://c1.staticflickr.com/1/750/23706866281_3d128d3ed6_z.jpg">
-	<img src="hhttps://c2.staticflickr.com/2/1683/24091910131_6ddfd98ab1_z.jpg">
-	<figcaption>LummoBlocks</figcaption>
+	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
+	<img src="https://c2.staticflickr.com/2/1648/23806677649_d7fe933034_z.jpg">
+	<img src="https://c2.staticflickr.com/2/1683/24091910131_6ddfd98ab1_z.jpg">
+	<figcaption>FabLab 2015</figcaption>
 </figure>
 
 Direction and production of FabLab from Medialab-Prado and many parallel activities during late 2015. That has been a gorgous experience. I've been able to reach many great people and projects at this FabLab. All this in cooperation with [Javier Villaroel](http://javiervlab.github.io/) and all the Medialab-Prado team has been so much reachfull and gratefull.
@@ -26,7 +26,7 @@ During this time I've been participating at some activities like thouse ones:
 <figure class="one">
 	<figcaption>Funcionamientos 28-31 octubre y 25-28 noviembre de 2015
 	</figcaption>
-	<img src="https://c2.staticflickr.com/6/5666/22757122587_9ba901cf56_z.jpg">
+	<img src="https://c2.staticflickr.com/6/5798/23108044659_53cb752be1_z.jpg">
 </figure>
 
 <figure class="one">
