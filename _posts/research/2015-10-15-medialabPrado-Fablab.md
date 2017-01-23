@@ -13,7 +13,7 @@ tags: [fablab]
 ---
 
 <figure class="third">
-	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
+	<img src="https://c1.staticflickr.com/1/632/23557781796_4d6be932b2_z.jpg">
 	<img src="https://c2.staticflickr.com/2/1648/23806677649_d7fe933034_z.jpg">
 	<img src="https://c2.staticflickr.com/2/1683/24091910131_6ddfd98ab1_z.jpg">
 	<figcaption>FabLab 2015</figcaption>
@@ -36,7 +36,7 @@ During this time I've been participating at some activities like thouse ones:
 
 <figure class="one">
 	<figcaption>Fablab Projects desde Octubre 2015 hasta Febrero 2016</figcaption>
-	<img src="hhttps://c1.staticflickr.com/1/632/23557781796_4d6be932b2_z.jpg">
+	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
 </figure>
 
 
