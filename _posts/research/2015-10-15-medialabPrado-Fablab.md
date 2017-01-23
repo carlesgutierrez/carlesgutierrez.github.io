@@ -1,7 +1,7 @@
 ---
 layout: article
-title: FabLab Medialab-Prado
-excerpt: "FabLab 2015"
+title: Hands on FabLab
+excerpt: "Working at FabLab of Medialab-Prado. Projects and Activities"
 category: research
 image: 
   feature:
