@@ -23,20 +23,27 @@ Direction and production  Medialab-Prado's FabLab late 2015. I've met great peop
 
 During this time I've been participating at some activities like thouse ones:
 
+At [Objetos comunes](http://objetoscomunes.medialab-prado.es/) 
 <figure class="one">
 	<figcaption>Funcionamientos 28-31 octubre y 25-28 noviembre de 2015
 	</figcaption>
 	<img src="https://c2.staticflickr.com/6/5798/23108044659_53cb752be1_z.jpg">
+	[Resultado de los prototipos](http://objetoscomunes.medialab-prado.es/funcionamientos/)
 </figure>
+
 
 <figure class="one">
 	<figcaption>Interactivos 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015</figcaption>
 	<img src="https://c1.staticflickr.com/1/750/23706866281_3d128d3ed6_z.jpg">
+	[Flickr Interactivos15](https://www.flickr.com/search/?user_id=19185522%40N06&view_all=1&text=interactivos%202015)
 </figure>
 
+Fablab Projects desde Octubre 2015 hasta Febrero 2016
 <figure class="one">
-	<figcaption>Fablab Projects desde Octubre 2015 hasta Febrero 2016</figcaption>
+	<figcaption></figcaption>
 	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
+	[Isolation Forniture Vimeo](https://player.vimeo.com/video/153491897)
 </figure>
+
 
 
