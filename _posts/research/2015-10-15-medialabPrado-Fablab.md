@@ -21,26 +21,24 @@ tags: [fablab]
 
 Direction and production  Medialab-Prado's FabLab late 2015. I've met great people and colaborate many projects during that time. All this in cooperation with [Javier Villaroel](http://javiervlab.github.io/) and all the Medialab-Prado team. Thanks to everyone.
 
-I've been participating at some pf the activities of [Objetos comunes](http://objetoscomunes.medialab-prado.es/), but also at some of the projects we managed during my work period.
+I've been participating at some pf the activities of [Objetos comunes](http://objetoscomunes.medialab-prado.es/), and some other projects.
 
 <figure class="one">
-	<figcaption>Funcionamientos 28-31 octubre y 25-28 noviembre de 2015
+	<figcaption>Funcionamientos 28-31 octubre y 25-28 noviembre de 2015. [Resultado de los prototipos](http://objetoscomunes.medialab-prado.es/funcionamientos/)
 	</figcaption>
 	<img src="https://c2.staticflickr.com/6/5798/23108044659_53cb752be1_z.jpg">
 </figure>
-[Resultado de los prototipos](http://objetoscomunes.medialab-prado.es/funcionamientos/)
+
 
 <figure class="one">
-	<figcaption>Interactivos 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015</figcaption>
+	<figcaption>Interactivos 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015. [Flickr Interactivos15](https://www.flickr.com/search/?user_id=19185522%40N06&view_all=1&text=interactivos%202015)</figcaption>
 	<img src="https://c1.staticflickr.com/1/750/23706866281_3d128d3ed6_z.jpg">
 </figure>
-[Flickr Interactivos15](https://www.flickr.com/search/?user_id=19185522%40N06&view_all=1&text=interactivos%202015)
 
 <figure class="one">
-	<figcaption>Fablab Projects</figcaption>
+	<figcaption>Fablab OpenCall Projects [Isolation Forniture Vimeo](https://player.vimeo.com/video/153491897)</figcaption>
 	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
 </figure>
-[Isolation Forniture Vimeo](https://player.vimeo.com/video/153491897)
 
 
 
