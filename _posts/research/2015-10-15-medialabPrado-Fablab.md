@@ -19,7 +19,7 @@ tags: [fablab]
 	<figcaption>FabLab 2015</figcaption>
 </figure>
 
-Direction and production of FabLab from Medialab-Prado and many parallel activities during late 2015. That has been a gorgous experience. I've been able to reach many great people and projects at this FabLab. All this in cooperation with [Javier Villaroel](http://javiervlab.github.io/) and all the Medialab-Prado team has been so much reachfull and gratefull.
+Direction and production  Medialab-Prado's FabLab late 2015. I've met great people and colaborate many projects during that time. All this in cooperation with [Javier Villaroel](http://javiervlab.github.io/) and all the Medialab-Prado team. Thanks to everyone.
 
 During this time I've been participating at some activities like thouse ones:
 
