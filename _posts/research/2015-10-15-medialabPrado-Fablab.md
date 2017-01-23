@@ -2,7 +2,7 @@
 layout: article
 title: FabLab Medialab-Prado
 excerpt: "FabLab 2015"
-category: FabLab
+category: research
 image: 
   feature:
   teaser: fablab_teaser.jpg
