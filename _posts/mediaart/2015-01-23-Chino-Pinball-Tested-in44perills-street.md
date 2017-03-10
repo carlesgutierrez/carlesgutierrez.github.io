@@ -23,7 +23,7 @@ Exhibitions:
 
 <figure class="one">
 	<figcaption>FIMG 2015 - VideoMapping Festival Girona</figcaption>
-	<img src="https://farm3.staticflickr.com/2814/10709833433_26bf5a3e33_z.jpg">
+	<img src="https://c1.staticflickr.com/1/416/19874163776_13c9782fa5_z.jpg">
 	<img src="https://c2.staticflickr.com/4/3667/19247034813_4c394910d4_z.jpg">
 </figure>
 
