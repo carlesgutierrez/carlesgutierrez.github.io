@@ -29,7 +29,7 @@ Exhibitions:
 
 Experimentation:
 
-Pinball game in videmapping over Perills Street ( Barcelona )
+We tested to videmapping Perills Street ( Barcelona ) as the pinball table.
 This was the first aproaching to the public space with street format.
 Date: last days "Fiestas de Gracia" 2014.
 In collaboration with [*44Perills sound art association*](https://es-es.facebook.com/44Perills)
