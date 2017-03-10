@@ -37,7 +37,7 @@ In collaboration with [*44Perills sound art association*](https://es-es.facebook
 
 <figure class="one">
 	<figcaption>Festes de Gracias - Perills44</figcaption>
-	<img src="https://www.flickr.com/photos/49049102@N07/16330507045/in/album-72157649984826219/">
+	<img src="https://c2.staticflickr.com/8/7548/16330507045_db4dbaef1b_z.jpg">
 </figure>
 
 
