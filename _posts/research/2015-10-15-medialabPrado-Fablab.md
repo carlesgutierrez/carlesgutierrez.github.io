@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Hands on FabLab
-excerpt: "Working at FabLab of Medialab-Prado. Projects and Activities"
+title: FabLab MediaLab-Prado
+excerpt: "6 months working at FabLab. Projects and Activities"
 category: research
 image: 
   feature:
@@ -32,13 +32,16 @@ I've been participating at some of the activities of [Objetos comunes](http://ob
 
 
 <figure class="one">
-	<figcaption>Interactivos 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015.
+	<figcaption>Interactivos? 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015.
 	[Flickr Interactivos15](https://www.flickr.com/search/?user_id=19185522%40N06&view_all=1&text=interactivos%202015)</figcaption>
 	<img src="https://c1.staticflickr.com/1/750/23706866281_3d128d3ed6_z.jpg">
 </figure>
 
+
+3 months Residence Artists and their projects
+
 <figure class="one">
-	<figcaption>Fablab OpenCall Projects
+	<figcaption>Art Residence Projects
 	[Isolation Forniture Vimeo](https://player.vimeo.com/video/153491897)</figcaption>
 	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
 </figure>
