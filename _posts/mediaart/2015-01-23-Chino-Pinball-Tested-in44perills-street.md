@@ -5,7 +5,7 @@ excerpt: "a VideoMapping tool for pinball game designed to be builded for anyone
 category: mediaart
 image: 
   feature: 
-  teaser: chinoPinballTeaser_gracia.jpg
+  teaser: pinball_teaser.jpg
   thumb: 
   credit: ChinosInternationalCC
   creditlink: http://chinosinternationalcc.github.io/
