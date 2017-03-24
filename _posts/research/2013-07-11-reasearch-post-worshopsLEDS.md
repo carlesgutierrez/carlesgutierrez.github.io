@@ -28,7 +28,7 @@ Workshops:
 * Intro Arduino at CCGuinardo. 15 Abril 2015. (8h)
 * Make Lamps Talk. at barcelona design weeek. LLotja. 2013. (30h)
 
-I've started this workshop's line some time ago with small group of artist in [Hangar](https://hangar.org/en/) at 2011 after this I've decided to keep learning and helping others and to grow this community.
+I've started this workshop's line some time ago with small group of artist in [Hangar](https://hangar.org/en/) at 2011 after this I've decided to keep learning electronics and helping others too. 
 
 Some tips and notes saved in this [blog -> taller321led](https://taller321led.wordpress.com/)
 
