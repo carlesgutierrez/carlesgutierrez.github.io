@@ -15,8 +15,8 @@ tags: [workshops, research, code, games]
 <figure class="half">
 	<img src="loveyourCode_workhsop.jpg">
 </figure>
-s
-I`ve studied computer science and code should be my main tool but was not. I had started with OpenCv and I had learned how to use CCTV cameras in my projects thanks to [Theo Watson ViddeoIntput library](http://www.muonics.net/school/spring05/videoInput/). After that and before to start to put in practice my studies in "serious companies" I deciced to learn by my own. I discovered OF (Openframeworks) a set of coding example really easy and usefull to do what ever you imagine. Then I`ve keep there for a long... Until now. My guess, is that others can do the same. Not only from computer science background, from anywhere >> Artist, Designers, Architecs, kids, and any type of creative person capable to learn. 
+
+I`ve studied computer science and code should be my main tool but was not. I had started with OpenCv and I had learned how to use CCTV cameras in my projects thanks to [Theo Watson ViddeoIntput library](http://www.muonics.net/school/spring05/videoInput/). After that and before to start to put in practice my studies in "serious companies" I deciced to learn by my own. I discovered OF (Openframeworks) a set of coding example really easy and usefull to do what ever you imagine. Then I`ve keep there for a long... Until now. My guess, is that others can do the same. Not only from computer science background, from anywhere: Artist, Designers, Architecs, kids, and any type of creative person capable to learn. 
 
 So, sometimes, I prepare some workshops about how to Creative Code, Computer Vision and other tools related.
 
