@@ -13,15 +13,14 @@ tags: [workshops, research, code, games]
 ---
 
 <figure class="third">
-	<img src="http://www.espaierre.net/wp-content/uploads/2012/01/IMAG0486-1024x614.jpg">
 	<img src="https://c1.staticflickr.com/9/8696/28309487262_84110284cc_z.jpg">
 	<img src="https://c2.staticflickr.com/6/5630/31686476856_38a4d09871_z.jpg">
 	<figcaption>Code Sessions</figcaption>
 </figure>
 
-I`ve studied computer science and code should be my main tool but was not. I had started with OpenCv and I had learned how to use CCTV cameras in my projects thanks to [Theo Watson ViddeoIntput library](http://www.muonics.net/school/spring05/videoInput/). After that and before to start to put in practice my studies in "serious companies" I deciced to learn by my own. I discovered OF (Openframeworks) a set of coding example really easy and usefull to do what ever you imagine. Then I`ve keep there for a long... Until now. My guess, is that others can do the same. Not only from computer science background, from anywhere: Artist, Designers, Architecs, kids, and any type of creative person capable to learn. 
+I studied computer science and at the end I started to work with OpenCv. I learned how to use CCTV cameras in my projects thanks to [Theo Watson ViddeoIntput library](http://www.muonics.net/school/spring05/videoInput/). After this I deciced to learn by my own following OF (Openframeworks), great c++ frameworks all together that aim you to create anything. This is my guess for anyone. But not only from computer science background: Artist, Designers, Architecs, kids, and any type of creative person are capable to grow in this area. 
 
-So, sometimes, I prepare some workshops about how to Creative Code, Computer Vision and other tools related.
+Sometimes, I do workshops about: Creative Code, Computer Vision, Engines, Games and others related.
 
 Past workshops:
 
