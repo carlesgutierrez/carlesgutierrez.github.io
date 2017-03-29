@@ -12,8 +12,8 @@ image:
 tags: [workshops, research, code, games]
 ---
 
-<figure class="third">
-	<img src="https://c1.staticflickr.com/9/8696/28309487262_84110284cc_z.jpg">
+<figure class="half">
+	<img src="https://c1.staticflickr.com/9/8617/27798398383_4a23e859b2_c.jpg">
 	<img src="https://c2.staticflickr.com/6/5630/31686476856_38a4d09871_z.jpg">
 	<figcaption>Code Sessions</figcaption>
 </figure>
