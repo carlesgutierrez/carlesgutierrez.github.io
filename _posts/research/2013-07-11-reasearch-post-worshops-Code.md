@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Creative Coding Sessions
-excerpt: "Openframeworks, Processing, Godot, OpenCv"
+excerpt: "Openframeworks, Processing, Godot"
 category: research
 image: 
   feature: 
@@ -12,12 +12,12 @@ image:
 tags: [workshops, research, code, games]
 ---
 
-<figure class="half">
+<figure class="one">
 	<img src="https://c1.staticflickr.com/3/2926/33832417195_e731938f76_z.jpg">
 	<figcaption>Code Sessions</figcaption>
 </figure>
 
-I studied computer science and at the end I started to work with OpenCv. I learned how to use CCTV cameras in my projects thanks to [Theo Watson ViddeoIntput library](http://www.muonics.net/school/spring05/videoInput/). After this I deciced to learn by my own following OF (Openframeworks), great c++ frameworks all together that aim you to create anything. This is my guess for anyone. But not only from computer science background: Artist, Designers, Architecs, kids, and any type of creative person are capable to grow in this area. 
+I studied computer science and Multimedia Engineering, and I've did my final project using somr OpenCv. There Ive learned how to use CCTV cameras. Many thanks to [Theo Watson ViddeoIntput library](http://www.muonics.net/school/spring05/videoInput/). After all, and checking my low skills Ive deciced to learn more by my own, and I've started to follow OF (Openframeworks). OF i'ts a great set of c++ frameworks that aim you to create anything you want in a simple way. This is my guess for anyone. Not only for a computer science background person. There are many other softwares that also works in this way of thinking: Processing (Java), Godot (Pseudo-Python), Blender ...   
 
 Sometimes, I do workshops about: Creative Code, Computer Vision, Engines, Games and others related.
 
