@@ -13,7 +13,7 @@ tags: [vjing, RT, videomapping, workshop, ilumination, interactive]
 ---
 
 <figure class="one">
-	<img src="LacosaVjing.gif">
+	image: LacosaVjing.gif
 	<figcaption>Vjing LaCosa</figcaption>
 </figure>
 
