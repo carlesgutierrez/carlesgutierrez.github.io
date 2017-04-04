@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Melisani Cave
-excerpt: ""
-category: research
+title: VideoMapping & Vj at Apolo
+excerpt: "VideoMapping & Vjing at Apolo Canibal Parties"
+category: work
 image: 
   feature: 
   teaser: canibal_teaser.jpg
