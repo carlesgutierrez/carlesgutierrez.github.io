@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Creative Coding Sessions
-excerpt: "Openframeworks, Processing, ComputerVision"
+excerpt: "Openframeworks, Processing, Godot, OpenCv"
 category: research
 image: 
   feature: 
@@ -13,8 +13,7 @@ tags: [workshops, research, code, games]
 ---
 
 <figure class="half">
-	<img src="https://c1.staticflickr.com/9/8617/27798398383_4a23e859b2_c.jpg">
-	<img src="https://c2.staticflickr.com/6/5630/31686476856_38a4d09871_z.jpg">
+	<img src="https://c1.staticflickr.com/3/2926/33832417195_e731938f76_z.jpg">
 	<figcaption>Code Sessions</figcaption>
 </figure>
 
@@ -29,6 +28,7 @@ Past workshops:
 * Intro OF & Kinect Camera at CCGuinard'o. 17 Set 2013. (4h)
 * OF and Physics Engines at ChinosInternational`s Space, Barcelona. Jan 2014.  (12h)
 * CoderDojo Processing Workshops at Medialab-Prado. Madrid 2015-2016 (1h every Saturday) 
+* OF and ofxSensors4Games addoon workshop at Nuclai Artificial Intelligence for Creative Aplications. Viena (4h)
 
 Actual workshops:
 
