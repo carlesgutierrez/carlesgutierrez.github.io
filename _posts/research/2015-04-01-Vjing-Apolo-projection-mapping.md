@@ -12,7 +12,7 @@ image:
 tags: [Vjing, VideoMapping, Interactive]
 ---
 
-<iframe src="https://www.youtube.com/watch?v=iG-7OF_QfiU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iG-7OF_QfiU" frameborder="0" allowfullscreen></iframe>
 
 <figure class="one">
 	<figcaption>Cannibal Party at Apolo. Barcelona</figcaption>
