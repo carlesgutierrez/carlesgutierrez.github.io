@@ -13,7 +13,7 @@ tags: [vjing, RT, videomapping, workshop, ilumination, interactive]
 ---
 
 <figure class="one">
-	<img src="https://im.ezgif.com/tmp/ezgif-1-eb29d688d9.gif">
+	<img src="https://c1.staticflickr.com/3/2906/33448927230_25f0f2d5a1_o.gif">
 </figure>
 
 A workshop and Vjing Performance cooproduced with Beatriz Lorenzo for Medialab-Prado during a #ViernesOpenLab. The Mapping was possible thanks to all previous work done by Eduardo Moriana, Yago Torroja and Enrique Esteban that mapped and resolve all LED shedule mapping of LaCosa. 
