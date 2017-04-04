@@ -12,10 +12,9 @@ image:
 tags: [vjing, RT, videomapping, workshop, ilumination, interactive]
 ---
 
-<figure class="one">
-	image: LacosaVjing.gif
-	<figcaption>Vjing LaCosa</figcaption>
-</figure>
+image:
+  feature: LacosaVjing.gif
+  credit: Gonzalo @depocoamucho
 
 A workshop and Vjing Performance cooproduced with Beatriz Lorenzo for Medialab-Prado during a #ViernesOpenLab. The Mapping was possible thanks to all previous work done by Eduardo Moriana, Yago Torroja and Enrique Esteban that mapped and take out all shedulle LED map of LaCosa. 
 
