@@ -15,11 +15,11 @@ tags: [Vjing, VideoMapping, Interactive]
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iG-7OF_QfiU" frameborder="0" allowfullscreen></iframe>
 
 <figure class="one">
-	<figcaption>Cannibal Party at Apolo. Barcelona</figcaption>
+	<figcaption>Caníbal Party at Apolo. Barcelona</figcaption>
 	<img src="https://c1.staticflickr.com/1/329/19124256023_77618865b4_z.jpg">
 </figure>
 
-The table and the logo itself were designed by me and Diego Suarez and finally produced at IAAC Barcelona with the suervision of Anastasia Pistofidiu.
+The skylike table and the dynamic logo were designed by me and Diego Suarez for Apolo Cliente and produced by us at FabLab IAAC, Barcelona, with the suprvision of Anastasia Pistofidiou.
 
 <figure class="half">
 	<img src="https://c2.staticflickr.com/4/3944/33023263803_a2b6b26ce8_z.jpg">
@@ -27,4 +27,4 @@ The table and the logo itself were designed by me and Diego Suarez and finally p
 	<figcaption>IAAC Fablab Production</figcaption>
 </figure>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/49049102@N07/33020714843/in/album-72157655931148006/" title="CNC cutting the Videomapping Surface"><img src="https://c1.staticflickr.com/4/3829/33020714843_3681379236.jpg" width="500" height="281" alt="CNC cutting the Videomapping Surface" frameborder="0"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/49049102@N07/33020714843/in/album-72157655931148006/" title="DSCN9794"><img src="https://c1.staticflickr.com/4/3829/33020714843_3681379236_z.jpg" width="640" height="360" alt="DSCN9794"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
