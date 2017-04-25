@@ -19,7 +19,8 @@ tags: [mediaart, games, lummo]
 	<figcaption>LummoBlocks</figcaption>
 </figure>
 
-LummoBlocks was created in the context of the Open Up workshop (February 2010), organized by Medialab-Prado in Madrid. The project have been shown in Sevilla during all summer 2010, Medialab-Prado (Madrid) during summer 2010 at weekends, Linz(Ars Electronica 2010), Berlin at CHB and Madrid simultaneusly at “Noche en Blanco” 2010. Also have been part in European media facade festival 2010 events.
+Lummoblocks is a new version of the legendary Tetris game designed to create social interaction between people in public spaces.
+Was created in the context of the Open Up workshop (February 2010), organized by Medialab-Prado in Madrid. The project was develop by Lummo with the collaboration of Nina Valkanova, Sebastian Hundertmark, Francesco Ozzola, Nacho Cossío, Nenad Katic, Fabiana de Barros, Montfagüe F. Lavandera, Óscar de la Mora, Max Neupert, Abraham Manzanares y David Peñuela.
 
 Has been exhibited at:
 
@@ -67,6 +68,8 @@ Has been exhibited at:
 	<figcaption>Festival Actual 2011 Museo Wurth (Logroño, Spain) 27/12/2010 to 08/01/2011</figcaption>
 	<img src="https://farm3.staticflickr.com/2380/5754186476_566edc88e4_z.jpg">
 </figure>
+
+ The project have been also shown in Sevilla during all summer 2010, Medialab-Prado (Madrid) during summer 2010 at weekends, Linz(Ars Electronica 2010), Berlin at CHB and Madrid simultaneusly at “Noche en Blanco” 2010. Also have been part in European media facade festival 2010 events.
 
 European Media Facade Festival (Berlin, Germany) 11/09/2010
 Noche en Blanco 2010 (Madrid, Spain) 11/09/2010
