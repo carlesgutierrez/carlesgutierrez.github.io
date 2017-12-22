@@ -4,8 +4,8 @@ title: "Media Art projects"
 excerpt: ""
 modified: 2015-01-01
 image: 
-  feature: lummoblocks_mediaArt.jpg
-  thumb: Lummo_300x300.jpg
+  feature: 
+  thumb:
 ---
 
 Here some media art projects:
