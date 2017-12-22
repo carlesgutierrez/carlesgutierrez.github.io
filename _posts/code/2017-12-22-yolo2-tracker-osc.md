@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Yolo2 Tracker OSC
-excerpt: "A tool for tracking persons, and implement OSC"
+excerpt: "A computer vision tool made with OF for tracking persons, and share results by OSC"
 category: code
 image: 
   feature: 
@@ -11,6 +11,10 @@ image:
   creditlink: 
 tags: [tracking, publicspace, tool]
 ---
+
+**wip code available** in [github](https://github.com/carlesgutierrez/fachada-yolo2Tracking)
+
+Medialab-Prado [github repository](https://github.com/medialab-prado/RecursosFachada) include executables and Processing clients examples. 
 
 A tool created for Medialab-Prado Facade that aims to offer an interactive controller for specific games using multi-tracking input. Output available by OSC protocol. WIP. Only working in windows So for now.
 

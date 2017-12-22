@@ -41,16 +41,16 @@ Thanks for  show us how to hack the street lights and offer their piece of stree
 	<img src="https://c2.staticflickr.com/4/3667/19247034813_4c394910d4_z.jpg">
 </figure>
 
-**Credits**
+** Credits **
 
-Kuba Markiewicz - Openframeworks
-Carles Gutiérrez - Openframeworks
-Ovidiu Cincheza - Openframeworks
-Angel Muñoz - Openframeworks / Arduino
-Augusto Zuniga - 3D Art
-Mery Glez - DigitalFabrication
-Alex Geell - SoundArt
-Alex Reche - MadMapper
+- Kuba Markiewicz - Openframeworks
+- Carles Gutiérrez - Openframeworks
+- Ovidiu Cincheza - Openframeworks
+- Angel Muñoz - Openframeworks / Arduino
+- Augusto Zuniga - 3D Art
+- Mery Glez - DigitalFabrication
+- Alex Geell - SoundArt
+- Alex Reche - MadMapper
 
 [ChinosInternational Website](http://chinosinternationalcc.github.io/)
 [SoundTrack](https://soundcloud.com/alexgeell/chinos-internacional-pinball-raval-song) by Alex Geell.
