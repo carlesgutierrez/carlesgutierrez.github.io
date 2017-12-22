@@ -2,15 +2,20 @@
 
 - title: mediaArt
   url: /mediaart/
-  excerpt: "Media Art Things I’ve collaborated, coded, and learned"
+  excerpt: "Media Art Projects"
   image: lummoblocks_mediaArt_small.jpg
 
 - title: research
   url: /research/
-  excerpt: "Research by doing/learning small projects"
+  excerpt: "Research"
   image: research_small.jpg
 
 - title: work
   url: /work/
-  excerpt: "Projects in studios and comercial products"
+  excerpt: "Comercial projects"
   image: sayhiRoma_Nike.JPG
+
+#- title: code
+#  url: /code/
+#  excerpt: "Software Developments"
+#  image: code.JPG

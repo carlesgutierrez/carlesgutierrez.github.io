@@ -8,7 +8,7 @@ image:
   thumb: Lummo_300x300.jpg
 ---
 
-Here some projects I've been making:
+Here some media art projects:
 
 
 <div class="tiles">

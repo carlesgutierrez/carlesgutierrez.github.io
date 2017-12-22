@@ -2,13 +2,14 @@
 layout: archive
 title: "Media research"
 excerpt: ""
-modified: 2013-08-03
+modified: 2018-01-01
 image: 
   feature: 
   thumb: 
 ---
 
-I'm interested in interactivity and human/cultural behaviors such as, science, gestural body expression. 
+Actually researching with Creative coding some Visualizations, Videogames, Ai, Lighting.
+Old post about VideoMapping, Electronics, Body tracking and Gestural Performance.
 
 <div class="tiles">
 {% for post in site.categories.research %}
