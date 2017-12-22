@@ -15,7 +15,7 @@
   excerpt: "Comercial projects"
   image: sayhiRoma_Nike.JPG
 
-#- title: code
-#  url: /code/
-#  excerpt: "Software Developments"
-#  image: code.JPG
+- title: code
+  url: /code/
+  excerpt: "Code"
+  image: code.png
