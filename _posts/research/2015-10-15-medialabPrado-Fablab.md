@@ -1,7 +1,7 @@
 ---
 layout: article
 title: FabLab MediaLab-Prado
-excerpt: "FabLab Medialab-Prado. Projects and Activities"
+excerpt: "FabLab Medialab-Prado. Projects and Activities 2015"
 category: research
 image: 
   feature:
@@ -12,9 +12,9 @@ image:
 tags: [fablab]
 ---
 
-FabLab 2015 organization and technical production for medialab-Prado activities in cooperation with [Javier Villaroel](http://javiervlab.github.io/)
+FabLab 2015 organization and technical production for [MedialabPrado](http://medialab-prado.es/). In cooperation with [Javier Villaroel](http://javiervlab.github.io/) and all MedialabPrado Team.
 
-- 3 months Residence Artists and their projects. 
+# 3 months Residence Artists and their projects. 
 
 <figure class="one">
 	<figcaption>Art Residence Projects
@@ -22,12 +22,7 @@ FabLab 2015 organization and technical production for medialab-Prado activities 
 	<img src="https://c2.staticflickr.com/6/5749/23501383791_96b1a7235a.jpg">
 </figure>
 
-<figure class="one">
-	<img src="https://c2.staticflickr.com/2/1648/23806677649_d7fe933034_z.jpg">
-</figure>
-
-
-- [Objetos comunes](http://objetoscomunes.medialab-prado.es/)
+# [Objetos comunes](http://objetoscomunes.medialab-prado.es/)
 
 <figure class="one">
 	<figcaption>Funcionamientos 28-31 octubre y 25-28 noviembre de 2015. 
@@ -36,8 +31,11 @@ FabLab 2015 organization and technical production for medialab-Prado activities 
 	<img src="https://c2.staticflickr.com/6/5798/23108044659_53cb752be1_z.jpg">
 </figure>
 
+# Interactivos?15
 
-- Interactivos? 2015
+<figure class="one">
+	<img src="https://c2.staticflickr.com/2/1648/23806677649_d7fe933034_z.jpg">
+</figure>
 
 <figure class="one">
 	<figcaption>Interactivos? 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015.
