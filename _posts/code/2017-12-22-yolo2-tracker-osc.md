@@ -1,30 +1,30 @@
 ---
 layout: article
-title: VideoMapping & Vj at Apolo
-excerpt: "VideoMapping & Vjing at Apolo Canibal Parties"
-category: work
+title: Yolo2 Tracker OSC
+excerpt: "A tool for tracking persons, and implement OSC"
+category: code
 image: 
   feature: 
-  teaser: canibal_teaser.jpg
+  teaser: trackerYolo2_plaza_teaser.PNG
   thumb: 
   credit: 
   creditlink: 
-tags: [Vjing, VideoMapping, Interactive]
+tags: [tracking, publicspace, tool]
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iG-7OF_QfiU" frameborder="0" allowfullscreen></iframe>
+A tool created for Medialab-Prado Facade that aims to offer an interactive controller for specific games using multi-tracking input. Output available by OSC protocol. WIP. Only working in windows So for now.
+
+Bad area ligting has been a big computer visioón issue for a long time. Right now there are several solutions by using other kind of object detections. In this case by using Darknet library ( yolo2 ) that works in GPU so it's capable to geve much more accuware results in real time. 
 
 <figure class="one">
-	<figcaption>Caníbal Party at Apolo. Barcelona</figcaption>
-	<img src="https://c1.staticflickr.com/1/329/19124256023_77618865b4_z.jpg">
+	<figcaption>First yolo2Tracking version with a processing client</figcaption>
+	<img src="https://c1.staticflickr.com/5/4484/37764018816_7e16ef2009_z.jpg">
 </figure>
 
-The skylike table and the dynamic logo were designed by me and Diego Suarez for Apolo Cliente and produced by us at FabLab IAAC, Barcelona, with the suprvision of Anastasia Pistofidiou.
+There is a github repositoy where get last version of this tool. Check README and follow instructions. Requires a modern GPU with CUDA libraries such for example Nvidia 1060.
 
-<figure class="half">
-	<img src="https://c2.staticflickr.com/4/3944/33023263803_a2b6b26ce8_z.jpg">
-	<img src="https://c1.staticflickr.com/3/2945/33023270483_1151a93b23_z.jpg">
-	<figcaption>IAAC Fablab Production</figcaption>
+
+<figure class="one">
+	<figcaption>First yolo2Tracking version with a processing client</figcaption>
+	<img src="https://c1.staticflickr.com/5/4484/37764018816_7e16ef2009_z.jpg">
 </figure>
-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/49049102@N07/33020714843/in/album-72157655931148006/" title="DSCN9794"><img src="https://c1.staticflickr.com/4/3829/33020714843_3681379236_z.jpg" width="640" height="360" alt="DSCN9794"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

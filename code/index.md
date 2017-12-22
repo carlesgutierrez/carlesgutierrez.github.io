@@ -1,14 +1,12 @@
 ---
 layout: archive
-title: "Coding"
+title: "Code"
 excerpt: ""
 modified: 2018-01-01
 image: 
   feature: 
   thumb: 
 ---
-
-Code
 
 <div class="tiles">
 {% for post in site.categories.code %}

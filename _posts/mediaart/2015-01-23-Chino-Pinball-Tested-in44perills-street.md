@@ -20,11 +20,11 @@ ChinoPinball has been an media art project development with ChinosInteranational
 	<img src="https://c2.staticflickr.com/8/7328/15899879383_8eeb98c1b0_z.jpg">
 </figure>
 
-<iframe src="https://player.vimeo.com/video/100059297" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/100059297">chino pinball</a> from <a href="https://vimeo.com/user3140838">Ovidiu Cincheza</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+Check some Flickr of that day [photos](https://flic.kr/s/aHsjZxKsra)
 
-[Check some photos here](https://flic.kr/s/aHsjZxKsra)
+<iframe src="https://player.vimeo.com/video/100059297" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/100059297">chino pinball</a>
 
-We could test it once at street -> carrer Perills ( Barcelona ) That was a first aproaching at the public space.
+At least we could test it once at street "Perills", Barcelona. That was a first aproaching at the public space. We figured many issues to solve for future implementations.
 In collaboration with [*44Perills sound art association*](https://es-es.facebook.com/44Perills) for their collaboration.
 Thanks for  show us how to hack the street lights and offer their piece of street for testing. 
 
@@ -41,14 +41,6 @@ Thanks for  show us how to hack the street lights and offer their piece of stree
 	<img src="https://c2.staticflickr.com/4/3667/19247034813_4c394910d4_z.jpg">
 </figure>
 
-Credits: 
-
-[ChinosInternational Website](http://chinosinternationalcc.github.io/)
-
-Video recorded during FAB10 at DHUB Barcelona
-
-[SoundTrack by Alex Geell](https://soundcloud.com/alexgeell/chinos-internacional-pinball-raval-song)
-
 **Credits**
 
 Kuba Markiewicz - Openframeworks
@@ -59,3 +51,6 @@ Augusto Zuniga - 3D Art
 Mery Glez - DigitalFabrication
 Alex Geell - SoundArt
 Alex Reche - MadMapper
+
+[ChinosInternational Website](http://chinosinternationalcc.github.io/)
+[SoundTrack](https://soundcloud.com/alexgeell/chinos-internacional-pinball-raval-song) by Alex Geell.

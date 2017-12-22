@@ -1,14 +1,12 @@
 ---
 layout: archive
-title: "Media Art projects"
+title: "Media Art"
 excerpt: ""
-modified: 2015-01-01
+modified: 2018-01-01
 image: 
   feature: 
   thumb:
 ---
-
-Here some media art projects:
 
 
 <div class="tiles">
