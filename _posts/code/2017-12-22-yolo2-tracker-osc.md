@@ -12,8 +12,6 @@ image:
 tags: [tracking, publicspace, tool]
 ---
 
-Medialab-Prado [github repository](https://github.com/medialab-prado/RecursosFachada) include executables and Processing clients examples. 
-
 This tool aims to offer an multitracking interactive controller for specific games using video input from survailance cameras. OSC protocol available. WIP. Only working in windows So for now.
 
 It works even for low ligthing profiles. Darknet library ( yolo2 ) computes in GPU graphic card, so it's capable real time aplications. 
@@ -25,3 +23,6 @@ Check gihtub and README. This App require a modern GPU with CUDA libraries such 
 	<img src="https://c1.staticflickr.com/5/4601/25356852558_bbab6d98cc.jpg">
 	<img src="https://c1.staticflickr.com/5/4736/25356850868_dcac9ae3fb.jpg">
 </figure>
+
+
+Link to Medialab-Prado repository with [github repository](https://github.com/medialab-prado/RecursosFachada) some executables and Processing clients examples. Check sensor4Games folders. 
