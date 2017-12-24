@@ -16,7 +16,7 @@ This tool aims to offer an multitracking interactive controller for specific gam
 
 It works even for low ligthing profiles. Darknet library ( yolo2 ) computes in GPU graphic card, so it's capable real time aplications. 
 
-Check gihtub and README. This App require a modern GPU with CUDA libraries such for example Nvidia 1060.
+Check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/). This App require a modern GPU with CUDA libraries such for example Nvidia 1060.
 
 <figure class="third">
 	<figcaption>Tool designed to interact with the MediaLabPrado Facade</figcaption>
