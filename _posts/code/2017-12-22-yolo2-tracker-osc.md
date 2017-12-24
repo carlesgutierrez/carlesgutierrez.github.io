@@ -18,10 +18,10 @@ It works even for low ligthing profiles. Darknet library ( yolo2 ) computes in G
 
 Check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/). This App require a modern GPU with CUDA libraries such for example Nvidia 1060.
 
-<figure class="third">
+<figure class="half">
 	<figcaption>Tool designed to interact with the MediaLabPrado Facade</figcaption>
 	<img src="https://c1.staticflickr.com/5/4601/25356852558_bbab6d98cc.jpg">
-	<img src="https://c1.staticflickr.com/5/4736/25356850868_dcac9ae3fb.jpg">
+	<img src="https://c1.staticflickr.com/5/4736/25356850868_dcac9ae3fb_c.jpg">
 </figure>
 
 
