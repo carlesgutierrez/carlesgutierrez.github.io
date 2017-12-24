@@ -23,6 +23,7 @@ It works even for low ligthing profiles. Darknet library ( yolo2 ) computes in G
 
 <figure class="one">
 	<figcaption>Client example for Medialab-Prado</figcaption>
+	<a href="http://medialab-prado.es/article/fachada_digital_informacion_tecnica">Medialab-Prado Technical Fachade link</a>
 	<img src="https://c1.staticflickr.com/5/4736/25356850868_dcac9ae3fb_c.jpg">
 </figure>
 
