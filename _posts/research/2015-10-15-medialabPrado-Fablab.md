@@ -23,18 +23,19 @@ Organization and technical production at Fablab 2015 for [MedialabPrado](http://
 
 ## [Objetos comunes](http://objetoscomunes.medialab-prado.es/)
 
-<figure class="one">
+<figure class="half">
 	<figcaption>Funcionamientos 28-31 octubre y 25-28 noviembre de 2015.</figcaption> 
-	<a href="http://objetoscomunes.medialab-prado.es/funcionamientos/">Resultado de los prototipos</a>
+	<a href="http://objetoscomunes.medialab-prado.es/funcionamientos/">Link proyectos seleccionados</a>
 	<img src="https://c2.staticflickr.com/6/5798/23108044659_53cb752be1_z.jpg">
+	<img src="https://c2.staticflickr.com/6/5674/22575410245_63759ace87_z.jpg">
 </figure>
 
 ## Interactivos?15
 
 <figure class="half">
 	<figcaption>Interactivos? 2015. Culturas materiales en la era digital. 2-16 diciembre de 2015.</figcaption> 
+	<a href="https://www.flickr.com/search/?user_id=19185522%40N06&view_all=1&text=interactivos%202015">Flickr Interactivos15</a>
 	<img src="https://c2.staticflickr.com/2/1648/23806677649_d7fe933034_z.jpg">
-		<a href="https://www.flickr.com/search/?user_id=19185522%40N06&view_all=1&text=interactivos%202015">Flickr Interactivos15</a>
 	<img src="https://c1.staticflickr.com/1/750/23706866281_3d128d3ed6_z.jpg">
 </figure>
 
