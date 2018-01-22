@@ -8,8 +8,7 @@ image:
   thumb: 
 ---
 
-Actually researching with Creative coding some Visualizations, Videogames, Ai, Lighting.
-Old post about VideoMapping, Electronics, Body tracking and Gestural Performance.
+Visualizations, Videogames, Ai, Interactive Lighting, Ligintg Objects, VideoMapping, Digital Fabrication, Body Gestures, Workshops...
 
 <div class="tiles">
 {% for post in site.categories.research %}
