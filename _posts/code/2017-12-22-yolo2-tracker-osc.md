@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Yolo2 Tracker OSC
-excerpt: "A computer vision tool made with OF for tracking persons, and share results by OSC"
+excerpt: "Camera tracks pedestrians with Yolo2 and tries to identify certain actions. Sends results throught Network like OSC protocol"
 category: code
 image: 
   feature: 
@@ -31,4 +31,7 @@ Download executables at Medialab-Prado repository with [github repository](https
 
 For developers, check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/). 
 
+Requirements: 
 This App require a modern GPU with CUDA libraries such for example Nvidia 1060.
+Works with windows10. 
+Linux version "soon".  
