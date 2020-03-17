@@ -46,7 +46,7 @@ function update(){
     if(predictedEmotions.length){
         let scaleTime = 0.001;
         let timeSegs = millis()*scaleTime;
-        console.log("Angry = " + str(predictedEmotions[0].value)+" HAPPY = " +str(predictedEmotions[3].value));
+        //console.log("Angry = " + str(predictedEmotions[0].value)+" HAPPY = " +str(predictedEmotions[3].value));
         bSmiling = updateSmileDetection(predictedEmotions[0].value, predictedEmotions[3].value, 0.3, 0.5);
         if(bSmiling){
             counterSmileSegs = timeSegs - startTimer;
@@ -111,7 +111,7 @@ function drawSmiling_1(_bDrawTime, _bDrawTransparentRect){
       scale(1,-1,1);
       let pct = map(counterSmileSegs, 0, numSecondsSmiling, 0, 1);
       let cLerp = lerpColor(c1Ini, c1End, pct);
-      fill(cLerp, 100);
+      fill(cLerp);
       rect(0,0,width, height*pct);
     pop();
   }
