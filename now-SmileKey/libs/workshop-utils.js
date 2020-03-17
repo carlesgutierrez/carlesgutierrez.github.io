@@ -30,9 +30,9 @@ Load the capture device, align under the canvas & mute it to avoid audiofeedback
 function loadCamera(_width, _height) {
     // setup camera capture
     videoInput = createCapture(VIDEO);
-    if(_width >= 400 && _height >= 300){
+    //if(_width >= 400 && _height >= 300){
       videoInput.size(_width, _height);
-    }else videoInput.size(400, 300);
+    //}else videoInput.size(400, 300);
     videoInput.position(0, 0);
     videoInput.id("v");
     var mv = document.getElementById("v");
