@@ -10,36 +10,43 @@ let c1Ini, c1End;
 let bReset = true;
 
 //let bDecay = false;
+let bModeFullWindow = false;
 let proportionCam;
 let proportionWindow;
 let scaleWindow_W;
 let scaleWindow_H;
 
 function setup() {
-    loadCamera(320*2,240*2);//400, 300);//1280, 720);
-    proportionCam = videoInput.width / videoInput.height;
-    proportionWindow = windowWidth / windowHeight;
-    scaleWindow_W =  windowWidth / videoInput.width;
-    scaleWindow_H =  windowHeight / videoInput.height;
+    loadCamera(400, 300);//1280, 720);
 
-    if(true){
-      console.log("videoInput.width = " + str(videoInput.width));
-      console.log("videoInput.height = " + str(videoInput.height));
-      console.log("proportionCam = " + str(proportionCam));
+    if(bModeFullWindow){
+      proportionCam = videoInput.width / videoInput.height;
+      proportionWindow = windowWidth / windowHeight;
+      scaleWindow_W =  windowWidth / videoInput.width;
+      scaleWindow_H =  windowHeight / videoInput.height;
 
-      //console.log("window.screen.width = " + str(window.screen.width));
-      //console.log("window.screen.height = " + str(window.screen.height));
-      console.log("windowWidth= " + str(windowWidth));
-      console.log("windowHeight= " + str(windowHeight));
-      console.log("proportionWindow = " + str(proportionWindow));
+      if(true){
+        console.log("videoInput.width = " + str(videoInput.width));
+        console.log("videoInput.height = " + str(videoInput.height));
+        console.log("proportionCam = " + str(proportionCam));
 
-      console.log("scaleWindow_W = " + str(scaleWindow_W));
-      console.log("scaleWindow_H = " + str(scaleWindow_H));
+        //console.log("window.screen.width = " + str(window.screen.width));
+        //console.log("window.screen.height = " + str(window.screen.height));
+        console.log("windowWidth= " + str(windowWidth));
+        console.log("windowHeight= " + str(windowHeight));
+        console.log("proportionWindow = " + str(proportionWindow));
+
+        console.log("scaleWindow_W = " + str(scaleWindow_W));
+        console.log("scaleWindow_H = " + str(scaleWindow_H));
+      }
+
+      loadCanvas(videoInput.width*scaleWindow_W, videoInput.height*scaleWindow_H); //400,300);
+      videoInput.hide();
     }
-
-    loadTracker();
-    loadCanvas(videoInput.width*scaleWindow_W, videoInput.height*scaleWindow_H); //400,300);
-    videoInput.hide();
+    else{
+      loadTracker();
+      loadCanvas(400,300);
+    }
 
     console.log("width end= " + str(width));
     console.log("height end= " + str(height));
@@ -57,16 +64,21 @@ function draw() {
     else fill(0,150);
     rect(0,0,width,height);
 
-push();
+
+if(bModeFullWindow){
+  push();
     scale(scaleWindow_W, scaleWindow_H);//window.screen.width, window.screen.height); //400,300);
     fill(255);
     image(videoInput,0,0);
     drawPoints();
     drawSmiling_1(false, true);
-pop();
-
-    drawDebugEmotions();
-
+  pop();
+}
+else{
+  drawPoints();
+  drawSmiling_1(false, true);
+}
+  drawDebugEmotions();
 }
 
 //----------------------------------------------------
@@ -106,31 +118,56 @@ function updateSmileDetection(_angryVal, _happyVal, _thresholdAngry, _thresholdH
 //////////////////////////////////////////////////////////
 //-----------------------------------------------------
 function drawDebugEmotions() {
-  let scaleIniY = 0.85;
-  let scaleIniX = 0.40;
-  let scaleValuesEmotion = 30;
 
-  push();
-  stroke(255);
-  rect(width*scaleIniX, height-80*2-height*scaleIniY, 405, 140);
-  pop();
+  if(bModeFullWindow){
+    let scaleIniY = 0.85;
+    let scaleIniX = 0.40;
+    let scaleValuesEmotion = 30;
 
-  push();
-  fill(255);
-  if (emotions) {
+    push();
+    stroke(255);
+    rect(width*scaleIniX, height-80*2-height*scaleIniY, 405, 140);
+    pop();
+
+    push();
+    fill(255);
+    if (emotions) {
+        // andry=0, sad=1, surprised=2, happy=3
+        for (var i = 0;i < predictedEmotions.length;i++) {
+            rect(width*scaleIniX+i * 110+20, height-80-height*scaleIniY, 30, -predictedEmotions[i].value * scaleValuesEmotion);
+        }
+    }
+
+    text("ANGRY", width*scaleIniX+20, height-40-height*scaleIniY);
+    text("SAD", width*scaleIniX+130, height-40-height*scaleIniY);
+    text("SURPRISED", width*scaleIniX+220, height-40-height*scaleIniY);
+    if(bSmiling)fill(255, 0, 0);
+    //else fadoill(0,150);
+    text("HAPPY", width*scaleIniX+340, height-40-height*scaleIniY);
+    pop();
+  }
+  else{
+    let scaleIniY = 0.85;
+    let scaleIniX = 0.40;
+    let scaleValuesEmotion = 30;
+
+    push();
+    fill(255);
+    if (emotions) {
       // andry=0, sad=1, surprised=2, happy=3
       for (var i = 0;i < predictedEmotions.length;i++) {
-          rect(width*scaleIniX+i * 110+20, height-80-height*scaleIniY, 30, -predictedEmotions[i].value * scaleValuesEmotion);
+          rect(i * 110+20, height-80, 30, -predictedEmotions[i].value * 30);
       }
-  }
+    }
 
-  text("ANGRY", width*scaleIniX+20, height-40-height*scaleIniY);
-  text("SAD", width*scaleIniX+130, height-40-height*scaleIniY);
-  text("SURPRISED", width*scaleIniX+220, height-40-height*scaleIniY);
-  if(bSmiling)fill(255, 0, 0);
-  //else fadoill(0,150);
-  text("HAPPY", width*scaleIniX+340, height-40-height*scaleIniY);
-  pop();
+    text("ANGRY", 20, height-40);
+    text("SAD", 130, height-40);
+    text("SURPRISED", 220, height-40);
+    if(bSmiling)fill(255, 0, 0);
+    //else fadoill(0,150);
+    text("HAPPY",340, height-40);
+    pop();
+  }
 }
 
 function drawSmiling_1(_bDrawTime, _bDrawTransparentRect){
