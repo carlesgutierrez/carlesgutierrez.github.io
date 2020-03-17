@@ -5,22 +5,18 @@ date: 2015-01-01
 modified: 2018-01-01
 excerpt: "Carles Gutiérrez Vallès"
 image:
-  feature: 
-  teaser: 
+  feature:
+  teaser:
   thumb: carles_photo.png
 ads: false
 share: false
 sidebar: sidebar-about
 ---
 
-**Creative coder interested in Media Art, Interactivity, Human/Cultural behaviors, Gestural body expression, Lighting, Games, others digital & human contexts.** 
+**Creative coder interested in Media Art, Interactivity, Human/Cultural behaviors, Gestural body expression, Lighting, Games, others digital & human contexts.**
 
 @carlesgutierrez
 
+[Flickr](https://www.flickr.com/carlesgutierrez)
 [Twitter](https://twitter.com/carlesgutierrez)
 [Github Code](https://github.com/carlesgutierrez)
-
-
-
-
-

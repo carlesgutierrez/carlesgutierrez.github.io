@@ -1,14 +1,14 @@
 ---
 layout: article
 title: Yolo2 Tracker OSC
-excerpt: "Camera tracks pedestrians with Yolo2 and tries to identify certain actions. Sends results throught Network like OSC protocol"
+excerpt: "Camera tracks pedestrians with Yolo2 -> Track their rectangle positions and dimensions -> Identify certain actions -> Send all filtered results by OSC (or others Network protocols if you wish) for a Real-Time use. I have this running around 17 Fps using a Nvidia 1060 graphics card"
 category: code
-image: 
-  feature: 
+image:
+  feature:
   teaser: trackerYolo2_plaza_teaser.PNG
-  thumb: 
-  credit: 
-  creditlink: 
+  thumb:
+  credit:
+  creditlink:
 tags: [tracking, publicspace, tool]
 ---
 
@@ -17,21 +17,21 @@ tags: [tracking, publicspace, tool]
 	<img src="https://c1.staticflickr.com/5/4601/25356852558_bbab6d98cc.jpg">
 </figure>
 
-This tool aims to offer an multitracking interactive controller for specific games using video input from survailance cameras. OSC protocol available. 
+This tool aims to offer an multitracking interactive controller for specific games using video input from surveillance cameras. OSC protocol available.
 
-It works even for low ligthing profiles. Darknet library ( yolo2 ) computes in GPU graphic card, so it's capable real time aplications. 
+It works even for low lighting profiles. Darknet library ( yolo2 ) computes in GPU graphic card, so it's capable real time applications.
 
 <figure class="one">
 	<figcaption>Client example for Medialab-Prado</figcaption>
-	<a href="http://medialab-prado.es/article/fachada_digital_informacion_tecnica">Medialab-Prado Technical Fachade link</a>
+	<a href="http://medialab-prado.es/article/fachada_digital_informacion_tecnica">Medialab-Prado Technical Facade link</a>
 	<img src="https://c1.staticflickr.com/5/4736/25356850868_dcac9ae3fb_c.jpg">
 </figure>
 
-Download executables at Medialab-Prado repository with [github repository](https://github.com/medialab-prado/RecursosFachada) some executables and Processing clients examples. Check sensor4Games folders -> yolo2 
+Download executables at Medialab-Prado repository with [github repository](https://github.com/medialab-prado/RecursosFachada) some executables and Processing clients examples. Check sensor4Games folders -> yolo2
 
-For developers, check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/). 
+For developers, check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/).
 
-Requirements: 
+Requirements:
 This App require a modern GPU with CUDA libraries such for example Nvidia 1060.
-Works with windows10. 
+Works with windows10.
 Linux version "soon".  
