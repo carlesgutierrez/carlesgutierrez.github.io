@@ -24,11 +24,11 @@ Flowerport are a series of magic windows to connect entrepreneurial and social s
 
 Thanks to Jaime de los Rios and Diego Soroa for give us the initial idea and commission to us the installation. 
 
-Client: [Eutokia](http://eutokia.org/) and [Cuantics](http://cuantics.com/)
+Client: [Eutokia](https://eutokia.org/) and [Cuantics](https://cuantics.com/)
 
 This software can work in diferents modes: 
 
 1. as Real-Time VideoConference between 2 FlowerPorts.
 2. as Image SlideShow over interactive Flowers.
 
-[*By Lummo*](http://www.lummo.eu/)
+[*By Lummo*](https://www.lummo.eu/)

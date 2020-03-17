@@ -981,7 +981,7 @@ module.exports={
             "module": "DOM",
             "file": "src/core/p5.Element.js",
             "line": 11,
-            "description": "<p>Base class for all elements added to a sketch, including canvas,\ngraphics buffers, and other HTML elements. Methods in blue are\nincluded in the core functionality, methods in brown are added\nwith the <a href=\"http://p5js.org/reference/#/libraries/p5.dom\">p5.dom\nlibrary</a>.\nIt is not called directly, but <a href=\"#/p5.Element\">p5.Element</a>\nobjects are created by calling <a href=\"#/p5/createCanvas\">createCanvas</a>, <a href=\"#/p5/createGraphics\">createGraphics</a>,\nor in the p5.dom library, <a href=\"#/p5/createDiv\">createDiv</a>, <a href=\"#/p5/createImg\">createImg</a>, <a href=\"#/p5/createInput\">createInput</a>, etc.</p>\n"
+            "description": "<p>Base class for all elements added to a sketch, including canvas,\ngraphics buffers, and other HTML elements. Methods in blue are\nincluded in the core functionality, methods in brown are added\nwith the <a href=\"https://p5js.org/reference/#/libraries/p5.dom\">p5.dom\nlibrary</a>.\nIt is not called directly, but <a href=\"#/p5.Element\">p5.Element</a>\nobjects are created by calling <a href=\"#/p5/createCanvas\">createCanvas</a>, <a href=\"#/p5/createGraphics\">createGraphics</a>,\nor in the p5.dom library, <a href=\"#/p5/createDiv\">createDiv</a>, <a href=\"#/p5/createImg\">createImg</a>, <a href=\"#/p5/createInput\">createInput</a>, etc.</p>\n"
         },
         "Rendering": {
             "name": "Rendering",
@@ -1701,7 +1701,7 @@ module.exports={
             "module": "p5.dom",
             "file": "lib/addons/p5.dom.js",
             "line": 3170,
-            "description": "<p><p>The web is much more than just canvas and p5.dom makes it easy to interact\nwith other HTML5 objects, including text, hyperlink, image, input, video,\naudio, and webcam.</p></p>\n<p><p>There is a set of creation methods, DOM manipulation methods, and\nan extended <a href=\"#/p5.Element\">p5.Element</a> that supports a range of HTML elements. See the\n<a href='https://github.com/processing/p5.js/wiki/Beyond-the-canvas'>\nbeyond the canvas tutorial</a> for a full overview of how this addon works.</p>\n<p><p>Methods and properties shown in black are part of the p5.js core, items in\nblue are part of the p5.dom library. You will need to include an extra file\nin order to access the blue functions. See the\n<a href='http://p5js.org/libraries/#using-a-library'>using a library</a>\nsection for information on how to include this library. p5.dom comes with\n<a href='http://p5js.org/download'>p5 complete</a> or you can download the single file\n<a href='https://raw.githubusercontent.com/lmccart/p5.js/master/lib/addons/p5.dom.js'>\nhere</a>.</p></p>\n<p><p>See <a href='https://github.com/processing/p5.js/wiki/Beyond-the-canvas'>tutorial: beyond the canvas</a>\nfor more info on how to use this library.</a></p>\n",
+            "description": "<p><p>The web is much more than just canvas and p5.dom makes it easy to interact\nwith other HTML5 objects, including text, hyperlink, image, input, video,\naudio, and webcam.</p></p>\n<p><p>There is a set of creation methods, DOM manipulation methods, and\nan extended <a href=\"#/p5.Element\">p5.Element</a> that supports a range of HTML elements. See the\n<a href='https://github.com/processing/p5.js/wiki/Beyond-the-canvas'>\nbeyond the canvas tutorial</a> for a full overview of how this addon works.</p>\n<p><p>Methods and properties shown in black are part of the p5.js core, items in\nblue are part of the p5.dom library. You will need to include an extra file\nin order to access the blue functions. See the\n<a href='https://p5js.org/libraries/#using-a-library'>using a library</a>\nsection for information on how to include this library. p5.dom comes with\n<a href='https://p5js.org/download'>p5 complete</a> or you can download the single file\n<a href='https://raw.githubusercontent.com/lmccart/p5.js/master/lib/addons/p5.dom.js'>\nhere</a>.</p></p>\n<p><p>See <a href='https://github.com/processing/p5.js/wiki/Beyond-the-canvas'>tutorial: beyond the canvas</a>\nfor more info on how to use this library.</a></p>\n",
             "tag": "main",
             "itemtype": "main"
         },
@@ -1755,7 +1755,7 @@ module.exports={
             "module": "p5.sound",
             "file": "lib/addons/p5.sound.js",
             "line": 12761,
-            "description": "<p>p5.sound extends p5 with <a href=\"http://caniuse.com/audio-api\"\ntarget=\"_blank\">Web Audio</a> functionality including audio input,\nplayback, analysis and synthesis.\n<br/><br/>\n<a href=\"#/p5.SoundFile\"><b>p5.SoundFile</b></a>: Load and play sound files.<br/>\n<a href=\"#/p5.Amplitude\"><b>p5.Amplitude</b></a>: Get the current volume of a sound.<br/>\n<a href=\"#/p5.AudioIn\"><b>p5.AudioIn</b></a>: Get sound from an input source, typically\n  a computer microphone.<br/>\n<a href=\"#/p5.FFT\"><b>p5.FFT</b></a>: Analyze the frequency of sound. Returns\n  results from the frequency spectrum or time domain (waveform).<br/>\n<a href=\"#/p5.Oscillator\"><b>p5.Oscillator</b></a>: Generate Sine,\n  Triangle, Square and Sawtooth waveforms. Base class of\n  <a href=\"#/p5.Noise\">p5.Noise</a> and <a href=\"#/p5.Pulse\">p5.Pulse</a>.\n  <br/>\n<a href=\"#/p5.Envelope\"><b>p5.Envelope</b></a>: An Envelope is a series\n  of fades over time. Often used to control an object&#39;s\n  output gain level as an &quot;ADSR Envelope&quot; (Attack, Decay,\n  Sustain, Release). Can also modulate other parameters.<br/>\n<a href=\"#/p5.Delay\"><b>p5.Delay</b></a>: A delay effect with\n  parameters for feedback, delayTime, and lowpass filter.<br/>\n<a href=\"#/p5.Filter\"><b>p5.Filter</b></a>: Filter the frequency range of a\n  sound.\n<br/>\n<a href=\"#/p5.Reverb\"><b>p5.Reverb</b></a>: Add reverb to a sound by specifying\n  duration and decay. <br/>\n<b><a href=\"#/p5.Convolver\">p5.Convolver</a>:</b> Extends\n<a href=\"#/p5.Reverb\">p5.Reverb</a> to simulate the sound of real\n  physical spaces through convolution.<br/>\n<b><a href=\"#/p5.SoundRecorder\">p5.SoundRecorder</a></b>: Record sound for playback\n  / save the .wav file.\n<b><a href=\"#/p5.Phrase\">p5.Phrase</a></b>, <b><a href=\"#/p5.Part\">p5.Part</a></b> and\n<b><a href=\"#/p5.Score\">p5.Score</a></b>: Compose musical sequences.\n<br/><br/>\np5.sound is on <a href=\"https://github.com/therewasaguy/p5.sound/\">GitHub</a>.\nDownload the latest version\n<a href=\"https://github.com/therewasaguy/p5.sound/blob/master/lib/p5.sound.js\">here</a>.</p>\n",
+            "description": "<p>p5.sound extends p5 with <a href=\"https://caniuse.com/audio-api\"\ntarget=\"_blank\">Web Audio</a> functionality including audio input,\nplayback, analysis and synthesis.\n<br/><br/>\n<a href=\"#/p5.SoundFile\"><b>p5.SoundFile</b></a>: Load and play sound files.<br/>\n<a href=\"#/p5.Amplitude\"><b>p5.Amplitude</b></a>: Get the current volume of a sound.<br/>\n<a href=\"#/p5.AudioIn\"><b>p5.AudioIn</b></a>: Get sound from an input source, typically\n  a computer microphone.<br/>\n<a href=\"#/p5.FFT\"><b>p5.FFT</b></a>: Analyze the frequency of sound. Returns\n  results from the frequency spectrum or time domain (waveform).<br/>\n<a href=\"#/p5.Oscillator\"><b>p5.Oscillator</b></a>: Generate Sine,\n  Triangle, Square and Sawtooth waveforms. Base class of\n  <a href=\"#/p5.Noise\">p5.Noise</a> and <a href=\"#/p5.Pulse\">p5.Pulse</a>.\n  <br/>\n<a href=\"#/p5.Envelope\"><b>p5.Envelope</b></a>: An Envelope is a series\n  of fades over time. Often used to control an object&#39;s\n  output gain level as an &quot;ADSR Envelope&quot; (Attack, Decay,\n  Sustain, Release). Can also modulate other parameters.<br/>\n<a href=\"#/p5.Delay\"><b>p5.Delay</b></a>: A delay effect with\n  parameters for feedback, delayTime, and lowpass filter.<br/>\n<a href=\"#/p5.Filter\"><b>p5.Filter</b></a>: Filter the frequency range of a\n  sound.\n<br/>\n<a href=\"#/p5.Reverb\"><b>p5.Reverb</b></a>: Add reverb to a sound by specifying\n  duration and decay. <br/>\n<b><a href=\"#/p5.Convolver\">p5.Convolver</a>:</b> Extends\n<a href=\"#/p5.Reverb\">p5.Reverb</a> to simulate the sound of real\n  physical spaces through convolution.<br/>\n<b><a href=\"#/p5.SoundRecorder\">p5.SoundRecorder</a></b>: Record sound for playback\n  / save the .wav file.\n<b><a href=\"#/p5.Phrase\">p5.Phrase</a></b>, <b><a href=\"#/p5.Part\">p5.Part</a></b> and\n<b><a href=\"#/p5.Score\">p5.Score</a></b>: Compose musical sequences.\n<br/><br/>\np5.sound is on <a href=\"https://github.com/therewasaguy/p5.sound/\">GitHub</a>.\nDownload the latest version\n<a href=\"https://github.com/therewasaguy/p5.sound/blob/master/lib/p5.sound.js\">here</a>.</p>\n",
             "tag": "main",
             "itemtype": "main"
         }
@@ -1828,7 +1828,7 @@ module.exports={
             "namespace": "",
             "file": "src/core/p5.Element.js",
             "line": 11,
-            "description": "<p>Base class for all elements added to a sketch, including canvas,\ngraphics buffers, and other HTML elements. Methods in blue are\nincluded in the core functionality, methods in brown are added\nwith the <a href=\"http://p5js.org/reference/#/libraries/p5.dom\">p5.dom\nlibrary</a>.\nIt is not called directly, but <a href=\"#/p5.Element\">p5.Element</a>\nobjects are created by calling <a href=\"#/p5/createCanvas\">createCanvas</a>, <a href=\"#/p5/createGraphics\">createGraphics</a>,\nor in the p5.dom library, <a href=\"#/p5/createDiv\">createDiv</a>, <a href=\"#/p5/createImg\">createImg</a>, <a href=\"#/p5/createInput\">createInput</a>, etc.</p>\n",
+            "description": "<p>Base class for all elements added to a sketch, including canvas,\ngraphics buffers, and other HTML elements. Methods in blue are\nincluded in the core functionality, methods in brown are added\nwith the <a href=\"https://p5js.org/reference/#/libraries/p5.dom\">p5.dom\nlibrary</a>.\nIt is not called directly, but <a href=\"#/p5.Element\">p5.Element</a>\nobjects are created by calling <a href=\"#/p5/createCanvas\">createCanvas</a>, <a href=\"#/p5/createGraphics\">createGraphics</a>,\nor in the p5.dom library, <a href=\"#/p5/createDiv\">createDiv</a>, <a href=\"#/p5/createImg\">createImg</a>, <a href=\"#/p5/createInput\">createInput</a>, etc.</p>\n",
             "params": [
                 {
                     "name": "elt",
@@ -2426,7 +2426,7 @@ module.exports={
             "namespace": "",
             "file": "lib/addons/p5.sound.js",
             "line": 5215,
-            "description": "<p>p5.Signal is a constant audio-rate signal used by p5.Oscillator\nand p5.Envelope for modulation math.</p>\n\n<p>This is necessary because Web Audio is processed on a seprate clock.\nFor example, the p5 draw loop runs about 60 times per second. But\nthe audio clock must process samples 44100 times per second. If we\nwant to add a value to each of those samples, we can&#39;t do it in the\ndraw loop, but we can do it by adding a constant-rate audio signal.&lt;/p.\n\n<p>This class mostly functions behind the scenes in p5.sound, and returns\na Tone.Signal from the Tone.js library by Yotam Mann.\nIf you want to work directly with audio signals for modular\nsynthesis, check out\n<a href='http://bit.ly/1oIoEng' target=_'blank'>tone.js.</a></p>",
+            "description": "<p>p5.Signal is a constant audio-rate signal used by p5.Oscillator\nand p5.Envelope for modulation math.</p>\n\n<p>This is necessary because Web Audio is processed on a seprate clock.\nFor example, the p5 draw loop runs about 60 times per second. But\nthe audio clock must process samples 44100 times per second. If we\nwant to add a value to each of those samples, we can&#39;t do it in the\ndraw loop, but we can do it by adding a constant-rate audio signal.&lt;/p.\n\n<p>This class mostly functions behind the scenes in p5.sound, and returns\na Tone.Signal from the Tone.js library by Yotam Mann.\nIf you want to work directly with audio signals for modular\nsynthesis, check out\n<a href='https://bit.ly/1oIoEng' target=_'blank'>tone.js.</a></p>",
             "is_constructor": 1,
             "return": {
                 "description": "A Signal object from the Tone.js library",
@@ -2601,7 +2601,7 @@ module.exports={
             "namespace": "",
             "file": "lib/addons/p5.sound.js",
             "line": 7108,
-            "description": "<p>Creates a Pulse object, an oscillator that implements\nPulse Width Modulation.\nThe pulse is created with two oscillators.\nAccepts a parameter for frequency, and to set the\nwidth between the pulses. See <a href=\"\nhttp://p5js.org/reference/#/p5.Oscillator\">\n<code>p5.Oscillator</code> for a full list of methods.</p>\n",
+            "description": "<p>Creates a Pulse object, an oscillator that implements\nPulse Width Modulation.\nThe pulse is created with two oscillators.\nAccepts a parameter for frequency, and to set the\nwidth between the pulses. See <a href=\"\nhttps://p5js.org/reference/#/p5.Oscillator\">\n<code>p5.Oscillator</code> for a full list of methods.</p>\n",
             "extends": "p5.Oscillator",
             "is_constructor": 1,
             "params": [
@@ -2659,7 +2659,7 @@ module.exports={
             "namespace": "",
             "file": "lib/addons/p5.sound.js",
             "line": 7435,
-            "description": "<p>Get audio from an input, i.e. your computer&#39;s microphone.</p>\n\n<p>Turn the mic on/off with the start() and stop() methods. When the mic\nis on, its volume can be measured with getLevel or by connecting an\nFFT object.</p>\n\n<p>If you want to hear the AudioIn, use the .connect() method.\nAudioIn does not connect to p5.sound output by default to prevent\nfeedback.</p>\n\n<p><em>Note: This uses the <a href=\"http://caniuse.com/stream\">getUserMedia/\nStream</a> API, which is not supported by certain browsers. Access in Chrome browser\nis limited to localhost and https, but access over http may be limited.</em></p>",
+            "description": "<p>Get audio from an input, i.e. your computer&#39;s microphone.</p>\n\n<p>Turn the mic on/off with the start() and stop() methods. When the mic\nis on, its volume can be measured with getLevel or by connecting an\nFFT object.</p>\n\n<p>If you want to hear the AudioIn, use the .connect() method.\nAudioIn does not connect to p5.sound output by default to prevent\nfeedback.</p>\n\n<p><em>Note: This uses the <a href=\"https://caniuse.com/stream\">getUserMedia/\nStream</a> API, which is not supported by certain browsers. Access in Chrome browser\nis limited to localhost and https, but access over http may be limited.</em></p>",
             "is_constructor": 1,
             "params": [
                 {
@@ -3102,7 +3102,7 @@ module.exports={
             "namespace": "",
             "file": "lib/addons/p5.sound.js",
             "line": 11649,
-            "description": "<p>PeakDetect works in conjunction with p5.FFT to\nlook for onsets in some or all of the frequency spectrum.\n</p>\n<p>\nTo use p5.PeakDetect, call <code>update</code> in the draw loop\nand pass in a p5.FFT object.\n</p>\n<p>\nYou can listen for a specific part of the frequency spectrum by\nsetting the range between <code>freq1</code> and <code>freq2</code>.\n</p>\n\n<p><code>threshold</code> is the threshold for detecting a peak,\nscaled between 0 and 1. It is logarithmic, so 0.1 is half as loud\nas 1.0.</p>\n\n<p>\nThe update method is meant to be run in the draw loop, and\n<b>frames</b> determines how many loops must pass before\nanother peak can be detected.\nFor example, if the frameRate() = 60, you could detect the beat of a\n120 beat-per-minute song with this equation:\n<code> framesPerPeak = 60 / (estimatedBPM / 60 );</code>\n</p>\n\n<p>\nBased on example contribtued by @b2renger, and a simple beat detection\nexplanation by <a href=\"a\nhref=&quot;http://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/&quot;\ntarget=&quot;_blank&quot;\">a\nhref=&quot;http://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/&quot;\ntarget=&quot;_blank&quot;</a>Felix Turner</a>.\n</p>",
+            "description": "<p>PeakDetect works in conjunction with p5.FFT to\nlook for onsets in some or all of the frequency spectrum.\n</p>\n<p>\nTo use p5.PeakDetect, call <code>update</code> in the draw loop\nand pass in a p5.FFT object.\n</p>\n<p>\nYou can listen for a specific part of the frequency spectrum by\nsetting the range between <code>freq1</code> and <code>freq2</code>.\n</p>\n\n<p><code>threshold</code> is the threshold for detecting a peak,\nscaled between 0 and 1. It is logarithmic, so 0.1 is half as loud\nas 1.0.</p>\n\n<p>\nThe update method is meant to be run in the draw loop, and\n<b>frames</b> determines how many loops must pass before\nanother peak can be detected.\nFor example, if the frameRate() = 60, you could detect the beat of a\n120 beat-per-minute song with this equation:\n<code> framesPerPeak = 60 / (estimatedBPM / 60 );</code>\n</p>\n\n<p>\nBased on example contribtued by @b2renger, and a simple beat detection\nexplanation by <a href=\"a\nhref=&quot;https://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/&quot;\ntarget=&quot;_blank&quot;\">a\nhref=&quot;https://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/&quot;\ntarget=&quot;_blank&quot;</a>Felix Turner</a>.\n</p>",
             "is_constructor": 1,
             "params": [
                 {
@@ -3234,7 +3234,7 @@ module.exports={
             "namespace": "",
             "file": "lib/addons/p5.sound.js",
             "line": 12761,
-            "description": "<p>A Distortion effect created with a Waveshaper Node,\nwith an approach adapted from\n<a href=\"http://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion\">Kevin Ennis</a></p>\n<p>This class extends <a href = \"/reference/#/p5.Effect\">p5.Effect</a>.<br>Methods <a href = \"/reference/#/p5.Effect/amp\">amp()</a>, <a href = \"/reference/#/p5.Effect/chain\">chain()</a>, \n<a href = \"/reference/#/p5.Effect/drywet\">drywet()</a>, <a href = \"/reference/#/p5.Effect/connect\">connect()</a>, and \n<a href = \"/reference/#/p5.Effect/disconnect\">disconnect()</a> are available.</p>\n",
+            "description": "<p>A Distortion effect created with a Waveshaper Node,\nwith an approach adapted from\n<a href=\"https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion\">Kevin Ennis</a></p>\n<p>This class extends <a href = \"/reference/#/p5.Effect\">p5.Effect</a>.<br>Methods <a href = \"/reference/#/p5.Effect/amp\">amp()</a>, <a href = \"/reference/#/p5.Effect/chain\">chain()</a>, \n<a href = \"/reference/#/p5.Effect/drywet\">drywet()</a>, <a href = \"/reference/#/p5.Effect/connect\">connect()</a>, and \n<a href = \"/reference/#/p5.Effect/disconnect\">disconnect()</a> are available.</p>\n",
             "extends": "p5.Effect",
             "is_constructor": 1,
             "params": [
@@ -3260,7 +3260,7 @@ module.exports={
         {
             "file": "src/color/color_conversion.js",
             "line": 10,
-            "description": "<p>Conversions adapted from <a href=\"http://www.easyrgb.com/en/math.php\">http://www.easyrgb.com/en/math.php</a>.</p>\n<p>In these functions, hue is always in the range [0, 1], just like all other\ncomponents are in the range [0, 1]. &#39;Brightness&#39; and &#39;value&#39; are used\ninterchangeably.</p>\n",
+            "description": "<p>Conversions adapted from <a href=\"https://www.easyrgb.com/en/math.php\">https://www.easyrgb.com/en/math.php</a>.</p>\n<p>In these functions, hue is always in the range [0, 1], just like all other\ncomponents are in the range [0, 1]. &#39;Brightness&#39; and &#39;value&#39; are used\ninterchangeably.</p>\n",
             "class": "p5",
             "module": "Color",
             "submodule": "Color Conversion"
@@ -7086,7 +7086,7 @@ module.exports={
             "example": [
                 "\n<div>\n<code>\nlet url;\nlet x = 100;\n\nfunction setup() {\n  fill(0);\n  noStroke();\n  url = getURL();\n}\n\nfunction draw() {\n  background(200);\n  text(url, x, height / 2);\n  x--;\n}\n</code>\n</div>"
             ],
-            "alt": "current url (http://p5js.org/reference/#/p5/getURL) moves right to left.",
+            "alt": "current url (https://p5js.org/reference/#/p5/getURL) moves right to left.",
             "class": "p5",
             "module": "Environment",
             "submodule": "Environment"
@@ -7120,7 +7120,7 @@ module.exports={
                 "type": "Object"
             },
             "example": [
-                "\n<div class='norender notest'>\n<code>\n// Example: http://p5js.org?year=2014&month=May&day=15\n\nfunction setup() {\n  let params = getURLParams();\n  text(params.day, 10, 20);\n  text(params.month, 10, 40);\n  text(params.year, 10, 60);\n}\n</code>\n</div>"
+                "\n<div class='norender notest'>\n<code>\n// Example: https://p5js.org?year=2014&month=May&day=15\n\nfunction setup() {\n  let params = getURLParams();\n  text(params.day, 10, 20);\n  text(params.month, 10, 40);\n  text(params.year, 10, 60);\n}\n</code>\n</div>"
             ],
             "alt": "no display.",
             "class": "p5",
@@ -7173,7 +7173,7 @@ module.exports={
         {
             "file": "src/core/main.js",
             "line": 49,
-            "description": "<p>Called directly before <a href=\"#/p5/setup\">setup()</a>, the <a href=\"#/p5/preload\">preload()</a> function is used to handle\nasynchronous loading of external files in a blocking way. If a preload\nfunction is defined, <a href=\"#/p5/setup\">setup()</a> will wait until any load calls within have\nfinished. Nothing besides load calls (<a href=\"#/p5/loadImage\">loadImage</a>, <a href=\"#/p5/loadJSON\">loadJSON</a>, <a href=\"#/p5/loadFont\">loadFont</a>,\n<a href=\"#/p5/loadStrings\">loadStrings</a>, etc.) should be inside the preload function. If asynchronous\nloading is preferred, the load methods can instead be called in <a href=\"#/p5/setup\">setup()</a>\nor anywhere else with the use of a callback parameter.\n<br><br>\nBy default the text &quot;loading...&quot; will be displayed. To make your own\nloading page, include an HTML element with id &quot;p5_loading&quot; in your\npage. More information <a href=\"http://bit.ly/2kQ6Nio\">here</a>.</p>\n",
+            "description": "<p>Called directly before <a href=\"#/p5/setup\">setup()</a>, the <a href=\"#/p5/preload\">preload()</a> function is used to handle\nasynchronous loading of external files in a blocking way. If a preload\nfunction is defined, <a href=\"#/p5/setup\">setup()</a> will wait until any load calls within have\nfinished. Nothing besides load calls (<a href=\"#/p5/loadImage\">loadImage</a>, <a href=\"#/p5/loadJSON\">loadJSON</a>, <a href=\"#/p5/loadFont\">loadFont</a>,\n<a href=\"#/p5/loadStrings\">loadStrings</a>, etc.) should be inside the preload function. If asynchronous\nloading is preferred, the load methods can instead be called in <a href=\"#/p5/setup\">setup()</a>\nor anywhere else with the use of a callback parameter.\n<br><br>\nBy default the text &quot;loading...&quot; will be displayed. To make your own\nloading page, include an HTML element with id &quot;p5_loading&quot; in your\npage. More information <a href=\"https://bit.ly/2kQ6Nio\">here</a>.</p>\n",
             "itemtype": "method",
             "name": "preload",
             "example": [
@@ -7243,7 +7243,7 @@ module.exports={
         {
             "file": "src/core/p5.Element.js",
             "line": 52,
-            "description": "<p>Attaches the element to the parent specified. A way of setting\n the container for the element. Accepts either a string ID, DOM\n node, or <a href=\"#/p5.Element\">p5.Element</a>. If no arguments given, parent node is returned.\n For more ways to position the canvas, see the\n <a href='https://github.com/processing/p5.js/wiki/Positioning-your-canvas'>\n positioning the canvas</a> wiki page.\nAll above examples except for the first one require the inclusion of\n the p5.dom library in your index.html. See the\n <a href='http://p5js.org/libraries/#using-a-library'>using a library</a>\n section for information on how to include this library.</p>\n",
+            "description": "<p>Attaches the element to the parent specified. A way of setting\n the container for the element. Accepts either a string ID, DOM\n node, or <a href=\"#/p5.Element\">p5.Element</a>. If no arguments given, parent node is returned.\n For more ways to position the canvas, see the\n <a href='https://github.com/processing/p5.js/wiki/Positioning-your-canvas'>\n positioning the canvas</a> wiki page.\nAll above examples except for the first one require the inclusion of\n the p5.dom library in your index.html. See the\n <a href='https://p5js.org/libraries/#using-a-library'>using a library</a>\n section for information on how to include this library.</p>\n",
             "itemtype": "method",
             "name": "parent",
             "chainable": 1,
@@ -7706,7 +7706,7 @@ module.exports={
         {
             "file": "src/core/p5.Renderer.js",
             "line": 354,
-            "description": "<p>Helper fxn to measure ascent and descent.\nAdapted from <a href=\"http://stackoverflow.com/a/25355178\">http://stackoverflow.com/a/25355178</a></p>\n",
+            "description": "<p>Helper fxn to measure ascent and descent.\nAdapted from <a href=\"https://stackoverflow.com/a/25355178\">https://stackoverflow.com/a/25355178</a></p>\n",
             "class": "p5.Renderer",
             "module": "Rendering",
             "submodule": "Rendering"
@@ -7867,7 +7867,7 @@ module.exports={
         {
             "file": "src/core/shim.js",
             "line": 23,
-            "description": "<p>shim for Uint8ClampedArray.slice\n(allows arrayCopy to work with pixels[])\nwith thanks to <a href=\"http://halfpapstudios.com/blog/tag/html5-canvas/\">http://halfpapstudios.com/blog/tag/html5-canvas/</a>\nEnumerable set to false to protect for...in from\nUint8ClampedArray.prototype pollution.</p>\n",
+            "description": "<p>shim for Uint8ClampedArray.slice\n(allows arrayCopy to work with pixels[])\nwith thanks to <a href=\"https://halfpapstudios.com/blog/tag/html5-canvas/\">https://halfpapstudios.com/blog/tag/html5-canvas/</a>\nEnumerable set to false to protect for...in from\nUint8ClampedArray.prototype pollution.</p>\n",
             "class": "p5",
             "module": "Rendering"
         },
@@ -9098,7 +9098,7 @@ module.exports={
         {
             "file": "src/events/keyboard.js",
             "line": 74,
-            "description": "<p>The variable keyCode is used to detect special keys such as BACKSPACE,\nDELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW,\nDOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.\nYou can also check for custom keys by looking up the keyCode of any key\non a site like this: <a href=\"http://keycode.info/\">keycode.info</a>.</p>\n",
+            "description": "<p>The variable keyCode is used to detect special keys such as BACKSPACE,\nDELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW,\nDOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.\nYou can also check for custom keys by looking up the keyCode of any key\non a site like this: <a href=\"https://keycode.info/\">keycode.info</a>.</p>\n",
             "itemtype": "property",
             "name": "keyCode",
             "type": "Integer",
@@ -9164,7 +9164,7 @@ module.exports={
         {
             "file": "src/events/keyboard.js",
             "line": 310,
-            "description": "<p>The <a href=\"#/p5/keyIsDown\">keyIsDown()</a> function checks if the key is currently down, i.e. pressed.\nIt can be used if you have an object that moves, and you want several keys\nto be able to affect its behaviour simultaneously, such as moving a\nsprite diagonally. You can put in any number representing the keyCode of\nthe key, or use any of the variable <a href=\"#/p5/keyCode\">keyCode</a> names listed\n<a href=\"http://p5js.org/reference/#p5/keyCode\">here</a>.</p>\n",
+            "description": "<p>The <a href=\"#/p5/keyIsDown\">keyIsDown()</a> function checks if the key is currently down, i.e. pressed.\nIt can be used if you have an object that moves, and you want several keys\nto be able to affect its behaviour simultaneously, such as moving a\nsprite diagonally. You can put in any number representing the keyCode of\nthe key, or use any of the variable <a href=\"#/p5/keyCode\">keyCode</a> names listed\n<a href=\"https://p5js.org/reference/#p5/keyCode\">here</a>.</p>\n",
             "itemtype": "method",
             "name": "keyIsDown",
             "params": [
@@ -9585,7 +9585,7 @@ module.exports={
         {
             "file": "src/image/filters.js",
             "line": 3,
-            "description": "<p>This module defines the filters for use with image buffers.</p>\n<p>This module is basically a collection of functions stored in an object\nas opposed to modules. The functions are destructive, modifying\nthe passed in canvas rather than creating a copy.</p>\n<p>Generally speaking users of this module will use the Filters.apply method\non a canvas to create an effect.</p>\n<p>A number of functions are borrowed/adapted from\n<a href=\"http://www.html5rocks.com/en/tutorials/canvas/imagefilters/\">http://www.html5rocks.com/en/tutorials/canvas/imagefilters/</a>\nor the java processing implementation.</p>\n",
+            "description": "<p>This module defines the filters for use with image buffers.</p>\n<p>This module is basically a collection of functions stored in an object\nas opposed to modules. The functions are destructive, modifying\nthe passed in canvas rather than creating a copy.</p>\n<p>Generally speaking users of this module will use the Filters.apply method\non a canvas to create an effect.</p>\n<p>A number of functions are borrowed/adapted from\n<a href=\"https://www.html5rocks.com/en/tutorials/canvas/imagefilters/\">https://www.html5rocks.com/en/tutorials/canvas/imagefilters/</a>\nor the java processing implementation.</p>\n",
             "class": "p5",
             "module": "Events"
         },
@@ -10334,7 +10334,7 @@ module.exports={
             "example": [
                 "\n<div><code>\nlet photo, maskImage;\nfunction preload() {\n  photo = loadImage('assets/rockies.jpg');\n  maskImage = loadImage('assets/mask2.png');\n}\n\nfunction setup() {\n  createCanvas(100, 100);\n  photo.mask(maskImage);\n  image(photo, 0, 0);\n}\n</code></div>"
             ],
-            "alt": "image of rocky mountains with white at right\n\n\nhttp://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/",
+            "alt": "image of rocky mountains with white at right\n\n\nhttps://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/",
             "class": "p5.Image",
             "module": "Image",
             "submodule": "Image"
@@ -10430,7 +10430,7 @@ module.exports={
                         },
                         {
                             "name": "blendMode",
-                            "description": "<p>the blend mode. either\n    BLEND, DARKEST, LIGHTEST, DIFFERENCE,\n    MULTIPLY, EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT,\n    SOFT_LIGHT, DODGE, BURN, ADD or NORMAL.</p>\n<p>Available blend modes are: normal | multiply | screen | overlay |\n           darken | lighten | color-dodge | color-burn | hard-light |\n           soft-light | difference | exclusion | hue | saturation |\n           color | luminosity</p>\n<p><a href=\"http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/\">http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/</a></p>\n",
+                            "description": "<p>the blend mode. either\n    BLEND, DARKEST, LIGHTEST, DIFFERENCE,\n    MULTIPLY, EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT,\n    SOFT_LIGHT, DODGE, BURN, ADD or NORMAL.</p>\n<p>Available blend modes are: normal | multiply | screen | overlay |\n           darken | lighten | color-dodge | color-burn | hard-light |\n           soft-light | difference | exclusion | hue | saturation |\n           color | luminosity</p>\n<p><a href=\"https://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/\">https://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/</a></p>\n",
                             "type": "Constant"
                         }
                     ]
@@ -11078,7 +11078,7 @@ module.exports={
                 "type": "Object"
             },
             "example": [
-                "\n<div class='norender'>\n<code>\n// Given the following CSV file called \"mammals.csv\"\n// located in the project's \"assets\" folder:\n//\n// id,species,name\n// 0,Capra hircus,Goat\n// 1,Panthera pardus,Leopard\n// 2,Equus zebra,Zebra\n\nlet table;\n\nfunction preload() {\n  //my table is comma separated value \"csv\"\n  //and has a header specifying the columns labels\n  table = loadTable('assets/mammals.csv', 'csv', 'header');\n  //the file can be remote\n  //table = loadTable(\"http://p5js.org/reference/assets/mammals.csv\",\n  //                  \"csv\", \"header\");\n}\n\nfunction setup() {\n  //count the columns\n  print(table.getRowCount() + ' total rows in table');\n  print(table.getColumnCount() + ' total columns in table');\n\n  print(table.getColumn('name'));\n  //[\"Goat\", \"Leopard\", \"Zebra\"]\n\n  //cycle through the table\n  for (let r = 0; r < table.getRowCount(); r++)\n    for (let c = 0; c < table.getColumnCount(); c++) {\n      print(table.getString(r, c));\n    }\n}\n</code>\n</div>"
+                "\n<div class='norender'>\n<code>\n// Given the following CSV file called \"mammals.csv\"\n// located in the project's \"assets\" folder:\n//\n// id,species,name\n// 0,Capra hircus,Goat\n// 1,Panthera pardus,Leopard\n// 2,Equus zebra,Zebra\n\nlet table;\n\nfunction preload() {\n  //my table is comma separated value \"csv\"\n  //and has a header specifying the columns labels\n  table = loadTable('assets/mammals.csv', 'csv', 'header');\n  //the file can be remote\n  //table = loadTable(\"https://p5js.org/reference/assets/mammals.csv\",\n  //                  \"csv\", \"header\");\n}\n\nfunction setup() {\n  //count the columns\n  print(table.getRowCount() + ' total rows in table');\n  print(table.getColumnCount() + ' total columns in table');\n\n  print(table.getColumn('name'));\n  //[\"Goat\", \"Leopard\", \"Zebra\"]\n\n  //cycle through the table\n  for (let r = 0; r < table.getRowCount(); r++)\n    for (let c = 0; c < table.getColumnCount(); c++) {\n      print(table.getString(r, c));\n    }\n}\n</code>\n</div>"
             ],
             "alt": "randomly generated text from a file, for example \"i smell like butter\"\nrandomly generated text from a file, for example \"i have three feet\"",
             "class": "p5",
@@ -11762,7 +11762,7 @@ module.exports={
         {
             "file": "src/io/p5.Table.js",
             "line": 11,
-            "description": "<p>Table Options</p>\n<p>Generic class for handling tabular data, typically from a\nCSV, TSV, or other sort of spreadsheet file.</p>\n<p>CSV files are\n<a href=\"http://en.wikipedia.org/wiki/Comma-separated_values\">\ncomma separated values</a>, often with the data in quotes. TSV\nfiles use tabs as separators, and usually don&#39;t bother with the\nquotes.</p>\n<p>File names should end with .csv if they&#39;re comma separated.</p>\n<p>A rough &quot;spec&quot; for CSV can be found\n<a href=\"http://tools.ietf.org/html/rfc4180\">here</a>.</p>\n<p>To load files, use the <a href=\"#/p5/loadTable\">loadTable</a> method.</p>\n<p>To save tables to your computer, use the <a href=\"#/p5/save\">save</a> method\n or the <a href=\"#/p5/saveTable\">saveTable</a> method.</p>\n\n<p>Possible options include:</p>\n<ul>\n<li>csv - parse the table as comma-separated values\n<li>tsv - parse the table as tab-separated values\n<li>header - this table has a header (title) row\n</ul>",
+            "description": "<p>Table Options</p>\n<p>Generic class for handling tabular data, typically from a\nCSV, TSV, or other sort of spreadsheet file.</p>\n<p>CSV files are\n<a href=\"https://en.wikipedia.org/wiki/Comma-separated_values\">\ncomma separated values</a>, often with the data in quotes. TSV\nfiles use tabs as separators, and usually don&#39;t bother with the\nquotes.</p>\n<p>File names should end with .csv if they&#39;re comma separated.</p>\n<p>A rough &quot;spec&quot; for CSV can be found\n<a href=\"https://tools.ietf.org/html/rfc4180\">here</a>.</p>\n<p>To load files, use the <a href=\"#/p5/loadTable\">loadTable</a> method.</p>\n<p>To save tables to your computer, use the <a href=\"#/p5/save\">save</a> method\n or the <a href=\"#/p5/saveTable\">saveTable</a> method.</p>\n\n<p>Possible options include:</p>\n<ul>\n<li>csv - parse the table as comma-separated values\n<li>tsv - parse the table as tab-separated values\n<li>header - this table has a header (title) row\n</ul>",
             "class": "p5.Table",
             "module": "IO",
             "submodule": "Table"
@@ -15772,7 +15772,7 @@ module.exports={
         {
             "file": "src/utilities/array_functions.js",
             "line": 191,
-            "description": "<p>Randomizes the order of the elements of an array. Implements\n<a href='http://Bost.Ocks.org/mike/shuffle/' target=_blank>\nFisher-Yates Shuffle Algorithm</a>.</p>\n",
+            "description": "<p>Randomizes the order of the elements of an array. Implements\n<a href='https://Bost.Ocks.org/mike/shuffle/' target=_blank>\nFisher-Yates Shuffle Algorithm</a>.</p>\n",
             "itemtype": "method",
             "name": "shuffle",
             "params": [
@@ -18791,7 +18791,7 @@ module.exports={
                 "type": "p5.Element"
             },
             "example": [
-                "\n<div class='norender'><code>\ncreateImg('http://p5js.org/img/asterisk-01.png');\n</code></div>"
+                "\n<div class='norender'><code>\ncreateImg('https://p5js.org/img/asterisk-01.png');\n</code></div>"
             ],
             "class": "p5",
             "module": "p5.dom",
@@ -18873,7 +18873,7 @@ module.exports={
                 "type": "p5.Element"
             },
             "example": [
-                "\n<div class='norender'><code>\ncreateA('http://p5js.org/', 'this is a link');\n</code></div>"
+                "\n<div class='norender'><code>\ncreateA('https://p5js.org/', 'this is a link');\n</code></div>"
             ],
             "class": "p5",
             "module": "p5.dom",
@@ -19261,7 +19261,7 @@ module.exports={
         {
             "file": "lib/addons/p5.dom.js",
             "line": 1232,
-            "description": "<p>Creates a new HTML5 &lt;video&gt; element that contains the audio/video\nfeed from a webcam. The element is separate from the canvas and is\ndisplayed by default. The element can be hidden using .<a href=\"#/p5.Element/hide\">hide()</a>. The feed\ncan be drawn onto the canvas using <a href=\"#/p5/image\">image()</a>. The loadedmetadata property can\nbe used to detect when the element has fully loaded (see second example).</p>\n<p>More specific properties of the feed can be passing in a Constraints object.\nSee the\n<a href='http://w3c.github.io/mediacapture-main/getusermedia.html#media-track-constraints'> W3C\nspec</a> for possible properties. Note that not all of these are supported\nby all browsers.</p>\n<p>Security note: A new browser security specification requires that getUserMedia,\nwhich is behind <a href=\"#/p5/createCapture\">createCapture()</a>, only works when you&#39;re running the code locally,\nor on HTTPS. Learn more <a href='http://stackoverflow.com/questions/34197653/getusermedia-in-chrome-47-without-using-https'>here</a>\nand <a href='https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia'>here</a>.</p>",
+            "description": "<p>Creates a new HTML5 &lt;video&gt; element that contains the audio/video\nfeed from a webcam. The element is separate from the canvas and is\ndisplayed by default. The element can be hidden using .<a href=\"#/p5.Element/hide\">hide()</a>. The feed\ncan be drawn onto the canvas using <a href=\"#/p5/image\">image()</a>. The loadedmetadata property can\nbe used to detect when the element has fully loaded (see second example).</p>\n<p>More specific properties of the feed can be passing in a Constraints object.\nSee the\n<a href='https://w3c.github.io/mediacapture-main/getusermedia.html#media-track-constraints'> W3C\nspec</a> for possible properties. Note that not all of these are supported\nby all browsers.</p>\n<p>Security note: A new browser security specification requires that getUserMedia,\nwhich is behind <a href=\"#/p5/createCapture\">createCapture()</a>, only works when you&#39;re running the code locally,\nor on HTTPS. Learn more <a href='https://stackoverflow.com/questions/34197653/getusermedia-in-chrome-47-without-using-https'>here</a>\nand <a href='https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia'>here</a>.</p>",
             "itemtype": "method",
             "name": "createCapture",
             "params": [
@@ -20228,7 +20228,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 46,
-            "description": "<p>p5.sound \n<a href=\"https://p5js.org/reference/#/libraries/p5.sound\">https://p5js.org/reference/#/libraries/p5.sound</a></p>\n<p>From the Processing Foundation and contributors\n<a href=\"https://github.com/processing/p5.js-sound/graphs/contributors\">https://github.com/processing/p5.js-sound/graphs/contributors</a></p>\n<p>MIT License (MIT)\n<a href=\"https://github.com/processing/p5.js-sound/blob/master/LICENSE\">https://github.com/processing/p5.js-sound/blob/master/LICENSE</a></p>\n<p>Some of the many audio libraries &amp; resources that inspire p5.sound:</p>\n<ul>\n<li>TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). <a href=\"https://github.com/TONEnoTONE/Tone.js\">https://github.com/TONEnoTONE/Tone.js</a></li>\n<li>buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). <a href=\"http://buzz.jaysalvat.com/\">http://buzz.jaysalvat.com/</a></li>\n<li>Boris Smus Web Audio API book, 2013. Licensed under the Apache License <a href=\"http://www.apache.org/licenses/LICENSE-2.0\">http://www.apache.org/licenses/LICENSE-2.0</a></li>\n<li>wavesurfer.js <a href=\"https://github.com/katspaugh/wavesurfer.js\">https://github.com/katspaugh/wavesurfer.js</a></li>\n<li>Web Audio Components by Jordan Santell <a href=\"https://github.com/web-audio-components\">https://github.com/web-audio-components</a></li>\n<li><p>Wilm Thoben&#39;s Sound library for Processing <a href=\"https://github.com/processing/processing/tree/master/java/libraries/sound\">https://github.com/processing/processing/tree/master/java/libraries/sound</a></p>\n<p>Web Audio API: <a href=\"http://w3.org/TR/webaudio/\">http://w3.org/TR/webaudio/</a></p>\n</li>\n</ul>\n",
+            "description": "<p>p5.sound \n<a href=\"https://p5js.org/reference/#/libraries/p5.sound\">https://p5js.org/reference/#/libraries/p5.sound</a></p>\n<p>From the Processing Foundation and contributors\n<a href=\"https://github.com/processing/p5.js-sound/graphs/contributors\">https://github.com/processing/p5.js-sound/graphs/contributors</a></p>\n<p>MIT License (MIT)\n<a href=\"https://github.com/processing/p5.js-sound/blob/master/LICENSE\">https://github.com/processing/p5.js-sound/blob/master/LICENSE</a></p>\n<p>Some of the many audio libraries &amp; resources that inspire p5.sound:</p>\n<ul>\n<li>TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). <a href=\"https://github.com/TONEnoTONE/Tone.js\">https://github.com/TONEnoTONE/Tone.js</a></li>\n<li>buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). <a href=\"https://buzz.jaysalvat.com/\">https://buzz.jaysalvat.com/</a></li>\n<li>Boris Smus Web Audio API book, 2013. Licensed under the Apache License <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></li>\n<li>wavesurfer.js <a href=\"https://github.com/katspaugh/wavesurfer.js\">https://github.com/katspaugh/wavesurfer.js</a></li>\n<li>Web Audio Components by Jordan Santell <a href=\"https://github.com/web-audio-components\">https://github.com/web-audio-components</a></li>\n<li><p>Wilm Thoben&#39;s Sound library for Processing <a href=\"https://github.com/processing/processing/tree/master/java/libraries/sound\">https://github.com/processing/processing/tree/master/java/libraries/sound</a></p>\n<p>Web Audio API: <a href=\"https://w3.org/TR/webaudio/\">https://w3.org/TR/webaudio/</a></p>\n</li>\n</ul>\n",
             "class": "p5.sound",
             "module": "p5.sound",
             "submodule": "p5.sound"
@@ -20244,7 +20244,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 364,
-            "description": "<p>Returns the Audio Context for this sketch. Useful for users\nwho would like to dig deeper into the <a target='_blank' href=\n'http://webaudio.github.io/web-audio-api/'>Web Audio API\n</a>.</p>\n\n<p>Some browsers require users to startAudioContext\nwith a user gesture, such as touchStarted in the example below.</p>",
+            "description": "<p>Returns the Audio Context for this sketch. Useful for users\nwho would like to dig deeper into the <a target='_blank' href=\n'https://webaudio.github.io/web-audio-api/'>Web Audio API\n</a>.</p>\n\n<p>Some browsers require users to startAudioContext\nwith a user gesture, such as touchStarted in the example below.</p>",
             "itemtype": "method",
             "name": "getAudioContext",
             "return": {
@@ -20420,7 +20420,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 662,
-            "description": "<p>List the SoundFile formats that you will include. LoadSound\nwill search your directory for these extensions, and will pick\na format that is compatable with the client&#39;s web browser.\n<a href=\"http://media.io/\">Here</a> is a free online file\nconverter.</p>\n",
+            "description": "<p>List the SoundFile formats that you will include. LoadSound\nwill search your directory for these extensions, and will pick\na format that is compatable with the client&#39;s web browser.\n<a href=\"https://media.io/\">Here</a> is a free online file\nconverter.</p>\n",
             "itemtype": "method",
             "name": "soundFormats",
             "params": [
@@ -21354,7 +21354,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 3189,
-            "description": "<p>Returns the\n<a href=\"http://en.wikipedia.org/wiki/Spectral_centroid\" target=\"_blank\">\nspectral centroid</a> of the input signal.\n<em>NOTE: analyze() must be called prior to getCentroid(). Analyze()\ntells the FFT to analyze frequency data, and getCentroid() uses\nthe results determine the spectral centroid.</em></p></p>\n",
+            "description": "<p>Returns the\n<a href=\"https://en.wikipedia.org/wiki/Spectral_centroid\" target=\"_blank\">\nspectral centroid</a> of the input signal.\n<em>NOTE: analyze() must be called prior to getCentroid(). Analyze()\ntells the FFT to analyze frequency data, and getCentroid() uses\nthe results determine the spectral centroid.</em></p></p>\n",
             "itemtype": "method",
             "name": "getCentroid",
             "return": {
@@ -22180,7 +22180,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 6660,
-            "description": "<p>Play tells the envelope to start acting on a given input.\nIf the input is a p5.sound object (i.e. AudioIn, Oscillator,\nSoundFile), then Envelope will control its output volume.\nEnvelopes can also be used to control any <a href=\"\nhttp://docs.webplatform.org/wiki/apis/webaudio/AudioParam\">\nWeb Audio Audio Param.</a></p>\n",
+            "description": "<p>Play tells the envelope to start acting on a given input.\nIf the input is a p5.sound object (i.e. AudioIn, Oscillator,\nSoundFile), then Envelope will control its output volume.\nEnvelopes can also be used to control any <a href=\"\nhttps://docs.webplatform.org/wiki/apis/webaudio/AudioParam\">\nWeb Audio Audio Param.</a></p>\n",
             "itemtype": "method",
             "name": "play",
             "params": [
@@ -22212,7 +22212,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 6721,
-            "description": "<p>Trigger the Attack, and Decay portion of the Envelope.\nSimilar to holding down a key on a piano, but it will\nhold the sustain level until you let go. Input can be\nany p5.sound object, or a <a href=\"\nhttp://docs.webplatform.org/wiki/apis/webaudio/AudioParam\">\nWeb Audio Param</a>.</p>\n",
+            "description": "<p>Trigger the Attack, and Decay portion of the Envelope.\nSimilar to holding down a key on a piano, but it will\nhold the sustain level until you let go. Input can be\nany p5.sound object, or a <a href=\"\nhttps://docs.webplatform.org/wiki/apis/webaudio/AudioParam\">\nWeb Audio Param</a>.</p>\n",
             "itemtype": "method",
             "name": "triggerAttack",
             "params": [
@@ -22817,7 +22817,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 8572,
-            "description": "<p>The p5.Filter is built with a\n<a href=\"http://www.w3.org/TR/webaudio/#BiquadFilterNode\">\nWeb Audio BiquadFilter Node</a>.</p>\n",
+            "description": "<p>The p5.Filter is built with a\n<a href=\"https://www.w3.org/TR/webaudio/#BiquadFilterNode\">\nWeb Audio BiquadFilter Node</a>.</p>\n",
             "itemtype": "property",
             "name": "biquadFilter",
             "type": "DelayNode",
@@ -23271,7 +23271,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 9526,
-            "description": "<p>The p5.Delay is built with two\n<a href=\"http://www.w3.org/TR/webaudio/#DelayNode\">\nWeb Audio Delay Nodes</a>, one for each stereo channel.</p>\n",
+            "description": "<p>The p5.Delay is built with two\n<a href=\"https://www.w3.org/TR/webaudio/#DelayNode\">\nWeb Audio Delay Nodes</a>, one for each stereo channel.</p>\n",
             "itemtype": "property",
             "name": "leftDelay",
             "type": "DelayNode",
@@ -23282,7 +23282,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 9534,
-            "description": "<p>The p5.Delay is built with two\n<a href=\"http://www.w3.org/TR/webaudio/#DelayNode\">\nWeb Audio Delay Nodes</a>, one for each stereo channel.</p>\n",
+            "description": "<p>The p5.Delay is built with two\n<a href=\"https://www.w3.org/TR/webaudio/#DelayNode\">\nWeb Audio Delay Nodes</a>, one for each stereo channel.</p>\n",
             "itemtype": "property",
             "name": "rightDelay",
             "type": "DelayNode",
@@ -23582,7 +23582,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 9969,
-            "description": "<p>Internally, the p5.Convolver uses the a\n<a href=\"http://www.w3.org/TR/webaudio/#ConvolverNode\">\nWeb Audio Convolver Node</a>.</p>\n",
+            "description": "<p>Internally, the p5.Convolver uses the a\n<a href=\"https://www.w3.org/TR/webaudio/#ConvolverNode\">\nWeb Audio Convolver Node</a>.</p>\n",
             "itemtype": "property",
             "name": "convolverNode",
             "type": "ConvolverNode",
@@ -23714,7 +23714,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 10192,
-            "description": "<p>If you have used <code>.addImpulse()</code> to add multiple impulses\nto a p5.Convolver, then you can use this method to toggle between\nthe items in the <code>.impulses</code> Array. Accepts a parameter\nto identify which impulse you wish to use, identified either by its\noriginal filename (String) or by its position in the <code>.impulses\n</code> Array (Number).<br/>\nYou can access the objects in the .impulses Array directly. Each\nObject has two attributes: an <code>.audioBuffer</code> (type:\nWeb Audio <a href=\"\nhttp://webaudio.github.io/web-audio-api/#the-audiobuffer-interface\">\nAudioBuffer)</a> and a <code>.name</code>, a String that corresponds\nwith the original filename.</p>\n",
+            "description": "<p>If you have used <code>.addImpulse()</code> to add multiple impulses\nto a p5.Convolver, then you can use this method to toggle between\nthe items in the <code>.impulses</code> Array. Accepts a parameter\nto identify which impulse you wish to use, identified either by its\noriginal filename (String) or by its position in the <code>.impulses\n</code> Array (Number).<br/>\nYou can access the objects in the .impulses Array directly. Each\nObject has two attributes: an <code>.audioBuffer</code> (type:\nWeb Audio <a href=\"\nhttps://webaudio.github.io/web-audio-api/#the-audiobuffer-interface\">\nAudioBuffer)</a> and a <code>.name</code>, a String that corresponds\nwith the original filename.</p>\n",
             "itemtype": "method",
             "name": "toggleImpulse",
             "params": [
@@ -25153,7 +25153,7 @@ module.exports={
         {
             "file": "lib/addons/p5.sound.js",
             "line": 12794,
-            "description": "<p>The p5.Distortion is built with a\n<a href=\"http://www.w3.org/TR/webaudio/#WaveShaperNode\">\nWeb Audio WaveShaper Node</a>.</p>\n",
+            "description": "<p>The p5.Distortion is built with a\n<a href=\"https://www.w3.org/TR/webaudio/#WaveShaperNode\">\nWeb Audio WaveShaper Node</a>.</p>\n",
             "itemtype": "property",
             "name": "WaveShaperNode",
             "type": "AudioNode",
@@ -26652,7 +26652,7 @@ module.exports={
             "line": " lib/addons/p5.sound.js:9620"
         },
         {
-            "message": "Missing item type\nConversions adapted from <http://www.easyrgb.com/en/math.php>.\n\nIn these functions, hue is always in the range [0, 1], just like all other\ncomponents are in the range [0, 1]. 'Brightness' and 'value' are used\ninterchangeably.",
+            "message": "Missing item type\nConversions adapted from <https://www.easyrgb.com/en/math.php>.\n\nIn these functions, hue is always in the range [0, 1], just like all other\ncomponents are in the range [0, 1]. 'Brightness' and 'value' are used\ninterchangeably.",
             "line": " src/color/color_conversion.js:10"
         },
         {
@@ -26752,7 +26752,7 @@ module.exports={
             "line": " src/core/p5.Renderer.js:301"
         },
         {
-            "message": "Missing item type\nHelper fxn to measure ascent and descent.\nAdapted from http://stackoverflow.com/a/25355178",
+            "message": "Missing item type\nHelper fxn to measure ascent and descent.\nAdapted from https://stackoverflow.com/a/25355178",
             "line": " src/core/p5.Renderer.js:354"
         },
         {
@@ -26764,7 +26764,7 @@ module.exports={
             "line": " src/core/p5.Renderer2D.js:392"
         },
         {
-            "message": "Missing item type\nshim for Uint8ClampedArray.slice\n(allows arrayCopy to work with pixels[])\nwith thanks to http://halfpapstudios.com/blog/tag/html5-canvas/\nEnumerable set to false to protect for...in from\nUint8ClampedArray.prototype pollution.",
+            "message": "Missing item type\nshim for Uint8ClampedArray.slice\n(allows arrayCopy to work with pixels[])\nwith thanks to https://halfpapstudios.com/blog/tag/html5-canvas/\nEnumerable set to false to protect for...in from\nUint8ClampedArray.prototype pollution.",
             "line": " src/core/shim.js:23"
         },
         {
@@ -26808,7 +26808,7 @@ module.exports={
             "line": " src/events/keyboard.js:387"
         },
         {
-            "message": "Missing item type\nThis module defines the filters for use with image buffers.\n\nThis module is basically a collection of functions stored in an object\nas opposed to modules. The functions are destructive, modifying\nthe passed in canvas rather than creating a copy.\n\nGenerally speaking users of this module will use the Filters.apply method\non a canvas to create an effect.\n\nA number of functions are borrowed/adapted from\nhttp://www.html5rocks.com/en/tutorials/canvas/imagefilters/\nor the java processing implementation.",
+            "message": "Missing item type\nThis module defines the filters for use with image buffers.\n\nThis module is basically a collection of functions stored in an object\nas opposed to modules. The functions are destructive, modifying\nthe passed in canvas rather than creating a copy.\n\nGenerally speaking users of this module will use the Filters.apply method\non a canvas to create an effect.\n\nA number of functions are borrowed/adapted from\nhttps://www.html5rocks.com/en/tutorials/canvas/imagefilters/\nor the java processing implementation.",
             "line": " src/image/filters.js:3"
         },
         {
@@ -26836,11 +26836,11 @@ module.exports={
             "line": " src/image/filters.js:122"
         },
         {
-            "message": "Missing item type\nConverts the image to black and white pixels depending if they are above or\nbelow the threshold defined by the level parameter. The parameter must be\nbetween 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.\n\nBorrowed from http://www.html5rocks.com/en/tutorials/canvas/imagefilters/",
+            "message": "Missing item type\nConverts the image to black and white pixels depending if they are above or\nbelow the threshold defined by the level parameter. The parameter must be\nbetween 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.\n\nBorrowed from https://www.html5rocks.com/en/tutorials/canvas/imagefilters/",
             "line": " src/image/filters.js:159"
         },
         {
-            "message": "Missing item type\nConverts any colors in the image to grayscale equivalents.\nNo parameter is used.\n\nBorrowed from http://www.html5rocks.com/en/tutorials/canvas/imagefilters/",
+            "message": "Missing item type\nConverts any colors in the image to grayscale equivalents.\nNo parameter is used.\n\nBorrowed from https://www.html5rocks.com/en/tutorials/canvas/imagefilters/",
             "line": " src/image/filters.js:193"
         },
         {
@@ -26900,7 +26900,7 @@ module.exports={
             "line": " src/io/files.js:1882"
         },
         {
-            "message": "Missing item type\nTable Options\n<p>Generic class for handling tabular data, typically from a\nCSV, TSV, or other sort of spreadsheet file.</p>\n<p>CSV files are\n<a href=\"http://en.wikipedia.org/wiki/Comma-separated_values\">\ncomma separated values</a>, often with the data in quotes. TSV\nfiles use tabs as separators, and usually don't bother with the\nquotes.</p>\n<p>File names should end with .csv if they're comma separated.</p>\n<p>A rough \"spec\" for CSV can be found\n<a href=\"http://tools.ietf.org/html/rfc4180\">here</a>.</p>\n<p>To load files, use the <a href=\"#/p5/loadTable\">loadTable</a> method.</p>\n<p>To save tables to your computer, use the <a href=\"#/p5/save\">save</a> method\n or the <a href=\"#/p5/saveTable\">saveTable</a> method.</p>\n\nPossible options include:\n<ul>\n<li>csv - parse the table as comma-separated values\n<li>tsv - parse the table as tab-separated values\n<li>header - this table has a header (title) row\n</ul>",
+            "message": "Missing item type\nTable Options\n<p>Generic class for handling tabular data, typically from a\nCSV, TSV, or other sort of spreadsheet file.</p>\n<p>CSV files are\n<a href=\"https://en.wikipedia.org/wiki/Comma-separated_values\">\ncomma separated values</a>, often with the data in quotes. TSV\nfiles use tabs as separators, and usually don't bother with the\nquotes.</p>\n<p>File names should end with .csv if they're comma separated.</p>\n<p>A rough \"spec\" for CSV can be found\n<a href=\"https://tools.ietf.org/html/rfc4180\">here</a>.</p>\n<p>To load files, use the <a href=\"#/p5/loadTable\">loadTable</a> method.</p>\n<p>To save tables to your computer, use the <a href=\"#/p5/save\">save</a> method\n or the <a href=\"#/p5/saveTable\">saveTable</a> method.</p>\n\nPossible options include:\n<ul>\n<li>csv - parse the table as comma-separated values\n<li>tsv - parse the table as tab-separated values\n<li>header - this table has a header (title) row\n</ul>",
             "line": " src/io/p5.Table.js:11"
         },
         {
@@ -27072,7 +27072,7 @@ module.exports={
             "line": " lib/addons/p5.dom.js:2992"
         },
         {
-            "message": "Missing item type\np5.sound \nhttps://p5js.org/reference/#/libraries/p5.sound\n\nFrom the Processing Foundation and contributors\nhttps://github.com/processing/p5.js-sound/graphs/contributors\n\nMIT License (MIT)\nhttps://github.com/processing/p5.js-sound/blob/master/LICENSE\n\nSome of the many audio libraries & resources that inspire p5.sound:\n - TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). https://github.com/TONEnoTONE/Tone.js\n - buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). http://buzz.jaysalvat.com/\n - Boris Smus Web Audio API book, 2013. Licensed under the Apache License http://www.apache.org/licenses/LICENSE-2.0\n - wavesurfer.js https://github.com/katspaugh/wavesurfer.js\n - Web Audio Components by Jordan Santell https://github.com/web-audio-components\n - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound\n\n Web Audio API: http://w3.org/TR/webaudio/",
+            "message": "Missing item type\np5.sound \nhttps://p5js.org/reference/#/libraries/p5.sound\n\nFrom the Processing Foundation and contributors\nhttps://github.com/processing/p5.js-sound/graphs/contributors\n\nMIT License (MIT)\nhttps://github.com/processing/p5.js-sound/blob/master/LICENSE\n\nSome of the many audio libraries & resources that inspire p5.sound:\n - TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). https://github.com/TONEnoTONE/Tone.js\n - buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). https://buzz.jaysalvat.com/\n - Boris Smus Web Audio API book, 2013. Licensed under the Apache License https://www.apache.org/licenses/LICENSE-2.0\n - wavesurfer.js https://github.com/katspaugh/wavesurfer.js\n - Web Audio Components by Jordan Santell https://github.com/web-audio-components\n - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound\n\n Web Audio API: https://w3.org/TR/webaudio/",
             "line": " lib/addons/p5.sound.js:46"
         },
         {
@@ -27276,7 +27276,7 @@ module.exports={
             "line": " lib/addons/p5.sound.js:12621"
         },
         {
-            "message": "Missing item type\np5.sound \nhttps://p5js.org/reference/#/libraries/p5.sound\n\nFrom the Processing Foundation and contributors\nhttps://github.com/processing/p5.js-sound/graphs/contributors\n\nMIT License (MIT)\nhttps://github.com/processing/p5.js-sound/blob/master/LICENSE\n\nSome of the many audio libraries & resources that inspire p5.sound:\n - TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). https://github.com/TONEnoTONE/Tone.js\n - buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). http://buzz.jaysalvat.com/\n - Boris Smus Web Audio API book, 2013. Licensed under the Apache License http://www.apache.org/licenses/LICENSE-2.0\n - wavesurfer.js https://github.com/katspaugh/wavesurfer.js\n - Web Audio Components by Jordan Santell https://github.com/web-audio-components\n - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound\n\n Web Audio API: http://w3.org/TR/webaudio/",
+            "message": "Missing item type\np5.sound \nhttps://p5js.org/reference/#/libraries/p5.sound\n\nFrom the Processing Foundation and contributors\nhttps://github.com/processing/p5.js-sound/graphs/contributors\n\nMIT License (MIT)\nhttps://github.com/processing/p5.js-sound/blob/master/LICENSE\n\nSome of the many audio libraries & resources that inspire p5.sound:\n - TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). https://github.com/TONEnoTONE/Tone.js\n - buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). https://buzz.jaysalvat.com/\n - Boris Smus Web Audio API book, 2013. Licensed under the Apache License https://www.apache.org/licenses/LICENSE-2.0\n - wavesurfer.js https://github.com/katspaugh/wavesurfer.js\n - Web Audio Components by Jordan Santell https://github.com/web-audio-components\n - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound\n\n Web Audio API: https://w3.org/TR/webaudio/",
             "line": " lib/addons/p5.sound.min.js:3"
         }
     ],
@@ -28697,7 +28697,7 @@ function utf8Slice (buf, start, end) {
   return decodeCodePointsArray(res)
 }
 
-// Based on http://stackoverflow.com/a/22747272/680742, the browser with
+// Based on https://stackoverflow.com/a/22747272/680742, the browser with
 // the lowest limit is Chrome, with 0x10000 args.
 // We go 1 magnitude less, for safety
 var MAX_ARGUMENTS_LENGTH = 0x1000
@@ -30655,7 +30655,7 @@ return Promise$2;
 
   function clearFunction(functionName) {
     // IE8 throws an exception when you try to delete a property on window
-    // http://stackoverflow.com/a/1824228/751089
+    // https://stackoverflow.com/a/1824228/751089
     try {
       delete window[functionName];
     } catch (e) {
@@ -30757,7 +30757,7 @@ return Promise$2;
  * 1.3.2
  * 2016-06-16 18:25:19
  *
- * By Eli Grey, http://eligrey.com
+ * By Eli Grey, https://eligrey.com
  * License: MIT
  *   See https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md
  */
@@ -30765,7 +30765,7 @@ return Promise$2;
 /*global self */
 /*jslint bitwise: true, indent: 4, laxbreak: true, laxcomma: true, smarttabs: true, plusplus: true */
 
-/*! @source http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
+/*! @source https://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
 
 var saveAs = saveAs || (function(view) {
 	"use strict";
@@ -30779,7 +30779,7 @@ var saveAs = saveAs || (function(view) {
 		, get_URL = function() {
 			return view.URL || view.webkitURL || view;
 		}
-		, save_link = doc.createElementNS("http://www.w3.org/1999/xhtml", "a")
+		, save_link = doc.createElementNS("https://www.w3.org/1999/xhtml", "a")
 		, can_use_save_link = "download" in save_link
 		, click = function(node) {
 			var event = new MouseEvent("click");
@@ -31041,7 +31041,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
  furnished to do so, subject to the following conditions:
 
  The above copyright notice including the dates of first publication and
- either this permission notice or a reference to http://oss.sgi.com/projects/FreeB/
+ either this permission notice or a reference to https://oss.sgi.com/projects/FreeB/
  shall be included in all copies or substantial portions of the Software.
 
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -31629,7 +31629,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	BoundingBox.prototype.addBezier = function(x0, y0, x1, y1, x2, y2, x, y) {
 	    var this$1 = this;
 
-	    // This code is based on http://nishiohirokazu.blogspot.com/2009/06/how-to-calculate-bezier-curves-bounding.html
+	    // This code is based on https://nishiohirokazu.blogspot.com/2009/06/how-to-calculate-bezier-curves-bounding.html
 	    // and https://github.com/icons8/svg-path-bounding-box
 
 	    var p0 = [x0, y0];
@@ -31921,7 +31921,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 
 	/**
 	 * Convert the Path to a string of path data instructions
-	 * See http://www.w3.org/TR/SVG/paths.html#PathData
+	 * See https://www.w3.org/TR/SVG/paths.html#PathData
 	 * @param  {number} [decimalPlaces=2] - The amount of decimal places for floating-point values
 	 * @return {string}
 	 */
@@ -32005,7 +32005,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	 */
 	Path.prototype.toDOMElement = function(decimalPlaces) {
 	    var temporaryPath = this.toPathData(decimalPlaces);
-	    var newPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+	    var newPath = document.createElementNS('https://www.w3.org/2000/svg', 'path');
 
 	    newPath.setAttribute('d', temporaryPath);
 
@@ -32442,7 +32442,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	    'x-mac-cyrillic':  // Python: 'mac_cyrillic'
 	    'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ†°Ґ£§•¶І®©™Ђђ≠Ѓѓ∞±≤≥іµґЈЄєЇїЉљЊњ' +
 	    'јЅ¬√ƒ≈∆«»… ЋћЌќѕ–—“”‘’÷„ЎўЏџ№Ёёяабвгдежзийклмнопрстуфхцчшщъыьэю',
-	    'x-mac-gaelic': // http://unicode.org/Public/MAPPINGS/VENDORS/APPLE/GAELIC.TXT
+	    'x-mac-gaelic': // https://unicode.org/Public/MAPPINGS/VENDORS/APPLE/GAELIC.TXT
 	    'ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØḂ±≤≥ḃĊċḊḋḞḟĠġṀæø' +
 	    'ṁṖṗɼƒſṠ«»… ÀÃÕŒœ–—“”‘’ṡẛÿŸṪ€‹›Ŷŷṫ·Ỳỳ⁊ÂÊÁËÈÍÎÏÌÓÔ♣ÒÚÛÙıÝýŴŵẄẅẀẁẂẃ',
 	    'x-mac-greek':  // Python: 'mac_greek'
@@ -32451,7 +32451,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	    'x-mac-icelandic':  // Python: 'mac_iceland'
 	    'ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûüÝ°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø' +
 	    '¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€ÐðÞþý·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ',
-	    'x-mac-inuit': // http://unicode.org/Public/MAPPINGS/VENDORS/APPLE/INUIT.TXT
+	    'x-mac-inuit': // https://unicode.org/Public/MAPPINGS/VENDORS/APPLE/INUIT.TXT
 	    'ᐃᐄᐅᐆᐊᐋᐱᐲᐳᐴᐸᐹᑉᑎᑏᑐᑑᑕᑖᑦᑭᑮᑯᑰᑲᑳᒃᒋᒌᒍᒎᒐᒑ°ᒡᒥᒦ•¶ᒧ®©™ᒨᒪᒫᒻᓂᓃᓄᓅᓇᓈᓐᓯᓰᓱᓲᓴᓵᔅᓕᓖᓗ' +
 	    'ᓘᓚᓛᓪᔨᔩᔪᔫᔭ… ᔮᔾᕕᕖᕗ–—“”‘’ᕘᕙᕚᕝᕆᕇᕈᕉᕋᕌᕐᕿᖀᖁᖂᖃᖄᖅᖏᖐᖑᖒᖓᖔᖕᙱᙲᙳᙴᙵᙶᖖᖠᖡᖢᖣᖤᖥᖦᕼŁł',
 	    'x-mac-ce':  // Python: 'mac_latin2'
@@ -36540,7 +36540,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	// Syllables but MacOS had run out of available script codes, so this was
 	// done as a (pretty radical) "modification" of Ethiopic.
 	//
-	// http://unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
+	// https://unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
 	var macLanguageToScript = {
 	    0: 0,  // langEnglish → smRoman
 	    1: 0,  // langFrench → smRoman
@@ -36677,8 +36677,8 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	// this to 'hr-BA' and not 'hr-Latn-BA' because Latin is the default script
 	// for the Croatian language, according to IANA.
 	//
-	// http://www.unicode.org/cldr/charts/latest/supplemental/likely_subtags.html
-	// http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	// https://www.unicode.org/cldr/charts/latest/supplemental/likely_subtags.html
+	// https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 	var windowsLanguages = {
 	    0x0436: 'af',
 	    0x041C: 'sq',
@@ -36960,7 +36960,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	// tables, we need to emit a MacOS script ID. Therefore, we cannot
 	// merge macScriptEncodings into macLanguageEncodings.
 	//
-	// http://unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
+	// https://unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
 	var macLanguageEncodings = {
 	    15: 'x-mac-icelandic',    // langIcelandic
 	    17: 'x-mac-turkish',      // langTurkish
@@ -38047,7 +38047,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 	        ulUnicodeRange3: ulUnicodeRange3,
 	        ulUnicodeRange4: ulUnicodeRange4,
 	        fsSelection: font.tables.os2.fsSelection, // REGULAR
-	        // See http://typophile.com/node/13081 for more info on vertical metrics.
+	        // See https://typophile.com/node/13081 for more info on vertical metrics.
 	        // We get metrics for typical characters (such as "x" for xHeight).
 	        // We provide some fallback characters if characters are unavailable: their
 	        // ordering was chosen experimentally.
@@ -39342,7 +39342,7 @@ X.prototype.gluTessProperty=X.prototype.B;X.prototype.gluGetTessProperty=X.proto
 
 	    v += phase;
 
-	    // according to http://xgridfit.sourceforge.net/round.html
+	    // according to https://xgridfit.sourceforge.net/round.html
 	    if (v < 0) { return phase * sign; }
 
 	    return v * sign;
@@ -44320,7 +44320,7 @@ module.exports = p5;
 'use strict';
 
 /**
- * Conversions adapted from <http://www.easyrgb.com/en/math.php>.
+ * Conversions adapted from <https://www.easyrgb.com/en/math.php>.
  *
  * In these functions, hue is always in the range [0, 1], just like all other
  * components are in the range [0, 1]. 'Brightness' and 'value' are used
@@ -47688,7 +47688,7 @@ p5.prototype.cursor = function(type, x, y) {
       coords = x + ' ' + y;
     }
     if (
-      type.substring(0, 7) === 'http://' ||
+      type.substring(0, 7) === 'https://' ||
       type.substring(0, 8) === 'https://'
     ) {
       // Image (absolute url)
@@ -48165,7 +48165,7 @@ function exitFullscreen() {
  * </div>
  *
  * @alt
- * current url (http://p5js.org/reference/#/p5/getURL) moves right to left.
+ * current url (https://p5js.org/reference/#/p5/getURL) moves right to left.
  *
  */
 p5.prototype.getURL = function() {
@@ -48201,7 +48201,7 @@ p5.prototype.getURLPath = function() {
  * @example
  * <div class='norender notest'>
  * <code>
- * // Example: http://p5js.org?year=2014&month=May&day=15
+ * // Example: https://p5js.org?year=2014&month=May&day=15
  *
  * function setup() {
  *   let params = getURLParams();
@@ -48333,7 +48333,7 @@ if (typeof IS_MINIFIED !== 'undefined') {
       console.log(
         '> p5.js says: ' +
           message +
-          ' [http://p5js.org/reference/#p5/' +
+          ' [https://p5js.org/reference/#p5/' +
           func +
           ']'
       );
@@ -49177,7 +49177,7 @@ var p5 = function(sketch, node, sync) {
    * <br><br>
    * By default the text "loading..." will be displayed. To make your own
    * loading page, include an HTML element with id "p5_loading" in your
-   * page. More information <a href="http://bit.ly/2kQ6Nio">here</a>.
+   * page. More information <a href="https://bit.ly/2kQ6Nio">here</a>.
    *
    * @method preload
    * @example
@@ -49842,7 +49842,7 @@ var p5 = _dereq_('./main');
  * Base class for all elements added to a sketch, including canvas,
  * graphics buffers, and other HTML elements. Methods in blue are
  * included in the core functionality, methods in brown are added
- * with the <a href="http://p5js.org/reference/#/libraries/p5.dom">p5.dom
+ * with the <a href="https://p5js.org/reference/#/libraries/p5.dom">p5.dom
  * library</a>.
  * It is not called directly, but <a href="#/p5.Element">p5.Element</a>
  * objects are created by calling <a href="#/p5/createCanvas">createCanvas</a>, <a href="#/p5/createGraphics">createGraphics</a>,
@@ -49890,7 +49890,7 @@ p5.Element = function(elt, pInst) {
  *
  * All above examples except for the first one require the inclusion of
  * the p5.dom library in your index.html. See the
- * <a href='http://p5js.org/libraries/#using-a-library'>using a library</a>
+ * <a href='https://p5js.org/libraries/#using-a-library'>using a library</a>
  * section for information on how to include this library.
  *
  * @method parent
@@ -51257,7 +51257,7 @@ p5.Renderer.prototype._updateTextMetrics = function() {
     return this;
   }
 
-  // Adapted from http://stackoverflow.com/a/25355178
+  // Adapted from https://stackoverflow.com/a/25355178
   var text = document.createElement('span');
   text.style.fontFamily = this._textFont;
   text.style.fontSize = this._textSize + 'px';
@@ -51297,7 +51297,7 @@ p5.Renderer.prototype._updateTextMetrics = function() {
 
 /**
  * Helper fxn to measure ascent and descent.
- * Adapted from http://stackoverflow.com/a/25355178
+ * Adapted from https://stackoverflow.com/a/25355178
  */
 function calculateOffset(object) {
   var currentLeft = 0,
@@ -55325,8 +55325,8 @@ module.exports = p5;
 'use strict';
 
 // requestAnim shim layer by Paul Irish
-// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-// http://my.opera.com/emoller/blog/2011/12/20/
+// https://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// https://my.opera.com/emoller/blog/2011/12/20/
 // requestanimationframe-for-smart-er-animating
 // requestAnimationFrame polyfill by Erik Möller
 // fixes from Paul Irish and Tino Zijdel
@@ -55347,7 +55347,7 @@ window.requestAnimationFrame = (function() {
 /**
  * shim for Uint8ClampedArray.slice
  * (allows arrayCopy to work with pixels[])
- * with thanks to http://halfpapstudios.com/blog/tag/html5-canvas/
+ * with thanks to https://halfpapstudios.com/blog/tag/html5-canvas/
  * Enumerable set to false to protect for...in from
  * Uint8ClampedArray.prototype pollution.
  */
@@ -57797,7 +57797,7 @@ p5.prototype.key = '';
  * DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW,
  * DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
  * You can also check for custom keys by looking up the keyCode of any key
- * on a site like this: <a href="http://keycode.info/">keycode.info</a>.
+ * on a site like this: <a href="https://keycode.info/">keycode.info</a>.
  *
  * @property {Integer} keyCode
  * @readOnly
@@ -58034,7 +58034,7 @@ p5.prototype._onblur = function(e) {
  * to be able to affect its behaviour simultaneously, such as moving a
  * sprite diagonally. You can put in any number representing the keyCode of
  * the key, or use any of the variable <a href="#/p5/keyCode">keyCode</a> names listed
- * <a href="http://p5js.org/reference/#p5/keyCode">here</a>.
+ * <a href="https://p5js.org/reference/#p5/keyCode">here</a>.
  *
  * @method keyIsDown
  * @param {Number}          code The key to check for.
@@ -59364,7 +59364,7 @@ module.exports = p5;
  * on a canvas to create an effect.
  *
  * A number of functions are borrowed/adapted from
- * http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
+ * https://www.html5rocks.com/en/tutorials/canvas/imagefilters/
  * or the java processing implementation.
  */
 
@@ -59514,7 +59514,7 @@ Filters.apply = function(canvas, func, filterParam) {
  * below the threshold defined by the level parameter. The parameter must be
  * between 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.
  *
- * Borrowed from http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
+ * Borrowed from https://www.html5rocks.com/en/tutorials/canvas/imagefilters/
  *
  * @private
  * @param  {Canvas} canvas
@@ -59547,7 +59547,7 @@ Filters.threshold = function(canvas, level) {
  * Converts any colors in the image to grayscale equivalents.
  * No parameter is used.
  *
- * Borrowed from http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
+ * Borrowed from https://www.html5rocks.com/en/tutorials/canvas/imagefilters/
  *
  * @private
  * @param {Canvas} canvas
@@ -61400,7 +61400,7 @@ p5.Image.prototype.copy = function() {
  * image of rocky mountains with white at right
  *
  *
- * http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
+ * https://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
  *
  */
 // TODO: - Accept an array of alpha values.
@@ -61498,7 +61498,7 @@ p5.Image.prototype.filter = function(operation, value) {
  *            color | luminosity
  *
  *
- * http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
+ * https://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
  * @example
  * <div><code>
  * let mountains;
@@ -62670,7 +62670,7 @@ p5.prototype.loadStrings = function() {
  *   //and has a header specifying the columns labels
  *   table = loadTable('assets/mammals.csv', 'csv', 'header');
  *   //the file can be remote
- *   //table = loadTable("http://p5js.org/reference/assets/mammals.csv",
+ *   //table = loadTable("https://p5js.org/reference/assets/mammals.csv",
  *   //                  "csv", "header");
  * }
  *
@@ -64224,13 +64224,13 @@ var p5 = _dereq_('../core/main');
  *  <p>Generic class for handling tabular data, typically from a
  *  CSV, TSV, or other sort of spreadsheet file.</p>
  *  <p>CSV files are
- *  <a href="http://en.wikipedia.org/wiki/Comma-separated_values">
+ *  <a href="https://en.wikipedia.org/wiki/Comma-separated_values">
  *  comma separated values</a>, often with the data in quotes. TSV
  *  files use tabs as separators, and usually don't bother with the
  *  quotes.</p>
  *  <p>File names should end with .csv if they're comma separated.</p>
  *  <p>A rough "spec" for CSV can be found
- *  <a href="http://tools.ietf.org/html/rfc4180">here</a>.</p>
+ *  <a href="https://tools.ietf.org/html/rfc4180">here</a>.</p>
  *  <p>To load files, use the <a href="#/p5/loadTable">loadTable</a> method.</p>
  *  <p>To save tables to your computer, use the <a href="#/p5/save">save</a> method
  *   or the <a href="#/p5/saveTable">saveTable</a> method.</p>
@@ -67672,14 +67672,14 @@ module.exports = p5;
 },{"../core/main":24}],53:[function(_dereq_,module,exports){
 //////////////////////////////////////////////////////////////
 
-// http://mrl.nyu.edu/~perlin/noise/
+// https://mrl.nyu.edu/~perlin/noise/
 // Adapting from PApplet.java
 // which was adapted from toxi
 // which was adapted from the german demo group farbrausch
-// as used in their demo "art": http://www.farb-rausch.de/fr010src.zip
+// as used in their demo "art": https://www.farb-rausch.de/fr010src.zip
 
 // someday we might consider using "improved noise"
-// http://mrl.nyu.edu/~perlin/paper445.pdf
+// https://mrl.nyu.edu/~perlin/paper445.pdf
 // See: https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/
 //      blob/master/introduction/Noise1D/noise.js
 
@@ -67955,7 +67955,7 @@ p5.prototype.noiseSeed = function(seed) {
   // Linear Congruential Generator
   // Variant of a Lehman Generator
   var lcg = (function() {
-    // Set to values from http://en.wikipedia.org/wiki/Numerical_Recipes
+    // Set to values from https://en.wikipedia.org/wiki/Numerical_Recipes
     // m is basically chosen to be large (as it is the max period)
     // and for its relationships to a and c
     var m = 4294967296;
@@ -69765,7 +69765,7 @@ var y2 = 0;
 // Linear Congruential Generator
 // Variant of a Lehman Generator
 var lcg = (function() {
-  // Set to values from http://en.wikipedia.org/wiki/Numerical_Recipes
+  // Set to values from https://en.wikipedia.org/wiki/Numerical_Recipes
   // m is basically chosen to be large (as it is the max period)
   // and for its relationships to a and c
   var m = 4294967296,
@@ -71263,7 +71263,7 @@ p5.Font.prototype._getPath = function(line, x, y, options) {
 
 /*
  * Creates an SVG-formatted path-data string
- * (See http://www.w3.org/TR/SVG/paths.html#PathData)
+ * (See https://www.w3.org/TR/SVG/paths.html#PathData)
  * from the given opentype path or string/position
  *
  * @param  {Object} path    an opentype path, OR the following:
@@ -71935,7 +71935,7 @@ function path2curve(path, path2) {
 
 function a2c(x1, y1, rx, ry, angle, lac, sweep_flag, x2, y2, recursive) {
   // for more information of where this Math came from visit:
-  // http://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
+  // https://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
   var PI = Math.PI,
     _120 = PI * 120 / 180,
     f1,
@@ -72049,7 +72049,7 @@ function a2c(x1, y1, rx, ry, angle, lac, sweep_flag, x2, y2, recursive) {
   }
 }
 
-// http://schepers.cc/getting-to-the-point
+// https://schepers.cc/getting-to-the-point
 function catmullRom2bezier(crp, z) {
   var d = [];
   for (var i = 0, iLen = crp.length; iLen - 2 * !z > i; i += 2) {
@@ -72408,7 +72408,7 @@ p5.prototype.shorten = function(list) {
 
 /**
  * Randomizes the order of the elements of an array. Implements
- * <a href='http://Bost.Ocks.org/mike/shuffle/' target=_blank>
+ * <a href='https://Bost.Ocks.org/mike/shuffle/' target=_blank>
  * Fisher-Yates Shuffle Algorithm</a>.
  *
  * @method shuffle
@@ -77327,7 +77327,7 @@ p5.Camera.prototype.ortho = function(left, right, bottom, top, near, far) {
 
 /**
  * Rotate camera view about arbitrary axis defined by x,y,z
- * based on http://learnwebgl.brown37.net/07_cameras/camera_rotating_motion.html
+ * based on https://learnwebgl.brown37.net/07_cameras/camera_rotating_motion.html
  * @method _rotateView
  * @private
  */
@@ -77688,7 +77688,7 @@ p5.Camera.prototype.move = function(x, y, z) {
   var local = this._getLocalAxes();
 
   // scale local axes by movement amounts
-  // based on http://learnwebgl.brown37.net/07_cameras/camera_linear_motion.html
+  // based on https://learnwebgl.brown37.net/07_cameras/camera_linear_motion.html
   var dx = [local.x[0] * x, local.x[1] * x, local.x[2] * x];
   var dy = [local.y[0] * y, local.y[1] * y, local.y[2] * y];
   var dz = [local.z[0] * z, local.z[1] * z, local.z[2] * z];
@@ -78069,7 +78069,7 @@ p5.prototype.setCamera = function(cam) {
 module.exports = p5.Camera;
 
 },{"../core/main":24}],70:[function(_dereq_,module,exports){
-//some of the functions are adjusted from Three.js(http://threejs.org)
+//some of the functions are adjusted from Three.js(https://threejs.org)
 
 'use strict';
 
@@ -79869,7 +79869,7 @@ var defaultShaders = {
   phongFrag: "precision mediump float;\n\n//uniform mat4 uModelViewMatrix;\nuniform mat4 uViewMatrix;\n\nuniform vec4 uMaterialColor;\nuniform sampler2D uSampler;\nuniform bool isTexture;\nuniform bool uUseLighting;\n\nuniform vec3 uLightingDirection[8];\nuniform vec3 uDirectionalColor[8];\nuniform vec3 uPointLightLocation[8];\nuniform vec3 uPointLightColor[8];\nuniform bool uSpecular;\n\nuniform int uDirectionalLightCount;\nuniform int uPointLightCount;\n\nvarying vec3 vNormal;\nvarying vec2 vTexCoord;\nvarying vec3 vViewPosition;\nvarying vec3 vAmbientColor;\n\nvec3 V;\nvec3 N;\n\nconst float shininess = 32.0;\nconst float specularFactor = 2.0;\nconst float diffuseFactor = 0.73;\n\nstruct LightResult {\n\tfloat specular;\n\tfloat diffuse;\n};\n\nfloat phongSpecular(\n  vec3 lightDirection,\n  vec3 viewDirection,\n  vec3 surfaceNormal,\n  float shininess) {\n\n  vec3 R = normalize(reflect(-lightDirection, surfaceNormal));  \n  return pow(max(0.0, dot(R, viewDirection)), shininess);\n}\n\nfloat lambertDiffuse(\n  vec3 lightDirection,\n  vec3 surfaceNormal) {\n  return max(0.0, dot(-lightDirection, surfaceNormal));\n}\n\nLightResult light(vec3 lightVector) {\n\n  vec3 L = normalize(lightVector);\n\n  //compute our diffuse & specular terms\n  LightResult lr;\n  if (uSpecular)\n    lr.specular = phongSpecular(L, V, N, shininess);\n  lr.diffuse = lambertDiffuse(L, N);\n  return lr;\n}\n\nvoid main(void) {\n\n  V = normalize(vViewPosition);\n  N = vNormal;\n\n  vec3 diffuse = vec3(0.0);\n  float specular = 0.0;\n\n  for (int j = 0; j < 8; j++) {\n    if (uDirectionalLightCount == j) break;\n\n    LightResult result = light(uLightingDirection[j]);\n    diffuse += result.diffuse * uDirectionalColor[j];\n    specular += result.specular;\n  }\n\n  for (int k = 0; k < 8; k++) {\n    if (uPointLightCount == k) break;\n\n    vec3 lightPosition = (uViewMatrix * vec4(uPointLightLocation[k], 1.0)).xyz;\n    vec3 lightVector = vViewPosition - lightPosition;\n\t\n    //calculate attenuation\n    float lightDistance = length(lightVector);\n    float falloff = 500.0 / (lightDistance + 500.0);\n\n    LightResult result = light(lightVector);\n    diffuse += result.diffuse * falloff * uPointLightColor[k];\n    specular += result.specular * falloff;\n  }\n\n  gl_FragColor = isTexture ? texture2D(uSampler, vTexCoord) : uMaterialColor;\n  gl_FragColor.rgb = gl_FragColor.rgb * (diffuse * diffuseFactor + vAmbientColor) + specular * specularFactor;\n}",
   fontVert: "precision mediump float;\n\nattribute vec3 aPosition;\nattribute vec2 aTexCoord;\nuniform mat4 uModelViewMatrix;\nuniform mat4 uProjectionMatrix;\n\nuniform vec4 uGlyphRect;\nuniform float uGlyphOffset;\n\nvarying vec2 vTexCoord;\nvarying float w;\n\nvoid main() {\n  vec4 positionVec4 = vec4(aPosition, 1.0);\n\n  // scale by the size of the glyph's rectangle\n  positionVec4.xy *= uGlyphRect.zw - uGlyphRect.xy;\n\n  // move to the corner of the glyph\n  positionVec4.xy += uGlyphRect.xy;\n\n  // move to the letter's line offset\n  positionVec4.x += uGlyphOffset;\n  \n  gl_Position = uProjectionMatrix * uModelViewMatrix * positionVec4;\n  vTexCoord = aTexCoord;\n  w = gl_Position.w;\n}\n",
   fontFrag: "#extension GL_OES_standard_derivatives : enable\nprecision mediump float;\n\n#if 0\n  // simulate integer math using floats\n\t#define int float\n\t#define ivec2 vec2\n\t#define INT(x) float(x)\n\n\tint ifloor(float v) { return floor(v); }\n\tivec2 ifloor(vec2 v) { return floor(v); }\n\n#else\n  // use native integer math\n\tprecision mediump int;\n\t#define INT(x) x\n\n\tint ifloor(float v) { return int(v); }\n\tint ifloor(int v) { return v; }\n\tivec2 ifloor(vec2 v) { return ivec2(v); }\n\n#endif\n\nuniform sampler2D uSamplerStrokes;\nuniform sampler2D uSamplerRowStrokes;\nuniform sampler2D uSamplerRows;\nuniform sampler2D uSamplerColStrokes;\nuniform sampler2D uSamplerCols;\n\nuniform ivec2 uStrokeImageSize;\nuniform ivec2 uCellsImageSize;\nuniform ivec2 uGridImageSize;\n\nuniform ivec2 uGridOffset;\nuniform ivec2 uGridSize;\nuniform vec4 uMaterialColor;\n\nvarying vec2 vTexCoord;\n\n// some helper functions\nint round(float v) { return ifloor(v + 0.5); }\nivec2 round(vec2 v) { return ifloor(v + 0.5); }\nfloat saturate(float v) { return clamp(v, 0.0, 1.0); }\nvec2 saturate(vec2 v) { return clamp(v, 0.0, 1.0); }\n\nint mul(float v1, int v2) {\n  return ifloor(v1 * float(v2));\n}\n\nivec2 mul(vec2 v1, ivec2 v2) {\n  return ifloor(v1 * vec2(v2) + 0.5);\n}\n\n// unpack a 16-bit integer from a float vec2\nint getInt16(vec2 v) {\n  ivec2 iv = round(v * 255.0);\n  return iv.x * INT(128) + iv.y;\n}\n\nvec2 pixelScale;\nvec2 coverage = vec2(0.0);\nvec2 weight = vec2(0.5);\nconst float minDistance = 1.0/8192.0;\nconst float hardness = 1.05; // amount of antialias\n\n// the maximum number of curves in a glyph\nconst int N = INT(250);\n\n// retrieves an indexed pixel from a sampler\nvec4 getTexel(sampler2D sampler, int pos, ivec2 size) {\n  int width = size.x;\n  int y = ifloor(pos / width);\n  int x = pos - y * width;  // pos % width\n\n  return texture2D(sampler, (vec2(x, y) + 0.5) / vec2(size));\n}\n\nvoid calulateCrossings(vec2 p0, vec2 p1, vec2 p2, out vec2 C1, out vec2 C2) {\n\n  // get the coefficients of the quadratic in t\n  vec2 a = p0 - p1 * 2.0 + p2;\n  vec2 b = p0 - p1;\n  vec2 c = p0 - vTexCoord;\n\n  // found out which values of 't' it crosses the axes\n  vec2 surd = sqrt(max(vec2(0.0), b * b - a * c));\n  vec2 t1 = ((b - surd) / a).yx;\n  vec2 t2 = ((b + surd) / a).yx;\n\n  // approximate straight lines to avoid rounding errors\n  if (abs(a.y) < 0.001)\n    t1.x = t2.x = c.y / (2.0 * b.y);\n\n  if (abs(a.x) < 0.001)\n    t1.y = t2.y = c.x / (2.0 * b.x);\n\n  // plug into quadratic formula to find the corrdinates of the crossings\n  C1 = ((a * t1 - b * 2.0) * t1 + c) * pixelScale;\n  C2 = ((a * t2 - b * 2.0) * t2 + c) * pixelScale;\n}\n\nvoid coverageX(vec2 p0, vec2 p1, vec2 p2) {\n\n  vec2 C1, C2;\n  calulateCrossings(p0, p1, p2, C1, C2);\n\n  // determine on which side of the x-axis the points lie\n  bool y0 = p0.y > vTexCoord.y;\n  bool y1 = p1.y > vTexCoord.y;\n  bool y2 = p2.y > vTexCoord.y;\n\n  // could web be under the curve (after t1)?\n  if (y1 ? !y2 : y0) {\n    // add the coverage for t1\n    coverage.x += saturate(C1.x + 0.5);\n    // calculate the anti-aliasing for t1\n    weight.x = min(weight.x, abs(C1.x));\n  }\n\n  // are we outside the curve (after t2)?\n  if (y1 ? !y0 : y2) {\n    // subtract the coverage for t2\n    coverage.x -= saturate(C2.x + 0.5);\n    // calculate the anti-aliasing for t2\n    weight.x = min(weight.x, abs(C2.x));\n  }\n}\n\n// this is essentially the same as coverageX, but with the axes swapped\nvoid coverageY(vec2 p0, vec2 p1, vec2 p2) {\n\n  vec2 C1, C2;\n  calulateCrossings(p0, p1, p2, C1, C2);\n\n  bool x0 = p0.x > vTexCoord.x;\n  bool x1 = p1.x > vTexCoord.x;\n  bool x2 = p2.x > vTexCoord.x;\n\n  if (x1 ? !x2 : x0) {\n    coverage.y -= saturate(C1.y + 0.5);\n    weight.y = min(weight.y, abs(C1.y));\n  }\n\n  if (x1 ? !x0 : x2) {\n    coverage.y += saturate(C2.y + 0.5);\n    weight.y = min(weight.y, abs(C2.y));\n  }\n}\n\nvoid main() {\n\n  // calculate the pixel scale based on screen-coordinates\n  pixelScale = hardness / fwidth(vTexCoord);\n\n  // which grid cell is this pixel in?\n  ivec2 gridCoord = ifloor(vTexCoord * vec2(uGridSize));\n\n  // intersect curves in this row\n  {\n    // the index into the row info bitmap\n    int rowIndex = gridCoord.y + uGridOffset.y;\n    // fetch the info texel\n    vec4 rowInfo = getTexel(uSamplerRows, rowIndex, uGridImageSize);\n    // unpack the rowInfo\n    int rowStrokeIndex = getInt16(rowInfo.xy);\n    int rowStrokeCount = getInt16(rowInfo.zw);\n\n    for (int iRowStroke = INT(0); iRowStroke < N; iRowStroke++) {\n      if (iRowStroke >= rowStrokeCount)\n        break;\n\n      // each stroke is made up of 3 points: the start and control point\n      // and the start of the next curve.\n      // fetch the indices of this pair of strokes:\n      vec4 strokeIndices = getTexel(uSamplerRowStrokes, rowStrokeIndex++, uCellsImageSize);\n\n      // unpack the stroke index\n      int strokePos = getInt16(strokeIndices.xy);\n\n      // fetch the two strokes\n      vec4 stroke0 = getTexel(uSamplerStrokes, strokePos + INT(0), uStrokeImageSize);\n      vec4 stroke1 = getTexel(uSamplerStrokes, strokePos + INT(1), uStrokeImageSize);\n\n      // calculate the coverage\n      coverageX(stroke0.xy, stroke0.zw, stroke1.xy);\n    }\n  }\n\n  // intersect curves in this column\n  {\n    int colIndex = gridCoord.x + uGridOffset.x;\n    vec4 colInfo = getTexel(uSamplerCols, colIndex, uGridImageSize);\n    int colStrokeIndex = getInt16(colInfo.xy);\n    int colStrokeCount = getInt16(colInfo.zw);\n    \n    for (int iColStroke = INT(0); iColStroke < N; iColStroke++) {\n      if (iColStroke >= colStrokeCount)\n        break;\n\n      vec4 strokeIndices = getTexel(uSamplerColStrokes, colStrokeIndex++, uCellsImageSize);\n\n      int strokePos = getInt16(strokeIndices.xy);\n      vec4 stroke0 = getTexel(uSamplerStrokes, strokePos + INT(0), uStrokeImageSize);\n      vec4 stroke1 = getTexel(uSamplerStrokes, strokePos + INT(1), uStrokeImageSize);\n      coverageY(stroke0.xy, stroke0.zw, stroke1.xy);\n    }\n  }\n\n  weight = saturate(1.0 - weight * 2.0);\n  float distance = max(weight.x + weight.y, minDistance); // manhattan approx.\n  float antialias = abs(dot(coverage, weight) / distance);\n  float cover = min(abs(coverage.x), abs(coverage.y));\n  gl_FragColor = uMaterialColor;\n  gl_FragColor.a *= saturate(max(antialias, cover));\n}",
-  lineVert: "/*\n  Part of the Processing project - http://processing.org\n  Copyright (c) 2012-15 The Processing Foundation\n  Copyright (c) 2004-12 Ben Fry and Casey Reas\n  Copyright (c) 2001-04 Massachusetts Institute of Technology\n  This library is free software; you can redistribute it and/or\n  modify it under the terms of the GNU Lesser General Public\n  License as published by the Free Software Foundation, version 2.1.\n  This library is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n  Lesser General Public License for more details.\n  You should have received a copy of the GNU Lesser General\n  Public License along with this library; if not, write to the\n  Free Software Foundation, Inc., 59 Temple Place, Suite 330,\n  Boston, MA  02111-1307  USA\n*/\n\n#define PROCESSING_LINE_SHADER\n\nuniform mat4 uModelViewMatrix;\nuniform mat4 uProjectionMatrix;\nuniform float uStrokeWeight;\n\nuniform vec4 uViewport;\n\n// using a scale <1 moves the lines towards the camera\n// in order to prevent popping effects due to half of\n// the line disappearing behind the geometry faces.\nvec3 scale = vec3(0.9995);\n\nattribute vec4 aPosition;\nattribute vec4 aDirection;\n  \nvoid main() {\n  vec4 posp = uModelViewMatrix * aPosition;\n  vec4 posq = uModelViewMatrix * (aPosition + vec4(aDirection.xyz, 0));\n\n  // Moving vertices slightly toward the camera\n  // to avoid depth-fighting with the fill triangles.\n  // Discussed here:\n  // http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=252848  \n  posp.xyz = posp.xyz * scale;\n  posq.xyz = posq.xyz * scale;\n\n  vec4 p = uProjectionMatrix * posp;\n  vec4 q = uProjectionMatrix * posq;\n\n  // formula to convert from clip space (range -1..1) to screen space (range 0..[width or height])\n  // screen_p = (p.xy/p.w + <1,1>) * 0.5 * uViewport.zw\n\n  // prevent division by W by transforming the tangent formula (div by 0 causes\n  // the line to disappear, see https://github.com/processing/processing/issues/5183)\n  // t = screen_q - screen_p\n  //\n  // tangent is normalized and we don't care which aDirection it points to (+-)\n  // t = +- normalize( screen_q - screen_p )\n  // t = +- normalize( (q.xy/q.w+<1,1>)*0.5*uViewport.zw - (p.xy/p.w+<1,1>)*0.5*uViewport.zw )\n  //\n  // extract common factor, <1,1> - <1,1> cancels out\n  // t = +- normalize( (q.xy/q.w - p.xy/p.w) * 0.5 * uViewport.zw )\n  //\n  // convert to common divisor\n  // t = +- normalize( ((q.xy*p.w - p.xy*q.w) / (p.w*q.w)) * 0.5 * uViewport.zw )\n  //\n  // remove the common scalar divisor/factor, not needed due to normalize and +-\n  // (keep uViewport - can't remove because it has different components for x and y\n  //  and corrects for aspect ratio, see https://github.com/processing/processing/issues/5181)\n  // t = +- normalize( (q.xy*p.w - p.xy*q.w) * uViewport.zw )\n\n  vec2 tangent = normalize((q.xy*p.w - p.xy*q.w) * uViewport.zw);\n\n  // flip tangent to normal (it's already normalized)\n  vec2 normal = vec2(-tangent.y, tangent.x);\n\n  float thickness = aDirection.w * uStrokeWeight;\n  vec2 offset = normal * thickness / 2.0;\n\n  // Perspective ---\n  // convert from world to clip by multiplying with projection scaling factor\n  // to get the right thickness (see https://github.com/processing/processing/issues/5182)\n  // invert Y, projections in Processing invert Y\n  vec2 perspScale = (uProjectionMatrix * vec4(1, -1, 0, 0)).xy;\n\n  // No Perspective ---\n  // multiply by W (to cancel out division by W later in the pipeline) and\n  // convert from screen to clip (derived from clip to screen above)\n  vec2 noPerspScale = p.w / (0.5 * uViewport.zw);\n\n  //gl_Position.xy = p.xy + offset.xy * mix(noPerspScale, perspScale, float(perspective > 0));\n  gl_Position.xy = p.xy + offset.xy * perspScale;\n  gl_Position.zw = p.zw;\n}\n",
+  lineVert: "/*\n  Part of the Processing project - https://processing.org\n  Copyright (c) 2012-15 The Processing Foundation\n  Copyright (c) 2004-12 Ben Fry and Casey Reas\n  Copyright (c) 2001-04 Massachusetts Institute of Technology\n  This library is free software; you can redistribute it and/or\n  modify it under the terms of the GNU Lesser General Public\n  License as published by the Free Software Foundation, version 2.1.\n  This library is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n  Lesser General Public License for more details.\n  You should have received a copy of the GNU Lesser General\n  Public License along with this library; if not, write to the\n  Free Software Foundation, Inc., 59 Temple Place, Suite 330,\n  Boston, MA  02111-1307  USA\n*/\n\n#define PROCESSING_LINE_SHADER\n\nuniform mat4 uModelViewMatrix;\nuniform mat4 uProjectionMatrix;\nuniform float uStrokeWeight;\n\nuniform vec4 uViewport;\n\n// using a scale <1 moves the lines towards the camera\n// in order to prevent popping effects due to half of\n// the line disappearing behind the geometry faces.\nvec3 scale = vec3(0.9995);\n\nattribute vec4 aPosition;\nattribute vec4 aDirection;\n  \nvoid main() {\n  vec4 posp = uModelViewMatrix * aPosition;\n  vec4 posq = uModelViewMatrix * (aPosition + vec4(aDirection.xyz, 0));\n\n  // Moving vertices slightly toward the camera\n  // to avoid depth-fighting with the fill triangles.\n  // Discussed here:\n  // https://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=252848  \n  posp.xyz = posp.xyz * scale;\n  posq.xyz = posq.xyz * scale;\n\n  vec4 p = uProjectionMatrix * posp;\n  vec4 q = uProjectionMatrix * posq;\n\n  // formula to convert from clip space (range -1..1) to screen space (range 0..[width or height])\n  // screen_p = (p.xy/p.w + <1,1>) * 0.5 * uViewport.zw\n\n  // prevent division by W by transforming the tangent formula (div by 0 causes\n  // the line to disappear, see https://github.com/processing/processing/issues/5183)\n  // t = screen_q - screen_p\n  //\n  // tangent is normalized and we don't care which aDirection it points to (+-)\n  // t = +- normalize( screen_q - screen_p )\n  // t = +- normalize( (q.xy/q.w+<1,1>)*0.5*uViewport.zw - (p.xy/p.w+<1,1>)*0.5*uViewport.zw )\n  //\n  // extract common factor, <1,1> - <1,1> cancels out\n  // t = +- normalize( (q.xy/q.w - p.xy/p.w) * 0.5 * uViewport.zw )\n  //\n  // convert to common divisor\n  // t = +- normalize( ((q.xy*p.w - p.xy*q.w) / (p.w*q.w)) * 0.5 * uViewport.zw )\n  //\n  // remove the common scalar divisor/factor, not needed due to normalize and +-\n  // (keep uViewport - can't remove because it has different components for x and y\n  //  and corrects for aspect ratio, see https://github.com/processing/processing/issues/5181)\n  // t = +- normalize( (q.xy*p.w - p.xy*q.w) * uViewport.zw )\n\n  vec2 tangent = normalize((q.xy*p.w - p.xy*q.w) * uViewport.zw);\n\n  // flip tangent to normal (it's already normalized)\n  vec2 normal = vec2(-tangent.y, tangent.x);\n\n  float thickness = aDirection.w * uStrokeWeight;\n  vec2 offset = normal * thickness / 2.0;\n\n  // Perspective ---\n  // convert from world to clip by multiplying with projection scaling factor\n  // to get the right thickness (see https://github.com/processing/processing/issues/5182)\n  // invert Y, projections in Processing invert Y\n  vec2 perspScale = (uProjectionMatrix * vec4(1, -1, 0, 0)).xy;\n\n  // No Perspective ---\n  // multiply by W (to cancel out division by W later in the pipeline) and\n  // convert from screen to clip (derived from clip to screen above)\n  vec2 noPerspScale = p.w / (0.5 * uViewport.zw);\n\n  //gl_Position.xy = p.xy + offset.xy * mix(noPerspScale, perspScale, float(perspective > 0));\n  gl_Position.xy = p.xy + offset.xy * perspScale;\n  gl_Position.zw = p.zw;\n}\n",
   lineFrag: "precision mediump float;\nprecision mediump int;\n\nuniform vec4 uMaterialColor;\n\nvoid main() {\n  gl_FragColor = uMaterialColor;\n}",
   pointVert: "attribute vec3 aPosition;\nuniform float uPointSize;\nvarying float vStrokeWeight;\nuniform mat4 uModelViewMatrix;\nuniform mat4 uProjectionMatrix;\nvoid main() {\n\tvec4 positionVec4 =  vec4(aPosition, 1.0);\n\tgl_Position = uProjectionMatrix * uModelViewMatrix * positionVec4;\n\tgl_PointSize = uPointSize;\n\tvStrokeWeight = uPointSize;\n}",
   pointFrag: "precision mediump float;\nprecision mediump int;\nuniform vec4 uMaterialColor;\nvarying float vStrokeWeight;\n\nvoid main(){\n\tfloat mask = 0.0;\n\n\t// make a circular mask using the gl_PointCoord (goes from 0 - 1 on a point)\n    // might be able to get a nicer edge on big strokeweights with smoothstep but slightly less performant\n\n\tmask = step(0.98, length(gl_PointCoord * 2.0 - 1.0));\n\n\t// if strokeWeight is 1 or less lets just draw a square\n\t// this prevents weird artifacting from carving circles when our points are really small\n\t// if strokeWeight is larger than 1, we just use it as is\n\n\tmask = mix(0.0, mask, clamp(floor(vStrokeWeight - 0.5),0.0,1.0));\n\n\t// throw away the borders of the mask\n    // otherwise we get weird alpha blending issues\n\n\tif(mask > 0.98){\n      discard;\n  \t}\n\n  \tgl_FragColor = vec4(uMaterialColor.rgb * (1.0 - mask), uMaterialColor.a) ;\n}"

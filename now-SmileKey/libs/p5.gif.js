@@ -513,7 +513,7 @@
         if (lastDisposalMethod === 2) {
           // Restore to background color
           // Browser implementations historically restore to transparent; we do the same.
-          // http://www.wizards-toolkit.org/discourse-server/viewtopic.php?f=1&t=21172#p86079
+          // https://www.wizards-toolkit.org/discourse-server/viewtopic.php?f=1&t=21172#p86079
           frame.clearRect(lastImg.leftPos, lastImg.topPos, lastImg.width, lastImg.height);
         }
       }

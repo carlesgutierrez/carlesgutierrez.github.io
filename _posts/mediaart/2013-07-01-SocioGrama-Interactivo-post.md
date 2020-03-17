@@ -14,8 +14,8 @@ tags: [mediaart, sociograma]
 
 <figure class="third">
 	<img src="https://farm8.staticflickr.com/7564/16142865578_1f47f9deba_z.jpg">
-	<img src="http://media.tumblr.com/tumblr_m5kf3qPoJ81qa7rwa.jpg">
-	<img src="http://media.tumblr.com/tumblr_m3ux06VDdL1qa7rwa.jpg">
+	<img src="https://media.tumblr.com/tumblr_m5kf3qPoJ81qa7rwa.jpg">
+	<img src="https://media.tumblr.com/tumblr_m3ux06VDdL1qa7rwa.jpg">
 	<figcaption>SociogramaInteractivo</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ Interactive Sociogram is an invitation to reflect on the relationships between p
 
 ***
 
-<iframe src="//player.vimeo.com/video/47769687" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/47769687">Sociograma Interactivo</a> from <a href="http://vimeo.com/user2257329">Daniel Rojas and Carles Gutiérrez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="//player.vimeo.com/video/47769687" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/47769687">Sociograma Interactivo</a> from <a href="https://vimeo.com/user2257329">Daniel Rojas and Carles Gutiérrez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ---
 
@@ -41,7 +41,7 @@ Has been exhibited at:
 
 <figure class="one">
 	<figcaption>StripArt ( Barcelona ) July 2013</figcaption>
-	<img src="http://40.media.tumblr.com/eea5f7925ba5b2463e553459660ebe3a/tumblr_muvumijQ5B1qapeqco1_500.jpg">
+	<img src="https://40.media.tumblr.com/eea5f7925ba5b2463e553459660ebe3a/tumblr_muvumijQ5B1qapeqco1_500.jpg">
 </figure>
 
 <figure class="one">
@@ -51,16 +51,16 @@ Has been exhibited at:
 
 <figure class="one">
 	<figcaption>Spora, Second Biennial of Ephemeral Art ( Granada ) December 2009</figcaption>
-	<img src="http://media.tumblr.com/tumblr_l5wvroEvd31qa7rwa.jpg">
+	<img src="https://media.tumblr.com/tumblr_l5wvroEvd31qa7rwa.jpg">
 </figure>
 
 <figure class="one">
 	<figcaption>Arteleku ( Donosti ) August 2009
 	</figcaption>
-	<img src="http://media.tumblr.com/tumblr_kuaq7fKpUH1qa7rwa.jpg">
+	<img src="https://media.tumblr.com/tumblr_kuaq7fKpUH1qa7rwa.jpg">
 </figure>
 
-[+ Info](http://sociogramainteractivo.net/)
+[+ Info](https://sociogramainteractivo.net/)
 
 
 ---

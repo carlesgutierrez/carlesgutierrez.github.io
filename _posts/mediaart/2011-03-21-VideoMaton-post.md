@@ -21,7 +21,7 @@ tags: [mediaart, face recognition, shaders]
 
 Interactive piece at exhibition “Habitantes y Paseantes” in new Council house of Madrid at Plaza Cibeles.
 
-The project was develop by Lummo (http://lummo.es) during end 2010 and beginning 2011. The technical and artistic Direction was done by Mar Canet and Carles Gutierrez, and with technical assistance of Javi Lloret.
+The project was develop by Lummo (https://lummo.es) during end 2010 and beginning 2011. The technical and artistic Direction was done by Mar Canet and Carles Gutierrez, and with technical assistance of Javi Lloret.
 
 ***
 
@@ -34,7 +34,7 @@ Has been exhibited at:
 
 <figure class="one">
 	<figcaption>FILE – Electronic Language International Festival. ( SaoPaolo ) 2013</figcaption>
-	<a href="http://file.org.br/artist/mar-canet-carles-gutierrez/">FILE link</a>
+	<a href="https://file.org.br/artist/mar-canet-carles-gutierrez/">FILE link</a>
 	<img src="https://farm9.staticflickr.com/8718/17047439818_1097e9e91b_z.jpg">
 </figure>
 
@@ -45,7 +45,7 @@ Has been exhibited at:
 </figure>
 
 
-[+ Info](http://lummo.es/)
+[+ Info](https://lummo.es/)
 
 
 

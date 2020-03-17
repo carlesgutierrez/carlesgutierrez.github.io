@@ -19,8 +19,8 @@ tags: [work, video, interactive]
 </figure>
 
 Team: Mar Canet and Carles Gutiérrez (lummo) in Collaboration with the ThisIsMorrison agency.
-Client: [Buff](http://buff.eu/) at [Bread and Butter Berlin and Munich](http://buffsport.tumblr.com/)
-[ThisIsMorrison](http://thisismorrison.com/en)
+Client: [Buff](https://buff.eu/) at [Bread and Butter Berlin and Munich](https://buffsport.tumblr.com/)
+[ThisIsMorrison](https://thisismorrison.com/en)
 
 ---
 Automated installation to takes giff of the people that when to the Buff Stadn in the Bread and Butter berlin 2013. with a simple App that lets you to control de whole process. Then finally add each user email it with the webside with the animated giff and the webside with all the rest videos. So then they can share the experience to others by the networks like facebook for example.

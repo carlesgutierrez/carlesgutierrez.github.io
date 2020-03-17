@@ -15,7 +15,7 @@ tags: [mediaart, games, lummo]
 <figure class="third">
 	<img src="https://farm9.staticflickr.com/8207/8176431655_4af1ab7491_z.jpg">
 	<img src="https://farm9.staticflickr.com/8312/8018195218_66e219c724_z.jpg">
-	<img src="http://www.wasawi.com/wp-content/uploads/cce2cfd142be59b84b8bf822e7a569e9.jpg">
+	<img src="https://www.wasawi.com/wp-content/uploads/cce2cfd142be59b84b8bf822e7a569e9.jpg">
 	<figcaption>LummoBlocks</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Has been exhibited at:
 
 <figure class="one">
   <figcaption>Play! at FIESP building (Sao Paulo, Brasil) 28/11/2011</figcaption>
-  <img src="http://www.wasawi.com/wp-content/uploads/cce2cfd142be59b84b8bf822e7a569e9.jpg">
+  <img src="https://www.wasawi.com/wp-content/uploads/cce2cfd142be59b84b8bf822e7a569e9.jpg">
   Photo credit: Bruno Mocca
 </figure>
 

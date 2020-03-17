@@ -11,9 +11,9 @@
  * <p>Methods and properties shown in black are part of the p5.js core, items in
  * blue are part of the p5.dom library. You will need to include an extra file
  * in order to access the blue functions. See the
- * <a href='http://p5js.org/libraries/#using-a-library'>using a library</a>
+ * <a href='https://p5js.org/libraries/#using-a-library'>using a library</a>
  * section for information on how to include this library. p5.dom comes with
- * <a href='http://p5js.org/download'>p5 complete</a> or you can download the single file
+ * <a href='https://p5js.org/download'>p5 complete</a> or you can download the single file
  * <a href='https://raw.githubusercontent.com/lmccart/p5.js/master/lib/addons/p5.dom.js'>
  * here</a>.</p>
  * <p>See <a href='https://github.com/processing/p5.js/wiki/Beyond-the-canvas'>tutorial: beyond the canvas</a>
@@ -423,7 +423,7 @@
    * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
    * @example
    * <div class='norender'><code>
-   * createImg('http://p5js.org/img/asterisk-01.png');
+   * createImg('https://p5js.org/img/asterisk-01.png');
    * </code></div>
    */
   /**
@@ -472,7 +472,7 @@
    * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
    * @example
    * <div class='norender'><code>
-   * createA('http://p5js.org/', 'this is a link');
+   * createA('https://p5js.org/', 'this is a link');
    * </code></div>
    */
   p5.prototype.createA = function(href, html, target) {
@@ -1237,12 +1237,12 @@
    * be used to detect when the element has fully loaded (see second example).</p>
    * <p>More specific properties of the feed can be passing in a Constraints object.
    * See the
-   * <a href='http://w3c.github.io/mediacapture-main/getusermedia.html#media-track-constraints'> W3C
+   * <a href='https://w3c.github.io/mediacapture-main/getusermedia.html#media-track-constraints'> W3C
    * spec</a> for possible properties. Note that not all of these are supported
    * by all browsers.</p>
    * <p>Security note: A new browser security specification requires that getUserMedia,
    * which is behind <a href="#/p5/createCapture">createCapture()</a>, only works when you're running the code locally,
-   * or on HTTPS. Learn more <a href='http://stackoverflow.com/questions/34197653/getusermedia-in-chrome-47-without-using-https'>here</a>
+   * or on HTTPS. Learn more <a href='https://stackoverflow.com/questions/34197653/getusermedia-in-chrome-47-without-using-https'>here</a>
    * and <a href='https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia'>here</a>.</p>
    *
    * @method createCapture

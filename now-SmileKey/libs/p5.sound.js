@@ -1,6 +1,6 @@
 /*! p5.sound.js v0.3.10 2019-01-10 */
 /**
- *  p5.sound extends p5 with <a href="http://caniuse.com/audio-api"
+ *  p5.sound extends p5 with <a href="https://caniuse.com/audio-api"
  *  target="_blank">Web Audio</a> functionality including audio input,
  *  playback, analysis and synthesis.
  *  <br/><br/>
@@ -55,13 +55,13 @@
  *
  *  Some of the many audio libraries & resources that inspire p5.sound:
  *   - TONE.js (c) Yotam Mann. Licensed under The MIT License (MIT). https://github.com/TONEnoTONE/Tone.js
- *   - buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). http://buzz.jaysalvat.com/
- *   - Boris Smus Web Audio API book, 2013. Licensed under the Apache License http://www.apache.org/licenses/LICENSE-2.0
+ *   - buzz.js (c) Jay Salvat. Licensed under The MIT License (MIT). https://buzz.jaysalvat.com/
+ *   - Boris Smus Web Audio API book, 2013. Licensed under the Apache License https://www.apache.org/licenses/LICENSE-2.0
  *   - wavesurfer.js https://github.com/katspaugh/wavesurfer.js
  *   - Web Audio Components by Jordan Santell https://github.com/web-audio-components
  *   - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound
  *
- *   Web Audio API: http://w3.org/TR/webaudio/
+ *   Web Audio API: https://w3.org/TR/webaudio/
  */
 
 (function (root, factory) {
@@ -83,7 +83,7 @@ shims = function () {
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-         http://www.apache.org/licenses/LICENSE-2.0
+         https://www.apache.org/licenses/LICENSE-2.0
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -364,7 +364,7 @@ audiocontext = function (StartAudioContext) {
   /**
    * <p>Returns the Audio Context for this sketch. Useful for users
    * who would like to dig deeper into the <a target='_blank' href=
-   * 'http://webaudio.github.io/web-audio-api/'>Web Audio API
+   * 'https://webaudio.github.io/web-audio-api/'>Web Audio API
    * </a>.</p>
    *
    * <p>Some browsers require users to startAudioContext
@@ -663,7 +663,7 @@ helpers = function () {
    *  List the SoundFile formats that you will include. LoadSound
    *  will search your directory for these extensions, and will pick
    *  a format that is compatable with the client's web browser.
-   *  <a href="http://media.io/">Here</a> is a free online file
+   *  <a href="https://media.io/">Here</a> is a free online file
    *  converter.
    *
    *  @method soundFormats
@@ -810,7 +810,7 @@ helpers = function () {
     var buffer = new window.ArrayBuffer(44 + interleaved.length * 2);
     var view = new window.DataView(buffer);
     // write the WAV container,
-    // check spec at: https://web.archive.org/web/20171215131933/http://tiny.systems/software/soundProgrammer/WavFormatDocs.pdf
+    // check spec at: https://web.archive.org/web/20171215131933/https://tiny.systems/software/soundProgrammer/WavFormatDocs.pdf
     // RIFF chunk descriptor
     writeUTFBytes(view, 0, 'RIFF');
     view.setUint32(4, 36 + interleaved.length * 2, true);
@@ -1155,7 +1155,7 @@ soundfile = function () {
   p5.prototype.loadSound = function (path, callback, onerror, whileLoading) {
     // if loading locally without a server
     if (window.location.origin.indexOf('file://') > -1 && window.cordova === 'undefined') {
-      window.alert('This sketch may require a server to load external files. Please see http://bit.ly/1qcInwS');
+      window.alert('This sketch may require a server to load external files. Please see https://bit.ly/1qcInwS');
     }
     var self = this;
     var s = new p5.SoundFile(path, function () {
@@ -2071,9 +2071,9 @@ soundfile = function () {
   //////////////////////////////////////////////////
   // script processor node with an empty buffer to help
   // keep a sample-accurate position in playback buffer.
-  // Inspired by Chinmay Pendharkar's technique for Sonoport --> http://bit.ly/1HwdCsV
+  // Inspired by Chinmay Pendharkar's technique for Sonoport --> https://bit.ly/1HwdCsV
   // Copyright [2015] [Sonoport (Asia) Pte. Ltd.],
-  // Licensed under the Apache License http://apache.org/licenses/LICENSE-2.0
+  // Licensed under the Apache License https://apache.org/licenses/LICENSE-2.0
   ////////////////////////////////////////////////////////////////////////////////////
   var _createCounterBuffer = function (buffer) {
     const len = buffer.length;
@@ -3188,7 +3188,7 @@ fft = function () {
   };
   /**
      *  Returns the
-     *  <a href="http://en.wikipedia.org/wiki/Spectral_centroid" target="_blank">
+     *  <a href="https://en.wikipedia.org/wiki/Spectral_centroid" target="_blank">
      *  spectral centroid</a> of the input signal.
      *  <em>NOTE: analyze() must be called prior to getCentroid(). Analyze()
      *  tells the FFT to analyze frequency data, and getCentroid() uses
@@ -3406,7 +3406,7 @@ fft = function () {
     }
   };
 }(master);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Tone;
 Tone_core_Tone = function () {
   'use strict';
@@ -3783,7 +3783,7 @@ Tone_core_Tone = function () {
   }
   return Tone;
 }();
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_SignalBase;
 Tone_signal_SignalBase = function (Tone) {
   'use strict';
@@ -3804,7 +3804,7 @@ Tone_signal_SignalBase = function (Tone) {
   };
   return Tone.SignalBase;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_WaveShaper;
 Tone_signal_WaveShaper = function (Tone) {
   'use strict';
@@ -3863,7 +3863,7 @@ Tone_signal_WaveShaper = function (Tone) {
   };
   return Tone.WaveShaper;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_type_TimeBase;
 Tone_type_TimeBase = function (Tone) {
   Tone.TimeBase = function (val, units) {
@@ -4181,7 +4181,7 @@ Tone_type_TimeBase = function (Tone) {
   };
   return Tone.TimeBase;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_type_Time;
 Tone_type_Time = function (Tone) {
   Tone.Time = function (val, units) {
@@ -4353,7 +4353,7 @@ Tone_type_Time = function (Tone) {
   };
   return Tone.Time;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_type_Frequency;
 Tone_type_Frequency = function (Tone) {
   Tone.Frequency = function (val, units) {
@@ -4511,7 +4511,7 @@ Tone_type_Frequency = function (Tone) {
   };
   return Tone.Frequency;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_type_TransportTime;
 Tone_type_TransportTime = function (Tone) {
   Tone.TransportTime = function (val, units) {
@@ -4552,7 +4552,7 @@ Tone_type_TransportTime = function (Tone) {
   };
   return Tone.TransportTime;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Emitter;
 Tone_core_Emitter = function (Tone) {
   'use strict';
@@ -4622,7 +4622,7 @@ Tone_core_Emitter = function (Tone) {
   };
   return Tone.Emitter;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Context;
 Tone_core_Context = function (Tone) {
   if (!window.hasOwnProperty('AudioContext') && window.hasOwnProperty('webkitAudioContext')) {
@@ -4810,7 +4810,7 @@ Tone_core_Context = function (Tone) {
   }
   return Tone.Context;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_type_Type;
 Tone_type_Type = function (Tone) {
   Tone.Type = {
@@ -4867,7 +4867,7 @@ Tone_type_Type = function (Tone) {
   };
   return Tone;
 }(Tone_core_Tone, Tone_type_Time, Tone_type_Frequency, Tone_type_TransportTime);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Param;
 Tone_core_Param = function (Tone) {
   'use strict';
@@ -5035,7 +5035,7 @@ Tone_core_Param = function (Tone) {
   };
   return Tone.Param;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Gain;
 Tone_core_Gain = function (Tone) {
   'use strict';
@@ -5083,7 +5083,7 @@ Tone_core_Gain = function (Tone) {
   };
   return Tone.Gain;
 }(Tone_core_Tone, Tone_core_Param);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Signal;
 Tone_signal_Signal = function (Tone) {
   'use strict';
@@ -5114,7 +5114,7 @@ Tone_signal_Signal = function (Tone) {
   };
   return Tone.Signal;
 }(Tone_core_Tone, Tone_signal_WaveShaper, Tone_type_Type, Tone_core_Param);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Add;
 Tone_signal_Add = function (Tone) {
   'use strict';
@@ -5135,7 +5135,7 @@ Tone_signal_Add = function (Tone) {
   };
   return Tone.Add;
 }(Tone_core_Tone, Tone_signal_Signal);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Multiply;
 Tone_signal_Multiply = function (Tone) {
   'use strict';
@@ -5155,7 +5155,7 @@ Tone_signal_Multiply = function (Tone) {
   };
   return Tone.Multiply;
 }(Tone_core_Tone, Tone_signal_Signal);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Scale;
 Tone_signal_Scale = function (Tone) {
   'use strict';
@@ -5226,7 +5226,7 @@ signal = function () {
    *  a Tone.Signal from the Tone.js library by Yotam Mann.
    *  If you want to work directly with audio signals for modular
    *  synthesis, check out
-   *  <a href='http://bit.ly/1oIoEng' target=_'blank'>tone.js.</a></p>
+   *  <a href='https://bit.ly/1oIoEng' target=_'blank'>tone.js.</a></p>
    *
    *  @class  p5.Signal
    *  @constructor
@@ -5868,7 +5868,7 @@ oscillator = function () {
   };
   p5.SqrOsc.prototype = Object.create(p5.Oscillator.prototype);
 }(master, Tone_signal_Add, Tone_signal_Multiply, Tone_signal_Scale);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Timeline;
 Tone_core_Timeline = function (Tone) {
   'use strict';
@@ -6071,7 +6071,7 @@ Tone_core_Timeline = function (Tone) {
   };
   return Tone.Timeline;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_TimelineSignal;
 Tone_signal_TimelineSignal = function (Tone) {
   'use strict';
@@ -6662,7 +6662,7 @@ envelope = function () {
    *  If the input is a p5.sound object (i.e. AudioIn, Oscillator,
    *  SoundFile), then Envelope will control its output volume.
    *  Envelopes can also be used to control any <a href="
-   *  http://docs.webplatform.org/wiki/apis/webaudio/AudioParam">
+   *  https://docs.webplatform.org/wiki/apis/webaudio/AudioParam">
    *  Web Audio Audio Param.</a>
    *
    *  @method  play
@@ -6723,7 +6723,7 @@ envelope = function () {
    *  Similar to holding down a key on a piano, but it will
    *  hold the sustain level until you let go. Input can be
    *  any p5.sound object, or a <a href="
-   *  http://docs.webplatform.org/wiki/apis/webaudio/AudioParam">
+   *  https://docs.webplatform.org/wiki/apis/webaudio/AudioParam">
    *  Web Audio Param</a>.
    *
    *  @method  triggerAttack
@@ -7111,7 +7111,7 @@ pulse = function () {
    *  The pulse is created with two oscillators.
    *  Accepts a parameter for frequency, and to set the
    *  width between the pulses. See <a href="
-   *  http://p5js.org/reference/#/p5.Oscillator">
+   *  https://p5js.org/reference/#/p5.Oscillator">
    *  <code>p5.Oscillator</code> for a full list of methods.
    *
    *  @class p5.Pulse
@@ -7267,7 +7267,7 @@ pulse = function () {
       this.freqMod = val;
     }
   };
-  // inspiration: http://webaudiodemos.appspot.com/oscilloscope/
+  // inspiration: https://webaudiodemos.appspot.com/oscilloscope/
   function createDCOffset() {
     var ac = p5sound.audiocontext;
     var buffer = ac.createBuffer(1, 2048, ac.sampleRate);
@@ -7443,7 +7443,7 @@ audioin = function () {
    *  AudioIn does not connect to p5.sound output by default to prevent
    *  feedback.</p>
    *
-   *  <p><em>Note: This uses the <a href="http://caniuse.com/stream">getUserMedia/
+   *  <p><em>Note: This uses the <a href="https://caniuse.com/stream">getUserMedia/
    *  Stream</a> API, which is not supported by certain browsers. Access in Chrome browser
    *  is limited to localhost and https, but access over http may be limited.</em></p>
    *
@@ -7741,7 +7741,7 @@ audioin = function () {
     delete this.output;
   };
 }(master);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Negate;
 Tone_signal_Negate = function (Tone) {
   'use strict';
@@ -7757,7 +7757,7 @@ Tone_signal_Negate = function (Tone) {
   };
   return Tone.Negate;
 }(Tone_core_Tone, Tone_signal_Multiply);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Subtract;
 Tone_signal_Subtract = function (Tone) {
   'use strict';
@@ -7781,7 +7781,7 @@ Tone_signal_Subtract = function (Tone) {
   };
   return Tone.Subtract;
 }(Tone_core_Tone, Tone_signal_Add, Tone_signal_Negate, Tone_signal_Signal);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_GreaterThanZero;
 Tone_signal_GreaterThanZero = function (Tone) {
   'use strict';
@@ -7807,7 +7807,7 @@ Tone_signal_GreaterThanZero = function (Tone) {
   };
   return Tone.GreaterThanZero;
 }(Tone_core_Tone, Tone_signal_Signal, Tone_signal_Multiply);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_GreaterThan;
 Tone_signal_GreaterThan = function (Tone) {
   'use strict';
@@ -7829,7 +7829,7 @@ Tone_signal_GreaterThan = function (Tone) {
   };
   return Tone.GreaterThan;
 }(Tone_core_Tone, Tone_signal_GreaterThanZero, Tone_signal_Subtract);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Abs;
 Tone_signal_Abs = function (Tone) {
   'use strict';
@@ -7851,7 +7851,7 @@ Tone_signal_Abs = function (Tone) {
   };
   return Tone.Abs;
 }(Tone_core_Tone, Tone_signal_WaveShaper);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Modulo;
 Tone_signal_Modulo = function (Tone) {
   'use strict';
@@ -7897,7 +7897,7 @@ Tone_signal_Modulo = function (Tone) {
   };
   return Tone.Modulo;
 }(Tone_core_Tone, Tone_signal_WaveShaper, Tone_signal_Multiply);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Pow;
 Tone_signal_Pow = function (Tone) {
   'use strict';
@@ -7928,7 +7928,7 @@ Tone_signal_Pow = function (Tone) {
   };
   return Tone.Pow;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_AudioToGain;
 Tone_signal_AudioToGain = function (Tone) {
   'use strict';
@@ -7946,7 +7946,7 @@ Tone_signal_AudioToGain = function (Tone) {
   };
   return Tone.AudioToGain;
 }(Tone_core_Tone, Tone_signal_WaveShaper);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_Expr;
 Tone_signal_Expr = function (Tone) {
   'use strict';
@@ -8283,7 +8283,7 @@ Tone_signal_Expr = function (Tone) {
   };
   return Tone.Expr;
 }(Tone_core_Tone, Tone_signal_Add, Tone_signal_Subtract, Tone_signal_Multiply, Tone_signal_GreaterThan, Tone_signal_GreaterThanZero, Tone_signal_Abs, Tone_signal_Negate, Tone_signal_Modulo, Tone_signal_Pow);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_signal_EqualPowerGain;
 Tone_signal_EqualPowerGain = function (Tone) {
   'use strict';
@@ -8305,7 +8305,7 @@ Tone_signal_EqualPowerGain = function (Tone) {
   };
   return Tone.EqualPowerGain;
 }(Tone_core_Tone);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_component_CrossFade;
 Tone_component_CrossFade = function (Tone) {
   'use strict';
@@ -8571,7 +8571,7 @@ filter = function () {
     //add extend Effect by adding a Biquad Filter
     /**
         *  The p5.Filter is built with a
-        *  <a href="http://www.w3.org/TR/webaudio/#BiquadFilterNode">
+        *  <a href="https://www.w3.org/TR/webaudio/#BiquadFilterNode">
         *  Web Audio BiquadFilter Node</a>.
         *
         *  @property {DelayNode} biquadFilter
@@ -9525,7 +9525,7 @@ delay = function () {
     this._rightGain = this.ac.createGain();
     /**
      *  The p5.Delay is built with two
-     *  <a href="http://www.w3.org/TR/webaudio/#DelayNode">
+     *  <a href="https://www.w3.org/TR/webaudio/#DelayNode">
      *  Web Audio Delay Nodes</a>, one for each stereo channel.
      *
      *  @property {DelayNode} leftDelay
@@ -9533,7 +9533,7 @@ delay = function () {
     this.leftDelay = this.ac.createDelay();
     /**
      *  The p5.Delay is built with two
-     *  <a href="http://www.w3.org/TR/webaudio/#DelayNode">
+     *  <a href="https://www.w3.org/TR/webaudio/#DelayNode">
      *  Web Audio Delay Nodes</a>, one for each stereo channel.
      *
      *  @property {DelayNode} rightDelay
@@ -9968,7 +9968,7 @@ reverb = function () {
     p5.Reverb.call(this);
     /**
      *  Internally, the p5.Convolver uses the a
-     *  <a href="http://www.w3.org/TR/webaudio/#ConvolverNode">
+     *  <a href="https://www.w3.org/TR/webaudio/#ConvolverNode">
      *  Web Audio Convolver Node</a>.
      *
      *  @property {ConvolverNode} convolverNode
@@ -10033,7 +10033,7 @@ reverb = function () {
   p5.prototype.createConvolver = function (path, callback, errorCallback) {
     // if loading locally without a server
     if (window.location.origin.indexOf('file://') > -1 && window.cordova === 'undefined') {
-      alert('This sketch may require a server to load external files. Please see http://bit.ly/1qcInwS');
+      alert('This sketch may require a server to load external files. Please see https://bit.ly/1qcInwS');
     }
     var self = this;
     var cReverb = new p5.Convolver(path, function (buffer) {
@@ -10167,7 +10167,7 @@ reverb = function () {
   p5.Convolver.prototype.addImpulse = function (path, callback, errorCallback) {
     // if loading locally without a server
     if (window.location.origin.indexOf('file://') > -1 && window.cordova === 'undefined') {
-      alert('This sketch may require a server to load external files. Please see http://bit.ly/1qcInwS');
+      alert('This sketch may require a server to load external files. Please see https://bit.ly/1qcInwS');
     }
     this._loadBuffer(path, callback, errorCallback);
   };
@@ -10184,7 +10184,7 @@ reverb = function () {
   p5.Convolver.prototype.resetImpulse = function (path, callback, errorCallback) {
     // if loading locally without a server
     if (window.location.origin.indexOf('file://') > -1 && window.cordova === 'undefined') {
-      alert('This sketch may require a server to load external files. Please see http://bit.ly/1qcInwS');
+      alert('This sketch may require a server to load external files. Please see https://bit.ly/1qcInwS');
     }
     this.impulses = [];
     this._loadBuffer(path, callback, errorCallback);
@@ -10199,7 +10199,7 @@ reverb = function () {
    *  You can access the objects in the .impulses Array directly. Each
    *  Object has two attributes: an <code>.audioBuffer</code> (type:
    *  Web Audio <a href="
-   *  http://webaudio.github.io/web-audio-api/#the-audiobuffer-interface">
+   *  https://webaudio.github.io/web-audio-api/#the-audiobuffer-interface">
    *  AudioBuffer)</a> and a <code>.name</code>, a String that corresponds
    *  with the original filename.
    *
@@ -10231,7 +10231,7 @@ reverb = function () {
     }
   };
 }(errorHandler, effect);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_TimelineState;
 Tone_core_TimelineState = function (Tone) {
   'use strict';
@@ -10256,7 +10256,7 @@ Tone_core_TimelineState = function (Tone) {
   };
   return Tone.TimelineState;
 }(Tone_core_Tone, Tone_core_Timeline);
-/** Tone.js module by Yotam Mann, MIT License 2016  http://opensource.org/licenses/MIT **/
+/** Tone.js module by Yotam Mann, MIT License 2016  https://opensource.org/licenses/MIT **/
 var Tone_core_Clock;
 Tone_core_Clock = function (Tone) {
   'use strict';
@@ -11675,7 +11675,7 @@ peakdetect = function () {
    *  <p>
    *  Based on example contribtued by @b2renger, and a simple beat detection
    *  explanation by <a
-   *  href="http://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/"
+   *  href="https://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/"
    *  target="_blank">Felix Turner</a>.
    *  </p>
    *
@@ -12743,7 +12743,7 @@ var distortion;
 distortion = function () {
   var Effect = effect;
   /*
-   * Adapted from [Kevin Ennis on StackOverflow](http://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion)
+   * Adapted from [Kevin Ennis on StackOverflow](https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion)
    */
   function makeDistortionCurve(amount) {
     var k = typeof amount === 'number' ? amount : 50;
@@ -12761,7 +12761,7 @@ distortion = function () {
   /**
    * A Distortion effect created with a Waveshaper Node,
    * with an approach adapted from
-   * [Kevin Ennis](http://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion)
+   * [Kevin Ennis](https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion)
    * 
    * This class extends <a href = "/reference/#/p5.Effect">p5.Effect</a>.  
    * Methods <a href = "/reference/#/p5.Effect/amp">amp()</a>, <a href = "/reference/#/p5.Effect/chain">chain()</a>, 
@@ -12793,7 +12793,7 @@ distortion = function () {
     var curveAmount = p5.prototype.map(amount, 0, 1, 0, 2000);
     /**
      *  The p5.Distortion is built with a
-     *  <a href="http://www.w3.org/TR/webaudio/#WaveShaperNode">
+     *  <a href="https://www.w3.org/TR/webaudio/#WaveShaperNode">
      *  Web Audio WaveShaper Node</a>.
      *
      *  @property {AudioNode} WaveShaperNode

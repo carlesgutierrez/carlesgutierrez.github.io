@@ -13,7 +13,7 @@ tags: [work, videomapping, videplayer, shaders]
 ---
 
 
-<iframe src="//player.vimeo.com/video/117173722" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117173722">Ciclorama</a> from <a href="http://vimeo.com/user863376">carles gutierrez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="//player.vimeo.com/video/117173722" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/117173722">Ciclorama</a> from <a href="https://vimeo.com/user863376">carles gutierrez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 Interactive installation to manage videoContends in Eutokia ( a social innovation center in Bilbao, Spain ).
@@ -30,4 +30,4 @@ This software can work in diferents modes:
 2. as Multi-Videos slideshow mode.
 3. as One Video slideshow mode.
 
-[*Lummo*](http://www.lummo.eu/)
+[*Lummo*](https://www.lummo.eu/)

@@ -8,7 +8,7 @@ image:
   teaser: chinoPinballTeaser.jpg
   thumb: 
   credit: ChinosInternationalCC
-  creditlink: http://chinosinternationalcc.github.io/
+  creditlink: https://chinosinternationalcc.github.io/
 tags: [videogames, videomapping, mediaart, tool]
 ---
 
@@ -52,5 +52,5 @@ Thanks for  show us how to hack the street lights and offer their piece of stree
 - Alex Geell - SoundArt
 - Alex Reche - MadMapper
 
-[ChinosInternational Website](http://chinosinternationalcc.github.io/)
+[ChinosInternational Website](https://chinosinternationalcc.github.io/)
 [SoundTrack](https://soundcloud.com/alexgeell/chinos-internacional-pinball-raval-song) by Alex Geell.
