@@ -14,7 +14,7 @@ function startVideo() {
   .then(function(mediaStream) {
     stream => video.srcObject = stream,
     err => console.error(err)
-  };
+  });
 })
 
 video.addEventListener('play', () => {
