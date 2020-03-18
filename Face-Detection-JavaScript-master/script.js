@@ -14,9 +14,9 @@ function startVideo() {
   .then(function(mediaStream) {
     stream => video.srcObject = stream,
     err => console.error(err)
-  }
-
-}
+  };
+})
+.catch(function(err) { console.log(err.name + ": " + err.message); }); // always check for errors at the end.
 
 video.addEventListener('play', () => {
   const canvas = faceapi.createCanvasFromMedia(video)
