@@ -8,14 +8,13 @@ Promise.all([
 ]).then(startVideo)
 
 function startVideo() {
-  // Prefer camera resolution nearest to 1280x720.
-  var constraints = { audio: true, video: { width: 720, height: 560 } };
-  navigator.mediaDevices.getUserMedia(constraints)
-  .then(function(mediaStream) {
-    stream => video.srcObject = stream,
-    err => console.error(err)
-  });
-})
+  function startVideo() {
+    navigator.getUserMedia(
+      { video: {} },
+      stream => video.srcObject = stream,
+      err => console.error(err)
+    )
+  }
 
 video.addEventListener('play', () => {
   const canvas = faceapi.createCanvasFromMedia(video)
