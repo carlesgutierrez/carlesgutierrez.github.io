@@ -6,7 +6,7 @@ let initTimer = 0;
 let textINIT = "SMILE 15\"";
 let textEND = "MISSION ACCOMPLISHED";
 let bReset = false;
-let maxTimeEnd = 4000;
+let maxTimeEnd = 15000;
 let endedTimer = 0;
 
 let bSmiling = false;
