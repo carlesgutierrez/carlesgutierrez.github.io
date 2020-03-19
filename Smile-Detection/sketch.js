@@ -6,14 +6,14 @@ let initTimer = 0;
 let textINIT = "SMILE 15\"";
 let textEND = "MISSION ACCOMPLISHED";
 let bReset = false;
-let maxTimeEnd = 15000;
+let maxTimeEnd = 4000;
 let endedTimer = 0;
 
 let bSmiling = false;
 //let maxTimeWithOutSmile = 2000; // millis
 let counterSmileSegs = 0;
 let startTimer = 0;
-let numTimeSmiling = 4000;
+let numTimeSmiling = 15000;
 let c1Ini, c1End;
 let newSizeCir = 0;
 
