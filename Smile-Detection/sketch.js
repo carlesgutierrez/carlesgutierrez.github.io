@@ -71,14 +71,14 @@ function setup() {
   createCanvas(window.screen.width, window.screen.height);//800, 800);
   console.log("setup info ");
   console.log("tf backend= " + str(faceapi.tf.getBackend()));
-  //if CPU, then swithc to another solution or not doing this. 
+  //if CPU, then swithc to another solution or not doing this.
 
   console.log("width end= " + str(width));
   console.log("height end= " + str(height));
 
   console.log("capture.width = " + str(capture.width));
   console.log("capture.height = " + str(capture.height));
-  
+
   proportionCam = capture.width / capture.height;
   proportionWindow = windowWidth / windowHeight;
   scaleWindow_W =  windowWidth / capture.width;
@@ -102,7 +102,6 @@ function setup() {
   }
 
 //Colors
->>>>>>> 277b0a1821221e5de77e3a80020cc2d28522f465
     c1Ini = color(179,46, 42, 200); //'#FFE9E6');
     c1End = color(107, 255, 159, 123);//'#FFA696');
 
