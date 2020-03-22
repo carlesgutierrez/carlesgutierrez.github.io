@@ -10,11 +10,24 @@ Promise.all([
 ]).then(startVideo)
 
 function startVideo() {
-  navigator.getUserMedia(
+  /*navigator.getUserMedia(
     { video: {} },
     stream => video.srcObject = stream,
     err => console.error(err)
   )
+  */
+
+  navigator.getUserMedia({
+            video: {}
+        },
+        stream => video.srcObject = stream,
+        err => {
+            console.error(err);
+            alert("please check if your webcam is working then refresh this page.");
+            document.querySelector(".loading-text").innerHTML = "Error!";
+            document.querySelector(".first").style.display = "none";
+        }
+    )
 }
 
 video.addEventListener('play', () => {
@@ -23,6 +36,8 @@ video.addEventListener('play', () => {
   const displaySize = { width: video.width, height: video.height }
   faceapi.matchDimensions(canvas, displaySize)
   setInterval(async () => {
+    
+  
     const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions()
     //const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions()
     //const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceExpressions()

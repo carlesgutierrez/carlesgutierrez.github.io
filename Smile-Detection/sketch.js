@@ -26,8 +26,13 @@ let scaleWindow_H;
 function setup() {
 
     createCanvas(window.screen.width, window.screen.height);//800, 800);
+    console.log("setup info ");
+    console.log("tf backend= " + str(faceapi.tf.getBackend()));
+    //if CPU, then swithc to another solution or not doing this. 
+
     console.log("width end= " + str(width));
     console.log("height end= " + str(height));
+
     c1Ini = color(179,46, 42, 200); //'#FFE9E6');
     c1End = color(107, 255, 159, 123);//'#FFA696');
 
