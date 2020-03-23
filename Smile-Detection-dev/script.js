@@ -9,26 +9,13 @@ Promise.all([
   faceapi.nets.faceExpressionNet.loadFromUri('models')
 ]).then(startVideo)
 
-
 function startVideo() {
-/*  navigator.getUserMedia(
+  navigator.getUserMedia(
     { video: {} },
     stream => video.srcObject = stream,
     err => console.error(err)
   )
-  */
-
-  // Prefer camera resolution nearest to 1280x720.
-  let constraints = { audio: true, video: { width: 1280, height: 720 } }; 
-
-  try {
-    stream = await navigator.mediaDevices.getUserMedia(constraints);
-    /* use the stream */
-  } catch(err) {
-    /* handle the error */
-  }
 }
-
 
 video.addEventListener('play', () => {
   const canvas = faceapi.createCanvasFromMedia(video)
@@ -36,8 +23,6 @@ video.addEventListener('play', () => {
   const displaySize = { width: video.width, height: video.height }
   faceapi.matchDimensions(canvas, displaySize)
   setInterval(async () => {
-
-
     const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions()
     //const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions()
     //const detections = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceExpressions()
