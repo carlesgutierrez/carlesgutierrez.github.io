@@ -17,15 +17,6 @@ let numTimeSmiling = 3000;
 let c1Ini, c1End;
 let newSizeCir = 0;
 
-let bModeFullWindow = false;
-let proportionCam;
-let proportionWindow;
-let scaleWindow_W;
-//let scaleWindow_H;
-let finalSizeWebCamWidth = 0;
-let finalSizeWebCamHeight = 0;
-
-
 //add video in our quality
 let capture;
 let bUseCamera = true;
@@ -40,17 +31,22 @@ let img1Rad = 0 ;
 let imageSliderEmpy;
 
 
+
 function preload(){
   //load assets
   //imageSliderEmpy = loadImage('assets/noGlow/smile-sin-rellenar.png');
   imageSliderEmpy = loadImage('assets/noGlow/smile-sin-rellenar.png');
+}
 
+//---------------------------------------------------
+function setupVideo(){
   /////////////////////////////////
   //video
-  let modeCamera = 1;
+  let modeCamera = -1;
 
   if(bUseCamera){
 
+    //captureList(gotSources);
     if(modeCamera == 0){
       let constraints = { //min
         video: {
@@ -58,7 +54,7 @@ function preload(){
             minWidth: camW, //camH,560 //camW, camH
             minHeight: camH //minHeight
           },
-          optional: [{ maxFrameRate: 30 }]
+          optional: [{ maxFrameRate: 60 }]
         },
         audio: false
       };
@@ -104,72 +100,34 @@ function preload(){
   }
 }
 
-//---------------------------------
-function setupCameraAndWindowProportions(){
-
-  proportionWindow = windowWidth / windowHeight;
-
-  //scaleWindow_H =  windowHeight / capture.height;
-
-  if(bUseCamera){
-    console.log("capture.width = " + str(capture.width));
-    console.log("capture.height = " + str(capture.height));
-    scaleWindow_W =  windowWidth / capture.width;
-    proportionCam = capture.width / capture.height;
-    finalSizeWebCamWidth = int(capture.width * scaleWindow_W);
-    finalSizeWebCamHeight = int(capture.height * scaleWindow_W);//scaleWindow_H;
-  }else{
-
-  }
-
-  if(false){
-    console.log("proportionCam = " + str(proportionCam));
-    //console.log("window.screen.width = " + str(window.screen.width));
-    //console.log("window.screen.height = " + str(window.screen.height));
-    console.log("windowWidth= " + str(windowWidth));
-    console.log("windowHeight= " + str(windowHeight));
-    console.log("proportionWindow = " + str(proportionWindow));
-
-    console.log("scaleWindow_W = " + str(scaleWindow_W));
-    //console.log("scaleWindow_H = " + str(scaleWindow_H));
-
-    console.log("finalSizeWebCamWidth = " + str(finalSizeWebCamWidth));
-    console.log("finalSizeWebCamHeight = " + str(finalSizeWebCamHeight));
-  }
+// This method can be removed after the source ID has been determined.
+// Make this only give the "video" kind for captureList?
+function gotList(sources) {
+  console.log('video: '+sources[i].label+' ID: '+sources[i].id);
 }
 
 //---------------------------------
 function setup() {
 
-  setupCameraAndWindowProportions();
+  //pixelDensity(1);
+  setupVideo();
 
 //Colors
-    c1Ini = color(179,46, 42, 200); //'#FFE9E6');
-    c1End = color(107, 255, 159, 123);//'#FFA696');
+  c1Ini = color(179,46, 42, 200); //'#FFE9E6');
+  c1End = color(107, 255, 159, 123);//'#FFA696');
 
 //timers
-    initTimer = millis();
+  initTimer = millis();
 
-    createCanvas(windowWidth, windowHeight);//800, 800);
-    console.log("Scren width end= " + str(width));
-    console.log("Scren height end= " + str(height));
+  createCanvas(windowWidth, windowHeight);//800, 800);
+  console.log("Scren width end= " + str(width));
+  console.log("Scren height end= " + str(height));
 
-  if(bUseCamera){
-    //Calc items _positions
-    camPosX = floor(width*0.5)-floor(finalSizeWebCamWidth*0.5);
-    camPosY = floor(height*0.5-finalSizeWebCamHeight*0.5);
-
-    //Slider % time
-    img1PosY = camPosY+finalSizeWebCamHeight-100;
-    img1Rad = floor(imageSliderEmpy.height*0.5);
-  }
-  else{
-    img1PosY = height*0.75;
-  }
-
-  //Slider % time
+  //Slider
   console.log("imageSliderEmpy.width = " + str(imageSliderEmpy.width));//308
   console.log("imageSliderEmpy.height = " + str(imageSliderEmpy.height));//83
+  img1PosY = height*0.75;
+  img1Rad = floor(imageSliderEmpy.height*0.5);
   img1PosX = floor(width*0.5)-floor(imageSliderEmpy.width*0.5);
   img1Rad = floor(imageSliderEmpy.height*0.5);
 }
@@ -177,20 +135,24 @@ function setup() {
 //----------------------------------------------------
 function drawVideoCamera(){
   if(bUseCamera){
-    if(true){
+    if (keyIsPressed == true) {
+      console.log("capture.width= "+str(capture.width) + " capture.height= "+str(capture.height));
+      //video.play();
+    }
+    let heightCamera = int(width * capture.height / capture.width);
+    let gapUpDownCamera = (height - heightCamera)*0.5;
+
+    if(true)
+      image(capture, 0, gapUpDownCamera, width, heightCamera); //
+    else {
       push();
-      let camPosX = floor(width*0.5)-floor(finalSizeWebCamWidth*0.5);
-      let camPosY = floor(height*0.5-finalSizeWebCamHeight*0.5);
-      //console.log("camPosX= "+str(camPosX) + " camPosY= "+str(camPosY));
-      //console.log("camW= "+str(finalSizeWebCamWidth) + " camH= "+str(finalSizeWebCamHeight));
-      translate(camPosX,camPosY);
-      fill(255);
-      image(capture, 0, 0, finalSizeWebCamWidth, finalSizeWebCamHeight);
+      imageMode(CENTER);
+      translate(width*0.5, height*0.5);
+      image(capture, 0, gapUpDownCamera, capture.width, capture.height); //width, heightCamera
       pop();
     }
-    else image(capture, 0, 0, width, width * capture.height / capture.width);
 
-    //console.log("camPosX= "+str(camPosX) + " camPosY= "+str(camPosY));
+
   }
 }
 
@@ -360,6 +322,6 @@ function updateSmileDetection(_happyVal, _thresholdHappy) {
 
 ///---------------------------------
 function keyPressed(){
-  background(0);
+  //background(0);
   bReset = true;
 }
