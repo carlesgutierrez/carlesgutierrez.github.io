@@ -158,6 +158,10 @@ function draw() {
 //----------------------------------------------------
 function update(){
 
+  if (keyIsPressed == true) {
+    console.log("keyIsPressed Working...play Video!");
+    video.play();
+  }
   //logic
   switch (statusMachine) {
     case 0:
