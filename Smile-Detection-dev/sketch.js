@@ -28,6 +28,9 @@ let finalSizeWebCamHeight = 0;
 
 //add video in our quality
 let capture;
+let bUseCamera = true;
+let camW = 1280;//1920;//300//1280;
+let camH = 720;//1080;//150//720;
 let camPosX = 0;
 let camPosY = 0;
 let img1PosX = 0;
@@ -44,42 +47,82 @@ function preload(){
 
   /////////////////////////////////
   //video
-  let constraints = {
-    video: {
-      mandatory: {
-        minWidth: 1280, //720,560 //1280, 720
-        minHeight: 720
-      },
-      optional: [{ maxFrameRate: 10 }]
-    },
-    audio: false
-  };
+  let modeCamera = 1;
 
-  capture = createCapture(constraints, function(stream) {
-    console.log(stream);
-  });
+  if(bUseCamera){
 
-  //capture = createCapture(VIDEO);
-  //capture.size(720,560);
-  //capture.size(1920,1080);
-  capture.hide();
-  console.log("capture.hide()");
+    if(modeCamera == 0){
+      let constraints = { //min
+        video: {
+          mandatory: {
+            minWidth: camW, //camH,560 //camW, camH
+            minHeight: camH //minHeight
+          },
+          optional: [{ maxFrameRate: 30 }]
+        },
+        audio: false
+      };
+      capture = createCapture(constraints, function(stream) {
+        console.log(stream);
+      });
+      capture.size(camW,camH);
+
+    }
+    else if(modeCamera == 1){ //max
+      let constraints = {
+        video: {
+          mandatory: {
+            maxWidth: camW, //camH,560 //camW, camH
+            maxHeight: camH //minHeight
+          },
+          optional: [{ maxFrameRate: 60 }]
+        },
+        audio: false
+      };
+      capture = createCapture(constraints, function(stream) {
+        console.log(stream);
+      });
+      capture.size(camW,camH);
+    }
+    else if(modeCamera == 2){ //mobile
+      createCanvas(camW, camH);
+      var constraints = {
+        audio: false,
+        video: {
+          facingMode: "user"
+        }
+      };
+      capture = createCapture(constraints);
+      capture.size(camW,camH);
+    }else{
+          capture = createCapture(VIDEO);
+          capture.size(camW,camH);
+    }
+
+    capture.hide();
+    console.log("capture.hide()");
+  }
 }
 
-function setup() {
+//---------------------------------
+function setupCameraAndWindowProportions(){
 
-  if(true){
+  proportionWindow = windowWidth / windowHeight;
+
+  //scaleWindow_H =  windowHeight / capture.height;
+
+  if(bUseCamera){
     console.log("capture.width = " + str(capture.width));
     console.log("capture.height = " + str(capture.height));
-  }
-  proportionCam = capture.width / capture.height;
-  proportionWindow = windowWidth / windowHeight;
-  scaleWindow_W =  windowWidth / capture.width;
-  //scaleWindow_H =  windowHeight / capture.height;
-  finalSizeWebCamWidth = int(capture.width * scaleWindow_W);
-  finalSizeWebCamHeight = int(capture.height * scaleWindow_W);//scaleWindow_H;
+    scaleWindow_W =  windowWidth / capture.width;
+    proportionCam = capture.width / capture.height;
+    finalSizeWebCamWidth = int(capture.width * scaleWindow_W);
+    finalSizeWebCamHeight = int(capture.height * scaleWindow_W);//scaleWindow_H;
+  }else{
 
-  if(true){
+  }
+
+  if(false){
     console.log("proportionCam = " + str(proportionCam));
     //console.log("window.screen.width = " + str(window.screen.width));
     //console.log("window.screen.height = " + str(window.screen.height));
@@ -93,6 +136,12 @@ function setup() {
     console.log("finalSizeWebCamWidth = " + str(finalSizeWebCamWidth));
     console.log("finalSizeWebCamHeight = " + str(finalSizeWebCamHeight));
   }
+}
+
+//---------------------------------
+function setup() {
+
+  setupCameraAndWindowProportions();
 
 //Colors
     c1Ini = color(179,46, 42, 200); //'#FFE9E6');
@@ -105,15 +154,44 @@ function setup() {
     console.log("Scren width end= " + str(width));
     console.log("Scren height end= " + str(height));
 
+  if(bUseCamera){
     //Calc items _positions
     camPosX = floor(width*0.5)-floor(finalSizeWebCamWidth*0.5);
     camPosY = floor(height*0.5-finalSizeWebCamHeight*0.5);
 
-    console.log("imageSliderEmpy.width = " + str(imageSliderEmpy.width));//308
-    console.log("imageSliderEmpy.height = " + str(imageSliderEmpy.height));//83
-    img1PosX = floor(width*0.5)-floor(imageSliderEmpy.width*0.5);
+    //Slider % time
     img1PosY = camPosY+finalSizeWebCamHeight-100;
     img1Rad = floor(imageSliderEmpy.height*0.5);
+  }
+  else{
+    img1PosY = height*0.75;
+  }
+
+  //Slider % time
+  console.log("imageSliderEmpy.width = " + str(imageSliderEmpy.width));//308
+  console.log("imageSliderEmpy.height = " + str(imageSliderEmpy.height));//83
+  img1PosX = floor(width*0.5)-floor(imageSliderEmpy.width*0.5);
+  img1Rad = floor(imageSliderEmpy.height*0.5);
+}
+
+//----------------------------------------------------
+function drawVideoCamera(){
+  if(bUseCamera){
+    if(true){
+      push();
+      let camPosX = floor(width*0.5)-floor(finalSizeWebCamWidth*0.5);
+      let camPosY = floor(height*0.5-finalSizeWebCamHeight*0.5);
+      //console.log("camPosX= "+str(camPosX) + " camPosY= "+str(camPosY));
+      //console.log("camW= "+str(finalSizeWebCamWidth) + " camH= "+str(finalSizeWebCamHeight));
+      translate(camPosX,camPosY);
+      fill(255);
+      image(capture, 0, 0, finalSizeWebCamWidth, finalSizeWebCamHeight);
+      pop();
+    }
+    else image(capture, 0, 0, width, width * capture.height / capture.width);
+
+    //console.log("camPosX= "+str(camPosX) + " camPosY= "+str(camPosY));
+  }
 }
 
 //-----------------------------------------------------
@@ -121,16 +199,7 @@ function draw() {
   update();
   //background(255);
   background(100);
-
-  push();
-  let camPosX = floor(width*0.5)-floor(finalSizeWebCamWidth*0.5);
-  let camPosY = floor(height*0.5-finalSizeWebCamHeight*0.5);
-  //console.log("camPosX= "+str(camPosX) + " camPosY= "+str(camPosY));
-  //console.log("camW= "+str(finalSizeWebCamWidth) + " camH= "+str(finalSizeWebCamHeight));
-  translate(camPosX,camPosY );
-  fill(255);
-  image(capture, 0, 0, finalSizeWebCamWidth, finalSizeWebCamHeight);
-  pop();
+  drawVideoCamera();
 
   if(statusMachine == 0){
     drawInit();
@@ -144,14 +213,11 @@ function draw() {
 
 
   push();
-  //console.log("camPosX= "+str(camPosX) + " camPosY= "+str(camPosY));
   translate(img1PosX,img1PosY );
   image(imageSliderEmpy, 0, 0);
   pop();
 
   drawSlider();
-
-
 
 }
 
@@ -159,8 +225,8 @@ function draw() {
 function update(){
 
   if (keyIsPressed == true) {
-    console.log("keyIsPressed Working...play Video!");
-    video.play();
+    console.log("keyIsPressed Working.");
+    //video.play();
   }
   //logic
   switch (statusMachine) {

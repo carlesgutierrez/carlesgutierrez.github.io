@@ -1,8 +1,13 @@
-let idMethodGetMedia = 2;
+let idMethodGetMedia = 0;
 var global_happyValue = 0.0;
 var video;
 
-if(idMethodGetMedia == 0){
+console.log("idMethodGetMedia =");
+console.log(idMethodGetMedia);
+
+video = document.querySelector('video');
+
+/*if(idMethodGetMedia == 0){
   //video = document.getElementById('video')
   video = document.querySelector('video');
 }
@@ -11,7 +16,7 @@ else if(idMethodGetMedia == 1){
 }
 else if(idMethodGetMedia == 2){
   video = document.querySelector('video');
-}
+}*/
 
 //face-api vars
 
@@ -25,9 +30,6 @@ Promise.all([
 function startVideo() {
 
   if(idMethodGetMedia == 0){
-    video.width = 1280;
-    video.height = 720;
-
     navigator.getUserMedia(
       { video: { } },
       stream => video.srcObject = stream,
@@ -36,8 +38,6 @@ function startVideo() {
   }
   else if(idMethodGetMedia == 1){
     // Prefer camera resolution nearest to 1280x720.
-    video.width = 1280;
-    video.height = 720;
     var constraints = { audio: false, video: { width: 1280, height: 720 } };
 
     navigator.mediaDevices.getUserMedia(constraints)
