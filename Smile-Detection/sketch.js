@@ -146,6 +146,7 @@ function update(){
     case 1:
       updateSmileDetection(global_happyValue, 0.3);
       if(counterSmileSegs == numTimeSmiling){
+        window.open("https://duckduckgo.com/");
         statusMachine = 2;
       }
       else {
