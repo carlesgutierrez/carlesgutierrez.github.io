@@ -126,18 +126,19 @@ function draw() {
     let posNormClockX = 0.2088;
     let posNormClockY = 0.481;
     let posNormSmileX = 1-posNormClockX;
-    let posNormSmileY = 1-posNormClockY;
+    let posNormSmileY = posNormClockY;
 
     myClock.display(width*posNormClockX, height*posNormClockY);//
     mySmily.display(width*posNormSmileX, height*posNormSmileY);
    }
 
+   drawSlider();
   }
   else if(statusMachine == 2){
     drawEnd();
   }
 
-  drawSlider();
+
 }
 
 //----------------------------------------------------
