@@ -12,7 +12,6 @@ class SmileCounter {
 
     //Timer vars
     this.idActualSec = 0; //from 1 to 14
-    this.smileValue = 0;
   }
 
 //---------------------------------------------------
@@ -57,17 +56,14 @@ class SmileCounter {
  }
 
 //-----------------------------------------------------
-  drawClockShapes(_x, _y) {
+  drawClockShapes(_x, _y, ) {
     push();
     translate(_x, _y);
     rotate(-90);
 
     var radiusBalls = this.radCircle * this.scaleRadis;
     var angle = 1;
-
-    let dist = global_happyValue - this.smileValue;
-    this.smileValue = this.smileValue + dist *0.05;
-    this.mouseId = int(map(this.smileValue, 0, 1, 0, 360, true));
+    this.mouseId = int(map(global_smileValue, 0, 1, 0, 360, true));
 
     for (var i = 0; i <= 360; i++) {
       var x = cos(angle * i) * radiusBalls;

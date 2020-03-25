@@ -1,5 +1,6 @@
 let idMethodGetMedia = 2;
-var global_happyValue = 0.0;
+var global_happyValue = 0.0; //raw RT value
+var global_smileValue = 0.0; //lerped value
 var video;
 
 console.log("idMethodGetMedia =");

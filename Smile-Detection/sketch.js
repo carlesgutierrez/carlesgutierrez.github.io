@@ -37,13 +37,12 @@ let myClock; // Declare object
 let mySmily;
 
 
+
 function preload(){
   //load assets
   //imageSliderEmpy = loadImage('assets/noGlow/smile-sin-rellenar.png');
   imageSliderEmpy = loadImage('assets/noGlow/smile-sin-rellenar.png');
 }
-
-
 
 //---------------------------------
 function setup() {
@@ -138,7 +137,6 @@ function draw() {
     drawEnd();
   }
 
-
 }
 
 //----------------------------------------------------
@@ -159,7 +157,7 @@ function update(){
         }
       break;
     case 1:
-      updateSmileDetection(global_happyValue, 0.3);
+      updateSmileDetection(0.3); //TODO set slider here
       if(counterSmileSegs == numTimeSmiling){
         //window.open("https://duckduckgo.com/");
         statusMachine = 2;
@@ -182,9 +180,13 @@ function update(){
 }
 
 //---------------------------------------------------
-function updateSmileDetection(_happyVal, _thresholdHappy) {
+function updateSmileDetection(_thresholdHappy) {
+    let dist = global_happyValue - global_smileValue;
+    global_smileValue = global_smileValue + dist *0.05;
+    console.log("global_smileValue = " + str(global_smileValue));
     let timeSegs = millis() + maxInitTimer;
-    if(_happyVal > _thresholdHappy){
+
+    if(global_smileValue > _thresholdHappy){
         bSmiling = true;
         counterSmileSegs = timeSegs - startTimer;
         if(counterSmileSegs > numTimeSmiling) counterSmileSegs = numTimeSmiling;
