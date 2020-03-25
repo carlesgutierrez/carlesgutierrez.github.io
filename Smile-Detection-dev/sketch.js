@@ -1,4 +1,5 @@
 let bModeClock = true;//false;
+let bUseCamera = false;
 
 //Init information
 let myTextSize = 60;
@@ -21,7 +22,6 @@ let newSizeCir = 0;
 
 //add video in our quality
 let capture;
-let bUseCamera = false;
 let camW = 1280;//1920;//300//1280;
 let camH = 720;//1080;//150//720;
 let camPosX = 0;
@@ -34,7 +34,7 @@ let imageSliderEmpy;
 
 //Clock
 let myClock; // Declare object
-
+let mySmily;
 
 
 function preload(){
@@ -80,6 +80,9 @@ function setup() {
     console.log("width = "+str(width));
     let scaleClock = 1;//map(width, 0, 1920, 0.5, 1);
     myClock.setup(scaleClock, int(numTimeSmiling*0.001));
+
+    mySmily = new SmileCounter();
+    mySmily.setup(scaleClock);
   }
 }
 
@@ -120,7 +123,13 @@ function draw() {
   else if(statusMachine == 1){
    //drawCenteredCircleInteraction();
    if(bModeClock){
-     myClock.display(width*0.2088, height*0.481);//
+    let posNormClockX = 0.2088;
+    let posNormClockY = 0.481;
+    let posNormSmileX = 1-posNormClockX;
+    let posNormSmileY = 1-posNormClockY;
+
+    myClock.display(width*posNormClockX, height*posNormClockY);//
+    mySmily.display(width*posNormSmileX, height*posNormSmileY);
    }
 
   }
@@ -151,7 +160,7 @@ function update(){
     case 1:
       updateSmileDetection(global_happyValue, 0.3);
       if(counterSmileSegs == numTimeSmiling){
-        window.open("https://duckduckgo.com/");
+        //window.open("https://duckduckgo.com/");
         statusMachine = 2;
         myClock.stop();
       }

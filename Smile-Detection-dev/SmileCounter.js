@@ -1,46 +1,23 @@
 // Jitter class
-class ClockCounter {
+class SmileCounter {
   constructor() {
     //general vars
-    this.totalSeconds = 15;
     this.radCircle = 118.5;
     this.scaleRadis = 1.16;
 
-    this.ballWeight = 18;
+    this.strokeWrightLineCircle = 18;
     this.color1;
     this.color2;
     this.mouseId = 0;
-    this.timerInit = 0;
 
     //Timer vars
     this.idActualSec = 0; //from 1 to 14
-    this.timer = 0;
-    this.bPause = true;
+    this.smileValue = 0;
   }
 
-  //-------------------------
- play(){
-   this.timerInit = millis();
-   this.bPause = false;
- }
-
- //-------------------------
- stop(){
-  this.reset();
-  this.bPause = true;
- }
-
-//--------------------------------------------------
- reset(){
-   this.idActualSec = 0;
-   this.timerInit = millis();
-   this.idActualSec = 0;
- }
-
 //---------------------------------------------------
-  setup(scale, _totalSeconds){
+  setup(scale){
 
-    this.totalSeconds = _totalSeconds;
     this.radCircle = this.radCircle*scale;
     console.log("with scale= "+str(scale)+" then radCircle = "+str(this.radCircle));
 
@@ -52,27 +29,30 @@ class ClockCounter {
     console.log(this.color1);
     this.color2 = color(255, 255);
     console.log(this.color2);
-    //
-    this.timerInit = millis();
-    this.bPause = true;
   }
 
+//---------------------------------------------------
+  update() {
+
+  }
 
 //----------------------------------------------------
  drawClockNumbers(_x, _y){
    push();
-   translate(_x, _y);
-   //(map(mouseX, 0, width, 0, totalSeconds));
+     translate(_x, _y);
+     //(map(mouseX, 0, width, 0, totalSeconds));
    let numSize = (this.radCircle*0.9);
    textFont('Helvetica');
-   textSize(32);
+
    fill(this.color2);
    textAlign(CENTER, CENTER);
-   text('seconds', 0, this.radCircle*0.3);
+   textSize(numSize*0.35);
+   text('%', this.radCircle*0.7, 0);
+   textSize(32);
+   text('smiling', 0, this.radCircle*0.3);
    textSize(numSize);
-   text(nf(this.mouseId, 2, 0), 0, -this.radCircle*0.1);
+   text(floor((this.mouseId/360)*100), -this.radCircle*0.2, -this.radCircle*0.1);
    //text(str(mouseId), 0, 0);
-
    pop();
  }
 
@@ -83,17 +63,13 @@ class ClockCounter {
     rotate(-90);
 
     var radiusBalls = this.radCircle * this.scaleRadis;
-    //console.log(radiusBalls);
-    var angle = 360 / this.totalSeconds;
+    var angle = 1;
 
-    if(!this.bPause){
-      this.mouseId = int((millis() - this.timerInit) * 0.001); //int(map(mouseX, 0, width, 0, totalSeconds));
-      if (this.mouseId > this.totalSeconds) {
-        this.mouseId = this.totalSeconds;
-      }
-    }
+    let dist = global_happyValue - this.smileValue;
+    this.smileValue = this.smileValue + dist *0.05;
+    this.mouseId = int(map(this.smileValue, 0, 1, 0, 360, true));
 
-    for (var i = 0; i <= this.totalSeconds; i++) {
+    for (var i = 0; i <= 360; i++) {
       var x = cos(angle * i) * radiusBalls;
       var y = sin(angle * i) * radiusBalls;
 
@@ -102,9 +78,10 @@ class ClockCounter {
       } else {
         stroke(this.color1);
       }
-
-      strokeWeight(this.ballWeight);
-      point(x, y);
+      strokeCap(SQUARE);
+      strokeWeight(this.strokeWrightLineCircle);
+      noFill();
+      arc(0, 0, radiusBalls*2, radiusBalls*2, 0, this.mouseId);
     }
 
     noFill();

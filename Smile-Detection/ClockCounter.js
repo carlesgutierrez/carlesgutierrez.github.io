@@ -57,13 +57,6 @@ class ClockCounter {
     this.bPause = true;
   }
 
-//---------------------------------------------------
-  update() {
-      if (keyIsPressed === true) {
-        this.timerInit = millis();
-        print("reset timer clock");
-      }
-  }
 
 //----------------------------------------------------
  drawClockNumbers(_x, _y){
