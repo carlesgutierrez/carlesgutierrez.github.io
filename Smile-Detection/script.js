@@ -1,4 +1,4 @@
-let idMethodGetMedia = 0;
+let idMethodGetMedia = 2;
 var global_happyValue = 0.0;
 var video;
 

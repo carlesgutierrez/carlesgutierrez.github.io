@@ -3,7 +3,7 @@ class ClockCounter {
   constructor() {
     //general vars
     this.totalSeconds = 15;
-    this.radCircle = 118.5 * 2;
+    this.radCircle = 118.5;
     this.scaleRadis = 1.16;
 
     this.ballWeight = 18;
@@ -14,9 +14,36 @@ class ClockCounter {
 
     //Timer vars
     this.idActualSec = 0; //from 1 to 14
-    this.timer = 0;  }
+    this.timer = 0;
+    this.bPause = true;
+  }
 
-  setup(){
+  //-------------------------
+ play(){
+   this.timerInit = millis();
+   this.bPause = false;
+ }
+
+ //-------------------------
+ stop(){
+  this.reset();
+  this.bPause = true;
+ }
+
+//--------------------------------------------------
+ reset(){
+   this.idActualSec = 0;
+   this.timerInit = millis();
+   this.idActualSec = 0;
+ }
+
+//---------------------------------------------------
+  setup(scale, _totalSeconds){
+
+    this.totalSeconds = _totalSeconds;
+    this.radCircle = this.radCircle*scale;
+    console.log("with scale= "+str(scale)+" then radCircle = "+str(this.radCircle));
+
     strokeWeight(10);
     angleMode(DEGREES);
     //setup colors
@@ -27,8 +54,10 @@ class ClockCounter {
     console.log(this.color2);
     //
     this.timerInit = millis();
+    this.bPause = true;
   }
 
+//---------------------------------------------------
   update() {
       if (keyIsPressed === true) {
         this.timerInit = millis();
@@ -36,27 +65,44 @@ class ClockCounter {
       }
   }
 
-  display() {
-    //update()
-    //clear();
-    translate(width / 2, height / 2);
+//----------------------------------------------------
+ drawClockNumbers(_x, _y){
+   push();
+   translate(_x, _y);
+   //(map(mouseX, 0, width, 0, totalSeconds));
+   let numSize = (this.radCircle*0.9);
+   textFont('Helvetica');
+   textSize(32);
+   fill(this.color2);
+   textAlign(CENTER, CENTER);
+   text('seconds', 0, this.radCircle*0.3);
+   textSize(numSize);
+   text(nf(this.mouseId, 2, 0), 0, -this.radCircle*0.1);
+   //text(str(mouseId), 0, 0);
+
+   pop();
+ }
+
+//-----------------------------------------------------
+  drawClockShapes(_x, _y) {
     push();
+    translate(_x, _y);
     rotate(-90);
 
     var radiusBalls = this.radCircle * this.scaleRadis;
     //console.log(radiusBalls);
     var angle = 360 / this.totalSeconds;
 
-    this.mouseId = int((millis() - this.timerInit) * 0.001); //int(map(mouseX, 0, width, 0, totalSeconds));
-    if (this.mouseId > this.totalSeconds) {
-      this.mouseId = this.totalSeconds;
+    if(!this.bPause){
+      this.mouseId = int((millis() - this.timerInit) * 0.001); //int(map(mouseX, 0, width, 0, totalSeconds));
+      if (this.mouseId > this.totalSeconds) {
+        this.mouseId = this.totalSeconds;
+      }
     }
-    //print(mouseId);
-
 
     for (var i = 0; i <= this.totalSeconds; i++) {
-      var x = cos(this.angle * i) * this.radiusBalls;
-      var y = sin(this.angle * i) * this.radiusBalls;
+      var x = cos(angle * i) * radiusBalls;
+      var y = sin(angle * i) * radiusBalls;
 
       if (this.mouseId >= i) {
         stroke(this.color2);
@@ -66,8 +112,6 @@ class ClockCounter {
 
       strokeWeight(this.ballWeight);
       point(x, y);
-      //line(0,0,x,y);
-      //if (idActualSec < 5) {}
     }
 
     noFill();
@@ -76,16 +120,11 @@ class ClockCounter {
     ellipse(0, 0, this.radCircle * 2, this.radCircle * 2); //detail only for webGl mode
 
     pop();
-
-    //(map(mouseX, 0, width, 0, totalSeconds));
-    let numSize = (this.radCircle*0.9);
-    textFont('Helvetica');
-    textSize(32);
-    fill(this.color2);
-    textAlign(CENTER, CENTER);
-    text('seconds', 0, this.radCircle*0.3);
-    textSize(this.numSize);
-    text(nf(this.mouseId, 2, 0), 0, -this.radCircle*0.1);
-    //text(str(mouseId), 0, 0);
   }
-}
+
+  //------------------------------------
+  display(_x, _y) {
+    this.drawClockNumbers(_x, _y);
+    this.drawClockShapes(_x, _y);
+  }
+}//end class

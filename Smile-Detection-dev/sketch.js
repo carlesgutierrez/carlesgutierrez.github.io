@@ -1,4 +1,4 @@
-let bModeClock = false;
+let bModeClock = true;//false;
 
 //Init information
 let myTextSize = 60;
@@ -15,7 +15,7 @@ let bSmiling = false;
 //let maxTimeWithOutSmile = 2000; // millis
 let counterSmileSegs = 0;
 let startTimer = 0;
-let numTimeSmiling = 3000;
+let numTimeSmiling = 15000;
 let c1Ini, c1End;
 let newSizeCir = 0;
 
@@ -48,13 +48,6 @@ function preload(){
 //---------------------------------
 function setup() {
 
-if(bModeClock){
-  console.log("setup ->ClockCounter ->INIT");
-  //print("JPÑAAAAAA");
-  myClock = new ClockCounter();
-  console.log("setup ->ClockCounter ->DONE");
-  myClock.setup();
-}
   //pixelDensity(1);
   setupVideo();
 
@@ -76,6 +69,18 @@ if(bModeClock){
   img1Rad = floor(imageSliderEmpy.height*0.5);
   img1PosX = floor(width*0.5)-floor(imageSliderEmpy.width*0.5);
   img1Rad = floor(imageSliderEmpy.height*0.5);
+
+  //clocks
+
+  if(bModeClock){
+    console.log("setup ->ClockCounter ->INIT");
+    //print("JPÑAAAAAA");
+    myClock = new ClockCounter();
+    console.log("setup ->ClockCounter ->DONE");
+    console.log("width = "+str(width));
+    let scaleClock = 1;//map(width, 0, 1920, 0.5, 1);
+    myClock.setup(scaleClock, int(numTimeSmiling*0.001));
+  }
 }
 
 //----------------------------------------------------
@@ -115,7 +120,7 @@ function draw() {
   else if(statusMachine == 1){
    //drawCenteredCircleInteraction();
    if(bModeClock){
-     myClock.display();
+     myClock.display(width*0.2088, height*0.481);//
    }
 
   }
@@ -124,7 +129,6 @@ function draw() {
   }
 
   drawSlider();
-
 }
 
 //----------------------------------------------------
@@ -141,6 +145,7 @@ function update(){
         else {
           statusMachine = 1;
           startTimer = millis();
+          myClock.play();
         }
       break;
     case 1:
@@ -148,6 +153,7 @@ function update(){
       if(counterSmileSegs == numTimeSmiling){
         window.open("https://duckduckgo.com/");
         statusMachine = 2;
+        myClock.stop();
       }
       else {
         statusMachine = 1;
@@ -177,6 +183,7 @@ function updateSmileDetection(_happyVal, _thresholdHappy) {
       bSmiling = false;
       counterSmileSegs = 0;
       startTimer = timeSegs;
+      myClock.reset();
     }
 }
 
@@ -205,7 +212,7 @@ function drawSlider(){
   noStroke();
   if(pct1 > 0){
     let iniPosX = img1PosX+img1Rad;
-    rect(iniPosX, img1PosY+img1Rad*0.32, pct1, img1Rad+img1Rad*0.32)
+    rect(iniPosX, img1PosY+img1Rad*0.32, pct1, img1Rad+img1Rad*0.33)
   }
   pop();
 }
