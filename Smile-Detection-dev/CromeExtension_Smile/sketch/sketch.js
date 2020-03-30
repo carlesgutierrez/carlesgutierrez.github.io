@@ -1,16 +1,22 @@
 let img;
-let bOpenWeb = false;
+let lastTimeClick = 0;
+let timeWaitNextClick = 1000;
+let bMouseReleased = false;
 
+//-------------------------------
 function preload() {
-  img = loadImage('https://lh3.googleusercontent.com/proxy/C8k19X6wbJp8wyDljFI31G-pN9XUYIOYRfx7z6pJV_mRCqK_ocNep09bKEfiTno0yJ1-vegCISwM20NJfHXf2JEabwn5Ylrc1LIK4IMMrY8NnZ3Vmxvh');//'sonrisaboca.png');
-
+  img = loadImage('smile.png');
+  //https://lh3.googleusercontent.com/proxy/C8k19X6wbJp8wyDljFI31G-pN9XUYIOYRfx7z6pJV_mRCqK_ocNep09bKEfiTno0yJ1-vegCISwM20NJfHXf2JEabwn5Ylrc1LIK4IMMrY8NnZ3Vmxvh');
 }
 
+//-------------------------------
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
+  lastTimeClick = millis();
 }
 
+//-------------------------------
 function draw() {
   background(10, 10, 10, 255);
 
@@ -20,10 +26,8 @@ function draw() {
   let rh = img.height;
   let bOverRect = overRect(rx, ry, rw, rh);
 
-
   push();
   noFill();
-
 
   if (bOverRect){
     stroke(255, 255, 255);
@@ -33,9 +37,10 @@ function draw() {
   rect(rx, ry, rw, rh);
 
   if (bOverRect){
-    //do nothing
-    if(mouseIsPressed && !bOpenWeb){
-      bOpenWeb = true;
+    if(bMouseReleased && millis() - lastTimeClick > timeWaitNextClick){
+      bMouseReleased = false;
+      timeWaitNextClick = millis();
+      console.log("open the web!");
       window.open("https://carlesgutierrez.github.io/Smile-Detection/");
     }
   } else {
@@ -45,13 +50,13 @@ function draw() {
 
   pop();
 
-
   //if(keyIsPressed && !bOpenWeb){
   //  bOpenWeb = true;
   //  console.log("open the web!");
   //}
 }
 
+//-------------------------------
 function overRect(x, y, w, h) {
   if ((mouseX > x) && (mouseX < x + w) &&
     (mouseY > y) && (mouseY < y + h)) {
@@ -59,4 +64,9 @@ function overRect(x, y, w, h) {
   } else {
     return false;
   }
+}
+
+//-------------------------------
+function mouseReleased(){
+  bMouseReleased = true;
 }
