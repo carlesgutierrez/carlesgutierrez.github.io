@@ -15,20 +15,20 @@ tags: [mediaart, games, lummo]
 <figure class="third">
 	<img src="https://farm9.staticflickr.com/8207/8176431655_4af1ab7491_z.jpg">
 	<img src="https://farm9.staticflickr.com/8312/8018195218_66e219c724_z.jpg">
-	<img src="https://www.wasawi.com/wp-content/uploads/cce2cfd142be59b84b8bf822e7a569e9.jpg">
+	<img src="https://farm7.staticflickr.com/6076/6103543433_48195d5756_z.jpg">
 	<figcaption>LummoBlocks</figcaption>
 </figure>
 
-Lummoblocks is a new version of the legendary Tetris game designed to create social interaction between people in public spaces.
+A playful reinterpretation of the legendary Tetris game, LummoBlocks was designed to foster spontaneous social interaction in public spaces. By projecting an oversized version of the game onto urban façades, passersby could engage in a shared digital experience, transforming public space into a playground for collaboration and fun.
 
-Was created in the context of the Open Up workshop (February 2010), organized by Medialab-Prado in Madrid. The project was develop by Lummo with the collaboration of Nina Valkanova, Sebastian Hundertmark, Francesco Ozzola, Nacho Cossío, Nenad Katic, Fabiana de Barros, Montfagüe F. Lavandera, Óscar de la Mora, Max Neupert, Abraham Manzanares y David Peñuela.
+The project was initiated during the Open Up workshop (February 2010) organized by Medialab-Prado in Madrid. It was developed by the Lummo collective with contributions from Nina Valkanova, Sebastian Hundertmark, Francesco Ozzola, Nacho Cossío, Nenad Katic, Fabiana de Barros, Montfagüe F. Lavandera, Óscar de la Mora, Max Neupert, Abraham Manzanares, and David Peñuela.
 
-Has been exhibited at:
+Exhibitions include:
 
 <figure class="one">
+	<img src="https://farm8.staticflickr.com/7490/15848900579_9bb7b31b11_z.jpg">
 	<figcaption>Medialab-Prado (Madrid, Spain) 22/12/2014 to 11/01/2015
 	</figcaption>
-	<img src="https://farm8.staticflickr.com/7490/15848900579_9bb7b31b11_z.jpg">
 </figure>
 
 <figure class="one">
@@ -53,13 +53,6 @@ Has been exhibited at:
 	<img src="https://farm9.staticflickr.com/8312/8018195218_66e219c724_z.jpg">
 </figure>
 
-
-<figure class="one">
-  <figcaption>Play! at FIESP building (Sao Paulo, Brasil) 28/11/2011</figcaption>
-  <img src="https://www.wasawi.com/wp-content/uploads/cce2cfd142be59b84b8bf822e7a569e9.jpg">
-  Photo credit: Bruno Mocca
-</figure>
-
 <figure class="one">
 	<figcaption>Agosto digital CCE (Cordoba, Argentina) 27/08/2011</figcaption>
 	<img src="https://farm7.staticflickr.com/6076/6103543433_48195d5756_z.jpg">
@@ -70,6 +63,6 @@ Has been exhibited at:
 	<img src="https://farm3.staticflickr.com/2380/5754186476_566edc88e4_z.jpg">
 </figure>
 
- The project have been also shown in Sevilla during all summer 2010, Medialab-Prado (Madrid) during summer 2010 at weekends, Linz(Ars Electronica 2010), Berlin at CHB and Madrid simultaneusly at “Noche en Blanco” 2010. Also have been part in European media facade festival 2010 events.
+In addition, LummoBlocks was showcased throughout the summer of 2010 in Seville, at Medialab-Prado (Madrid) during weekends, at Ars Electronica 2010 (Linz), CHB Berlin, and simultaneously in Madrid and Berlin during La Noche en Blanco 2010. It was also part of several events under the European Media Facade Festival 2010.
 
 

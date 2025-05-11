@@ -2,7 +2,7 @@
 layout: article
 title: Kinectic Arousal System
 excerpt: "This was a reasearch in body tracking and movement recognition for dance performances, music"
-category: research
+category: mediaart
 image: 
   feature:
   teaser: kas_teaser.jpg

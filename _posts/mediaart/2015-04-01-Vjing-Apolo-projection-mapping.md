@@ -2,7 +2,7 @@
 layout: article
 title: VideoMapping & Vj at Apolo
 excerpt: "VideoMapping & Vjing at Apolo Canibal Parties"
-category: work
+category: mediaart
 image: 
   feature: 
   teaser: canibal_teaser.jpg

@@ -1,8 +1,8 @@
 ---
 layout: article
-title: FabLab MediaLab-Prado
+title: FabLab
 excerpt: "FabLab Medialab-Prado. Projects and Activities 2015"
-category: research
+category: workshops
 image: 
   feature:
   teaser: fablab_teaser.jpg

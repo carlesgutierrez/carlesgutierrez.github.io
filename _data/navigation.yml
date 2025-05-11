@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: mediaArt
-  url: /mediaart/
-  excerpt: "Media Art Projects"
-  image: lummoblocks_mediaArt_small.jpg
-
-- title: research
-  url: /research/
-  excerpt: "Research"
-  image: research_small.jpg
-
-- title: work
-  url: /work/
-  excerpt: "Comercial projects"
-  image: sayhiRoma_Nike.JPG
-
 - title: code
   url: /code/
   excerpt: "Software developments"
   image: code.png
+
+- title: mediaart
+  url: /mediaart/
+  excerpt: "Media Art Projects and Research"
+  image: lummoblocks_mediaArt_small.jpg
+
+- title: workshops
+  url: /workshops/
+  excerpt: "Professor experience"
+  image: research_small.jpg
+
+- title: retail
+  url: /retail/
+  excerpt: "Retail and installation projects"
+  image: sayhiRoma_Nike.JPG

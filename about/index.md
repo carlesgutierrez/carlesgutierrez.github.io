@@ -2,8 +2,8 @@
 layout: article
 title: "About Carles Gutiérrez"
 date: 2015-01-01
-modified: 2018-01-01
-excerpt: "Carles Gutiérrez Vallès"
+modified: 2025-02-22
+excerpt: "Carles Gutiérrez Vallès – Creative Technologist & Interactive Experiences Designer"
 image:
   feature:
   teaser:
@@ -11,12 +11,19 @@ image:
 ads: false
 share: false
 sidebar: sidebar-about
+tags: [about, biography, carles]
 ---
 
-**Creative coder interested in Media Art, Interactivity, Human/Cultural behaviors, Gestural body expression, Lighting, Games, others digital & human contexts.**
+<figure class="half">
+  <img src="/images/photoProfile.jpg">
+  <figcaption>Profile Portrait</figcaption>
+</figure>
 
-@carlesgutierrez
+I am a Creative Technologist, Full-Stack Developer and professor with a specialization in interactivity. Proficient in JavaScript, Python, C++. Passionate about integrating innovative technologies to enhance user experiences.
 
-[Flickr](https://www.flickr.com/carlesgutierrez)
-[Twitter](https://twitter.com/carlesgutierrez)
-[Github Code](https://github.com/carlesgutierrez)
+
+You can connect with me and follow my work on:
+
+- [Github Code](https://github.com/carlesgutierrez)
+- [Flickr](https://flic.kr/s/aHBqjBYcrH)
+

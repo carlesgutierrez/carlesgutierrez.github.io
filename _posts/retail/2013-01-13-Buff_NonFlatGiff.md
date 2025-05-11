@@ -2,7 +2,7 @@
 layout: archive
 title: Non Flat Animated Giff 
 excerpt: "Automated installation to create animated giffs"
-category: work
+category: retail
 image: 
   feature: 
   teaser: thisismorrison_teaser.jpg

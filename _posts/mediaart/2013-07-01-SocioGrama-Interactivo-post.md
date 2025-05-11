@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Sociograma Interactivo
-excerpt: "Interactive Sociogram is an invitation to reflect on the relationships between people who share the same time and place; it's a game of discovery and exploration."
+excerpt: "An interactive exploration of social connections in shared spaces."
 category: mediaart
 image: 
   feature:

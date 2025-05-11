@@ -2,7 +2,7 @@
 layout: archive
 title: FlowerPort
 excerpt: "Flowerport are a series of magic windows to connect entrepreneurial and social spaces"
-category: work
+category: retail
 image: 
   feature: 
   teaser: Flowerport_teaser.jpg

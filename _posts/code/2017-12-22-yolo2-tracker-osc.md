@@ -9,7 +9,7 @@ image:
   thumb:
   credit:
   creditlink:
-tags: [tracking, publicspace, tool]
+tags: [computervision, c++]
 ---
 
 <figure class="one">
@@ -32,6 +32,4 @@ Download executables at Medialab-Prado repository with [github repository](https
 For developers, check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/).
 
 Requirements:
-This App require a modern GPU with CUDA libraries such for example Nvidia 1060.
-Works with windows10.
-Linux version "soon".  
+This App has been tested with a Nvidia Pascal GPU 1060 under Windows10.

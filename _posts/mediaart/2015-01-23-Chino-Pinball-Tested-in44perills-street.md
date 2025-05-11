@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Chino Pinball CC 
-excerpt: "a VideoMapping tool for a 3d pinball game"
+title: ChinoPinball – Interactive Media Art Experiment 
+excerpt: "A collaborative audiovisual pinball experience for urban projection and mapping."
 category: mediaart
 image: 
   feature: 
@@ -9,48 +9,58 @@ image:
   thumb: 
   credit: ChinosInternationalCC
   creditlink: https://chinosinternationalcc.github.io/
-tags: [videogames, videomapping, mediaart, tool]
+tags: [OpenFrameworks, Arduino, Mapping]
 ---
 
-ChinoPinball has been an media art project development with ChinosInteranational art collective, as an experimental project after a Workhop in 2014. The continuation of this project aim to be setup in a giant format for streets or buildings as a huge videomapping. Still experimental was exhibited at:
+**ChinoPinball** is an experimental media art project developed within the **ChinosInternational** art collective, following a creative coding workshop in 2014. The piece explores the fusion of **urban space**, **projection mapping**, and **game mechanics**, simulating a giant **pinball machine projected on architecture**.
 
-<figure class="one">
-	<figcaption>Fab10 (Barcelona, Spain) 02/07/2014 to 04/07/2014
-	</figcaption>
-	<img src="https://c2.staticflickr.com/8/7328/15899879383_8eeb98c1b0_z.jpg">
-</figure>
+The long-term goal was to scale the installation into large-format public interventions — using building façades or street surfaces as dynamic game fields for playful interaction.
 
-Check some Flickr of that day [photos](https://flic.kr/s/aHsjZxKsra)
 
-<iframe src="https://player.vimeo.com/video/100059297" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/100059297">chino pinball</a>
+### First Prototypes & Exhibitions
 
-At least we could test it once at street "Perills", Barcelona. That was a first aproaching at the public space. We figured many issues to solve for future implementations.
-In collaboration with [*44Perills sound art association*](https://es-es.facebook.com/44Perills) for their collaboration.
-Thanks for  show us how to hack the street lights and offer their piece of street for testing. 
+<iframe src="https://player.vimeo.com/video/100059297" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+#### Fab10 (Barcelona) — July 2014  
+The project was first showcased as a prototype at the international **FabLab conference Fab10**, where visitors experienced the visual and interactive concept in action.  
+*(Photos available on Flickr)*
+
+
+
+#### Perills Street Test (Barcelona) — 2014  
+  The prototype was tested outdoors at **Carrer Perills** thanks to the support of [44Perills sound art association](https://es-es.facebook.com/44Perills), who helped us hack into the local **street lighting** system to integrate light interaction and offer the street as testing ground.
 
 <figure class="one">
 	<figcaption>Festes de Gracias - Perills44</figcaption>
 	<img src="https://c2.staticflickr.com/8/7548/16330507045_db4dbaef1b_z.jpg">
 </figure>
 
-2015 had been part of the international videomapping festival FFIMG in Girona.
+#### Festes de Gràcia – Perills44 (Barcelona) — 2014  
+  Informal street exhibition during the neighborhood festivities, blending sound art and projection.
+
+#### FIMG – International Video Mapping Festival Girona — 2015  
+  The project was adapted and presented as part of **FIMG**, Girona’s international videomapping festival.
 
 <figure class="one">
-	<figcaption>FIMG 2015 - VideoMapping Festival Girona</figcaption>
-	<img src="https://c1.staticflickr.com/1/416/19874163776_13c9782fa5_z.jpg">
 	<img src="https://c2.staticflickr.com/4/3667/19247034813_4c394910d4_z.jpg">
+	<figcaption>FIMG 2015 - VideoMapping Festival Girona</figcaption>
 </figure>
 
-** Credits **
 
-- Kuba Markiewicz - Openframeworks
-- Carles Gutiérrez - Openframeworks
-- Ovidiu Cincheza - Openframeworks
-- Angel Muñoz - Openframeworks / Arduino
-- Augusto Zuniga - 3D Art
-- Mery Glez - DigitalFabrication
-- Alex Geell - SoundArt
-- Alex Reche - MadMapper
+### Team & Technologies
+
+- **OpenFrameworks development**:  
+  *Kuba Markiewicz, Carles Gutiérrez, Ovidiu Cincheza, Ángel Muñoz (Arduino integration)*  
+- **3D Art**: *Augusto Zuniga*  
+- **Digital Fabrication**: *Mery Glez*  
+- **Sound Design**: *Alex Geell*  
+- **Projection Mapping**: *Alex Reche (MadMapper)*
+
+### Soundtrack
+
+[Listen to the soundtrack on SoundCloud](https://soundcloud.com/alexgeell/chinos-internacional-pinball-raval-song)  
+Composed by **Alex Geell**
+
+### More info
 
 [ChinosInternational Website](https://chinosinternationalcc.github.io/)
-[SoundTrack](https://soundcloud.com/alexgeell/chinos-internacional-pinball-raval-song) by Alex Geell.

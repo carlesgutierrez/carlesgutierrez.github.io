@@ -2,7 +2,7 @@
 layout: archive
 title: Ciclorama
 excerpt: "Videomapping 360º to play videos inside interactive bubbles"
-category: work
+category: retail
 image: 
   feature: 
   teaser: ciclorama_teaser.jpg

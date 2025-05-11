@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Videomaton
-excerpt: "Interactive art gallery that mix the old and great portraits from El Paseo del Prado with the visitors that were discovering the CentroCentro gallery at the new CityCouncil, Madrid"
+excerpt: "An interactive gallery blending classical portraits from El Paseo del Prado with real-time visitor presence at CentroCentro."
 category: mediaart
 image: 
   feature:
@@ -9,7 +9,7 @@ image:
   thumb:
   credit: 
   creditlink: 
-tags: [mediaart, face recognition, shaders]
+tags: [Games, ComputerVision]
 ---
 
 <figure class="third">
@@ -19,9 +19,11 @@ tags: [mediaart, face recognition, shaders]
 	<figcaption>VideoMaton / VideoBooth</figcaption>
 </figure>
 
-Interactive piece at exhibition “Habitantes y Paseantes” in new Council house of Madrid at Plaza Cibeles.
+Interactive piece exhibited in “Habitantes y Paseantes”, at the newly opened City Council building in Plaza Cibeles, Madrid.
 
-The project was develop by Lummo (https://lummo.es) during end 2010 and beginning 2011. The technical and artistic Direction was done by Mar Canet and Carles Gutierrez, and with technical assistance of Javi Lloret.
+The project was developed by Lummo between late 2010 and early 2011. The **technical and artistic direction** was led by Mar Canet and Carles Gutiérrez, with additional technical support from Javi Lloret.
+
+As part of the core team, I contributed both to the artistic and technical development, bringing in my expertise in **computer vision and multithreaded real-time tracking of multiple body parts**. This project stands out as an early example of face mapping, created just before the rise of techniques like deepfake or face substitution.
 
 ***
 
@@ -44,8 +46,6 @@ Has been exhibited at:
 	<img src="https://farm3.staticflickr.com/2666/5814197324_acff6a7625_z.jpg">
 </figure>
 
-
-[+ Info](https://lummo.es/)
 
 
 

@@ -12,3 +12,12 @@ If you want to try it too, check [this](https://mmistakes.github.io/skinny-bones
 * Data files for easier customization of the site navigation/footer and for supporting multiple authors.
 * Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
 * And more.
+
+
+## Run local project with
+gem 'yajl-ruby', '~> 1.1.0', git: 'https://github.com/oed/yajl-ruby.git', branch: 'ruby2.4'
+bundle update yajl-ruby
+bundle install
+
+
+bundle exec jekyll serve

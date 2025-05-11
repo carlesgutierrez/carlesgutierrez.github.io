@@ -2,7 +2,7 @@
 layout: archive
 title: Video Rondeau
 excerpt: "50th petrischalen recorded & played in real time."
-category: work
+category: retail
 image: 
   feature: 
   teaser: videoRondeau.jpg
