@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Yolo2 Tracker OSC
-excerpt: "Camera tracks pedestrians with Yolo2 -> Track their rectangle positions and dimensions -> Identify certain actions -> Send all filtered results by OSC (or others Network protocols if you wish) for a Real-Time use. I have this running around 17 Fps using a Nvidia 1060 graphics card"
+excerpt: "Real-time pedestrian tracking using Yolo2 and OSC: detect people via surveillance camera, identify their positions and actions, and send live data via OSC for interactive applications. Runs at ~17 FPS on a Nvidia GTX 1060."
 category: code
 image:
   feature:
@@ -13,23 +13,38 @@ tags: [computervision, c++]
 ---
 
 <figure class="one">
-	<figcaption>Client example for Medialab-Prado</figcaption>
-	<img src="https://c1.staticflickr.com/5/4601/25356852558_bbab6d98cc.jpg">
+	<figcaption>Yolo2 Tracker for Medialab-Prado's Digital Facade</figcaption>
+	<img src="/images/yoloTracker.png">
 </figure>
 
-This tool aims to offer an multitracking interactive controller for specific games using video input from surveillance cameras. OSC protocol available.
+This tool is designed as a real-time multi-tracking system for interactive games and installations using video input from surveillance cameras. It identifies pedestrians, tracks their position and size, detects specific actions, and sends this filtered data via the **OSC protocol** (other network protocols can also be integrated).
 
-It works even for low lighting profiles. Darknet library ( yolo2 ) computes in GPU graphic card, so it's capable real time applications.
+Built with the **YOLOv2 object detection model** using the **Darknet library**, it processes video on the GPU, allowing real-time performance — tested at around **17 FPS** on a **Nvidia GTX 1060**.
+
+The system performs reliably even in **low-light environments**, making it suitable for urban settings or nighttime installations.
 
 <figure class="one">
-	<figcaption>Client example for Medialab-Prado</figcaption>
-	<a href="https://medialab-prado.es/article/fachada_digital_informacion_tecnica">Medialab-Prado Technical Facade link</a>
-	<img src="https://c1.staticflickr.com/5/4736/25356850868_dcac9ae3fb_c.jpg">
+	<img src="https://www.medialab-matadero.es/sites/default/files/import/ftp_medialab/2/2416/500_0.png">
+	<figcaption>Medialab-Prado’s Digital Facade</figcaption>
 </figure>
 
-Download executables at Medialab-Prado repository with [github repository](https://github.com/medialab-prado/RecursosFachada) some executables and Processing clients examples. Check sensor4Games folders -> yolo2
+**→ [More info about Medialab-Prado’s Digital Facade](https://www.medialab-matadero.es/en/news/technical-information-digital-facade-0)**
 
-For developers, check [gihtub and README](https://github.com/carlesgutierrez/fachada-yolo2Tracking/).
+---
 
-Requirements:
-This App has been tested with a Nvidia Pascal GPU 1060 under Windows10.
+### Get the App
+
+If you're a client or user, you can download executable versions and Processing client examples from the [Medialab-Prado Github repository](https://github.com/medialab-prado/RecursosFachada), under the `sensor4Games/yolo2` folders.
+
+### For Developers
+
+Check out the source code and documentation on the main [GitHub repository](https://github.com/carlesgutierrez/fachada-yolo2Tracking/).
+
+---
+
+### Requirements
+
+- OS: Windows 10  
+- GPU: Nvidia Pascal series (tested on GTX 1060)  
+- Dependencies: Darknet, OpenCV, OSC support (e.g. ofxOSC for Processing or liblo for C++)
+

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Sayhi Living Walls
-excerpt: "Nike stores in Roma, Madrid and Barcelona"
+excerpt: ""
 category: retail
 image: 
   feature: 
@@ -29,7 +29,7 @@ SayHiLivingWalls revitalizes retail displays by incorporating interactive showca
 - Images and Video integration ( skratching, slideshow )
 
 Some of our **clients and Partners**:Mango, Guess, Nike, Biblioteca Caterina Albert,
-Eikonos. 
+Eikonos. With special atention to Nike stores in Roma, Madrid and Barcelona.
 
 See more **at [Flickr](https://flic.kr/s/aHsk7M3MWP)** 
 

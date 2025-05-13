@@ -16,10 +16,12 @@ tags: [workshops, research, code, games]
 ## 🎓 University Teaching 
 
 <img src="/images/logoP5js.png" alt="p5js logo" class="float-right-small">
+<img src="/images/logoUOC.png" alt="UOC logo" class="float-right-small">
+
 
 - **Collaborating Professor at UOC** (Universitat Oberta de Catalunya)  
   *Since 2020*  
-  - Programming for Design ans Arts Degree students using **p5.js**
+  - Programming for design and the arts Degree students using **p5.js**
 
 
 ---
