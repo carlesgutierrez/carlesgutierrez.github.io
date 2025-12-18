@@ -15,7 +15,7 @@ tags: [about, biography, carles]
 ---
 
 <figure class="third">
-  <img src="/images/photoProfile.jpg">
+  <img src="/images/photoProfile_thumb.jpg">
   <figcaption>Profile Portrait</figcaption>
 </figure>
 
