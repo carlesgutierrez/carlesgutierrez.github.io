@@ -19,7 +19,7 @@ tags: [about, biography, carles]
   <figcaption>Profile Portrait</figcaption>
 </figure>
 
-I am a Creative Technologist, Full-Stack Developer and professor with a specialization in interactivity and AI. 
+I am a Creative Technologist, Full-Stack Developer and Professor with a specialization in creative coding, interactivity and AI tools. 
 Proficient in JavaScript, Python, C++. Passionate about integrating innovative technologies to enhance user experiences.
 
 
