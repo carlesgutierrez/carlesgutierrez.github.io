@@ -14,7 +14,7 @@ sidebar: sidebar-about
 tags: [about, biography, carles]
 ---
 
-<figure class="third"">
+<figure class="third">
   <img src="/images/photoProfile.jpg">
   <figcaption>Profile Portrait</figcaption>
 </figure>
