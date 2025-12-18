@@ -14,16 +14,18 @@ sidebar: sidebar-about
 tags: [about, biography, carles]
 ---
 
-<figure class="half">
+<figure class="third"">
   <img src="/images/photoProfile.jpg">
   <figcaption>Profile Portrait</figcaption>
 </figure>
 
-I am a Creative Technologist, Full-Stack Developer and professor with a specialization in interactivity. Proficient in JavaScript, Python, C++. Passionate about integrating innovative technologies to enhance user experiences.
+I am a Creative Technologist, Full-Stack Developer and professor with a specialization in interactivity and AI. 
+Proficient in JavaScript, Python, C++. Passionate about integrating innovative technologies to enhance user experiences.
 
 
-You can connect with me and follow my work on:
+You can connect with me and follow my work and interests on:
 
 - [Github Code](https://github.com/carlesgutierrez)
 - [Flickr](https://flic.kr/s/aHBqjBYcrH)
+- [LinkedIn](https://es.linkedin.com/in/carlesgutierrez)
 
