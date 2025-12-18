@@ -23,7 +23,7 @@ I am a Creative Technologist, Full-Stack Developer and professor with a speciali
 Proficient in JavaScript, Python, C++. Passionate about integrating innovative technologies to enhance user experiences.
 
 
-You can connect with me and follow my work and interests on:
+You can connect with me and follow my work and my professional interests on:
 
 - [Github Code](https://github.com/carlesgutierrez)
 - [Flickr](https://flic.kr/s/aHBqjBYcrH)
