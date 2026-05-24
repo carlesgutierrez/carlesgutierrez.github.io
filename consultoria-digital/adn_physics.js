@@ -48,6 +48,14 @@ const configADNSections = {
     colors: ['#111111', '#444444', '#777777', '#999999', '#cccccc', '#e5e5e5'],
     assemblyType: 'arrow_growth',
     scaleMultiplier: 1.05
+  },
+  section_docencia: {
+    shapesCount: 8,
+    shapeTypes: ['rect', 'circle'],
+    gravity: 0.25,
+    colors: ['#1a1a1a', '#3d3d3d', '#666666', '#8f8f8f', '#b8b8b8', '#e2e2e2'],
+    assemblyType: 'grid_block',
+    scaleMultiplier: 1.0
   }
 };
 
@@ -72,7 +80,7 @@ function initADNPhysics(containerId, sectionKey) {
     let shapes = [];
     let state = 'FALLING'; // 'FALLING', 'MORPHING', 'STATIC'
     let morphProgress = 0;
-    const floorY = 390;    // El suelo de colisión
+    let floorY = 390;      // Suelo de colisión (dinámico)
     let center;            // Centro del canvas para imantar
 
     p.setup = () => {
@@ -80,6 +88,9 @@ function initADNPhysics(containerId, sectionKey) {
       canvas.parent(containerId);
       p.rectMode(p.CENTER);
       p.noStroke();
+      
+      // Suelo dinámico a 25px de la base real del canvas
+      floorY = p.height - 25;
       
       center = p.createVector(p.width / 2, floorY - 80);
       p.generateShapes();
@@ -286,6 +297,7 @@ function initADNPhysics(containerId, sectionKey) {
 
     p.windowResized = () => {
       p.resizeCanvas(container.offsetWidth, container.offsetHeight);
+      floorY = p.height - 25;
       center = p.createVector(p.width / 2, floorY - 80);
       p.calculateAssemblyTargets();
       if (state === 'STATIC') {
@@ -323,7 +335,8 @@ function initAllADNSketches() {
     { id: 'canvas-branding', key: 'section_branding' },
     { id: 'canvas-web', key: 'section_web' },
     { id: 'canvas-reservas', key: 'section_reservas' },
-    { id: 'canvas-marketing', key: 'section_marketing' }
+    { id: 'canvas-marketing', key: 'section_marketing' },
+    { id: 'canvas-docencia', key: 'section_docencia' }
   ];
 
   skList.forEach((item) => {

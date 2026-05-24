@@ -186,33 +186,52 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ─────────────────────────────────────────────────────────────────────────
-  // 7. FLIP DE TARJETAS EN MÓVIL (click → toggle clase .flipped)
-  //    En desktop el flip ya se hace con CSS :hover
+  // 7. INYECCIÓN DINÁMICA DE ICONO DE FLIP (SVG GRIS) Y COMPORTAMIENTO DE CLICK
   // ─────────────────────────────────────────────────────────────────────────
-  const isMobile = () => window.innerWidth <= 768;
+  const flipIconHtml = `
+    <div class="flip-icon-container" title="Hacer click para girar tarjeta">
+      <svg class="flip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15">
+        <path d="M3 12a9 9 0 0 1 15-6.7L21 8"></path>
+        <path d="M21 3v5h-5"></path>
+        <path d="M21 12a9 9 0 0 1-15 6.7L3 16"></path>
+        <path d="M3 21v-5h5"></path>
+      </svg>
+    </div>
+  `;
 
   document.querySelectorAll('.product-card').forEach((card) => {
+    // Inyectamos el icono en las dos caras de la tarjeta
+    const front = card.querySelector('.card-front');
+    const back = card.querySelector('.card-back');
+    if (front) front.insertAdjacentHTML('beforeend', flipIconHtml);
+    if (back) back.insertAdjacentHTML('beforeend', flipIconHtml);
+
+    // Lógica para voltear la tarjeta con el click
     card.addEventListener('click', (e) => {
-      if (isMobile()) {
-        const isFlipped = card.classList.contains('flipped');
+      // Si el click fue en un enlace/botón interno, no interferimos
+      if (e.target.tagName === 'A' && e.target !== card) {
+        return;
+      }
 
-        // Des-voltear cualquier otra tarjeta que esté volteada
-        document.querySelectorAll('.product-card').forEach((otherCard) => {
-          if (otherCard !== card) {
-            otherCard.classList.remove('flipped');
-          }
-        });
+      const isFlipped = card.classList.contains('flipped');
 
-        if (card.classList.contains('clickable-card')) {
-          if (!isFlipped) {
-            e.preventDefault();
-            card.classList.add('flipped');
-          }
-          // Si ya está flipped, el evento se procesa normalmente y navega al enlace
-        } else {
-          e.preventDefault();
-          card.classList.toggle('flipped');
+      // Des-voltear cualquier otra tarjeta que esté volteada en la web
+      document.querySelectorAll('.product-card').forEach((otherCard) => {
+        if (otherCard !== card) {
+          otherCard.classList.remove('flipped');
         }
+      });
+
+      if (card.classList.contains('clickable-card')) {
+        // Tarjetas que enlazan externamente (ej: Histórico de Workshops, Instalaciones)
+        if (!isFlipped) {
+          e.preventDefault();
+          card.classList.add('flipped');
+        }
+        // Si ya está volteada (flipped), el click se procesa normalmente y abre el enlace
+      } else {
+        e.preventDefault();
+        card.classList.toggle('flipped');
       }
     });
   });

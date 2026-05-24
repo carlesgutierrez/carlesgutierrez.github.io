@@ -491,7 +491,8 @@ section:nth-of-type(even) .section-container {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transition: transform 0.55s cubic-bezier(0.4, 0.2, 0.2, 1),
-              box-shadow 0.3s ease;
+              box-shadow 0.3s ease,
+              border-color 0.3s ease;
   box-shadow: var(--premium-shadow);
 }
 
@@ -500,28 +501,43 @@ section:nth-of-type(even) .section-container {
   background: var(--bg-secondary);
 }
 
-/* Hover → flip en desktop */
+/* Hover → elevación y cambio de borde en desktop (sin rotación) */
 @media (hover: hover) {
   .product-card:hover .card-front {
-    transform: rotateY(-180deg);
     box-shadow: var(--premium-shadow-hover);
+    transform: translateY(-4px);
   }
   .product-card:hover .card-back {
-    transform: rotateY(0deg);
     box-shadow: var(--premium-shadow-hover);
+    transform: rotateY(180deg) translateY(-4px);
   }
+
+  /* Si ya está flipped, al hacer hover sigue estando flipped pero se eleva un poco */
+  .product-card.flipped:hover .card-front {
+    transform: rotateY(-180deg) translateY(-4px);
+  }
+  .product-card.flipped:hover .card-back {
+    transform: rotateY(0deg) translateY(-4px);
+  }
+
   /* Hover border accent según sección */
   .adn-block-wrapper[data-adn="section_branding"] .product-card:hover .card-front,
-  .adn-block-wrapper[data-adn="section_reservas"] .product-card:hover .card-front {
+  .adn-block-wrapper[data-adn="section_reservas"] .product-card:hover .card-front,
+  .adn-block-wrapper[data-adn="section_docencia"] .product-card:hover .card-front,
+  .adn-block-wrapper[data-adn="section_branding"] .product-card:hover .card-back,
+  .adn-block-wrapper[data-adn="section_reservas"] .product-card:hover .card-back,
+  .adn-block-wrapper[data-adn="section_docencia"] .product-card:hover .card-back {
     border-color: var(--accent-purple);
   }
   .adn-block-wrapper[data-adn="section_web"] .product-card:hover .card-front,
-  .adn-block-wrapper[data-adn="section_marketing"] .product-card:hover .card-front {
+  .adn-block-wrapper[data-adn="section_marketing"] .product-card:hover .card-front,
+  .adn-block-wrapper[data-adn="section_web"] .product-card:hover .card-back,
+  .adn-block-wrapper[data-adn="section_marketing"] .product-card:hover .card-back {
     border-color: var(--accent-pink);
   }
 }
 
-/* Flipped class (click en móvil) */
+/* Flipped class (click en cualquier dispositivo) */
 .product-card.flipped .card-front {
   transform: rotateY(-180deg);
   box-shadow: var(--premium-shadow-hover);
@@ -530,13 +546,62 @@ section:nth-of-type(even) .section-container {
   transform: rotateY(0deg);
   box-shadow: var(--premium-shadow-hover);
 }
+
 .adn-block-wrapper[data-adn="section_branding"] .product-card.flipped .card-front,
-.adn-block-wrapper[data-adn="section_reservas"] .product-card.flipped .card-front {
+.adn-block-wrapper[data-adn="section_reservas"] .product-card.flipped .card-front,
+.adn-block-wrapper[data-adn="section_docencia"] .product-card.flipped .card-front,
+.adn-block-wrapper[data-adn="section_branding"] .product-card.flipped .card-back,
+.adn-block-wrapper[data-adn="section_reservas"] .product-card.flipped .card-back,
+.adn-block-wrapper[data-adn="section_docencia"] .product-card.flipped .card-back {
   border-color: var(--accent-purple);
 }
 .adn-block-wrapper[data-adn="section_web"] .product-card.flipped .card-front,
-.adn-block-wrapper[data-adn="section_marketing"] .product-card.flipped .card-front {
+.adn-block-wrapper[data-adn="section_marketing"] .product-card.flipped .card-front,
+.adn-block-wrapper[data-adn="section_web"] .product-card.flipped .card-back,
+.adn-block-wrapper[data-adn="section_marketing"] .product-card.flipped .card-back {
   border-color: var(--accent-pink);
+}
+
+/* Contenedor del icono de flip */
+.flip-icon-container {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888888; /* Gris por defecto */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  z-index: 10;
+}
+
+/* En la parte trasera el fondo del icono puede ser el primario */
+.card-back .flip-icon-container {
+  background: var(--bg-primary);
+}
+
+/* Animación y color de resaltar al hover del card o del propio icono */
+.product-card:hover .flip-icon-container {
+  transform: scale(1.1) rotate(15deg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: currentColor;
+}
+
+.adn-block-wrapper[data-adn="section_branding"] .product-card:hover .flip-icon-container,
+.adn-block-wrapper[data-adn="section_reservas"] .product-card:hover .flip-icon-container,
+.adn-block-wrapper[data-adn="section_docencia"] .product-card:hover .flip-icon-container {
+  color: var(--accent-purple);
+}
+
+.adn-block-wrapper[data-adn="section_web"] .product-card:hover .flip-icon-container,
+.adn-block-wrapper[data-adn="section_marketing"] .product-card:hover .flip-icon-container {
+  color: var(--accent-pink);
 }
 
 .card-front h4,
@@ -1030,16 +1095,18 @@ section:nth-of-type(even) .section-container {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
-  /* En móvil, las tarjetas flip solo flipan con click (via JS .flipped) */
+  /* En móvil, no hay elevación por hover ni rotación por hover */
   .product-card:hover .card-front {
     transform: none;
   }
   .product-card:hover .card-back {
     transform: rotateY(180deg);
   }
+  .product-card.flipped:hover .card-front,
   .product-card.flipped .card-front {
     transform: rotateY(-180deg);
   }
+  .product-card.flipped:hover .card-back,
   .product-card.flipped .card-back {
     transform: rotateY(0deg);
   }
